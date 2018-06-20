@@ -105,7 +105,7 @@ a:hover {
         }
 
         .marT-60Resp {
-            margin-top: 60px;
+            margin-top: 80px;
             text-align: left;
         }
 
@@ -1903,9 +1903,14 @@ a:hover {
     .t-14 {
         font-size: 14px
     }
-
+    .pad-0{
+        padding:0px;
+    }
     .t-12 {
         font-size: 12px
+    }
+    .t-16 {
+        font-size: 16px
     }
 
     .ml-50-t14 {
@@ -1937,7 +1942,9 @@ a:hover {
         color: #343a40;
         letter-spacing: 1px;
     }
-
+.pad-l-4 {
+    padding-left: 4px
+}
     .tab-style {
         margin-bottom: 0px;
         font-size: 14px
@@ -2066,6 +2073,9 @@ a:hover {
     .marB-15 {
         margin-bottom: 15px;
     }
+.marB-60 {
+    margin-bottom: 60px;
+}
 
     .bgcolor {
         background-color: #2B303D;
@@ -2079,6 +2089,9 @@ a:hover {
         margin-top: 80px
     }
 
+    .marT-120 {
+         margin-top: 120px
+    }
     .marT-20 {
         margin-top: 20px
     }
@@ -2128,6 +2141,9 @@ a:hover {
     .marT-15 {
         margin-top: 15px;
     }
+    .marB-0{
+        margin-bottom: 0px;
+    }
 
     .marB-25 {
         margin-bottom: 25px;
@@ -2136,10 +2152,40 @@ a:hover {
     .marB-20 {
         margin-bottom: 20px;
     }
+.pad-l-20 {
+    padding-left: 20px
+}
 
-    .ht-2 {
-        height: 2px;
-    }
+i.fa.fa-bell.pad-l-20:hover{
+    color: white;
+}
+
+i.fa.fa-bell.pad-l-20 {
+    color: white;
+}
+
+
+
+.notificationBellCounter {
+    height: 20px;
+    width: 20px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    padding-left: 7px;
+    font-size:12px;
+    background-color: #296EFB;
+    color:white;
+
+}
+
+
+.ht-2 {
+    height: 2px;
+}
 
     .wid-100p {
         width: 100%;
@@ -2170,8 +2216,20 @@ a:hover {
         align-items: baseline;
         padding: 10px 5px 28px;
         margin-bottom: 20px;
+        height:60px;
+        color:white;
+        margin-bottom:0;
+        padding:0px 0px 0px 250px;
     }
-
+.on-header-sty {
+    height: 60px;
+    color: white;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 250px
+}
+    .pad-10{
+        padding: 10px;
+    }
     .wid-48p {
         width: 48%;
     }
@@ -2180,18 +2238,232 @@ a:hover {
         color: #296EFB;
     }
 
-    .colorResponsive {
-        color: #296EFB;
-        display: inline-block;
-    }
+.colorResponsive {
+    color: #296EFB;
+    display: inline-block;
+    font-weight: bold;
+}
 
 
-    .GreycolorResponsive {
-        color: #555;
-        display: inline-block;
-    }
+.GreycolorResponsive {
+    color: #296EFB;
+    display: inline-block;
+}
 
 
     .pad-b-15 {
         padding-bottom: 15px;
     }
+    .pad-15 {
+    padding: 15px;
+}
+.sidenav_resp_dd {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav_resp_dd a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav_resp_dd a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav_resp_dd .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+#bodyMainID {
+    transition: left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav_resp_dd {
+        padding-top: 15px;
+    }
+
+        .sidenav_resp_dd a {
+            font-size: 18px;
+        }
+}
+
+.drop-style {
+    position: absolute;
+    right: 0;
+    top: 26px;
+    right: 40px
+}
+
+.right-header-style {
+    margin-right: 20px;
+    color: #E7F1EF;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.dropdown-style {
+    background-color: #2B303D;
+}
+
+.hide-me-style {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 0;
+    height: 24px
+}
+.nav-style {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 84px;
+    background-color: #296EFB;
+    color: #E7F1EF;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0
+}
+
+.h2-styl {
+    border: 0px solid black;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -6px
+}
+
+.ul-style {
+    list-style: none;
+    margin: 0;
+    padding: 10px 30px
+}
+
+.li-style {
+    padding: 10px 0px
+}
+
+.li-a-style {
+    color: #E7F1EF;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.text-a-left {
+    text-align: left;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+.navbar-hide-style {
+    list-style: none;
+    padding-top: 24px
+}
+
+.align-centr {
+    text-align: center;
+}
+
+.align-rgt {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.table-style {
+    color: #007BFF;
+    font-size: 10px;
+}
+
+.rgb-col {
+    color: rgba(255,255,255,0.2);
+}
+
+.ht-auto {
+    height: auto;
+}
+
+.i-style {
+    color: #E7F1EF;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.txt-decor {
+    text-decoration: none
+}
+.menuBurgerBtnIcon_responsive {
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: -6px;
+    left: -6px
+}
+
+h2 {
+    border: 0px solid black;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -6px
+}
+
+.sidenav_resp_dd a.activeNavSel {
+    background-color: #296EFB;
+    color: white;
+}
+
+.on-header-style {
+    height: 60px;
+    color: white;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 200px
+}
+
+.on-brand-style {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 84px;
+    background-color: #296EFB;
+    color: #E7F1EF;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0
+}
+
+.menu-trig-btn {
+    position: absolute;
+    top: 15px;
+    right: 30px
+}
+
+
+a.heavy:hover {
+    color: #007bff;
+}

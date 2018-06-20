@@ -13,87 +13,22 @@
 </head>
 <body id="bodyMainID">
     <div class="container-fluid">
-        <div class="on-brand" style="position:absolute;top:0;left:0;height:84px;background-color:#296EFB;color:#E7F1EF;padding-left:40px; padding-right:40px;margin:0">
-            <h2 style="border:0px solid black;font-size:26px;margin:0;padding:0;position:relative;top:-6px">Digital Gold</h2>
+        <div class="on-brand on-brand-style">
+            <h2>Digital Gold</h2>
         </div>
-        <div class="row on-header" style="height:60px;color:white;margin-bottom:0;padding:0px 0px 0px 200px">
-            <style>
-                .menuBurgerBtnIcon_responsive {
-                    font-size: 30px;
-                    cursor: pointer;
-                    position: relative;
-                    top: -6px;
-                    left: -6px
-                }
-
-                .sidenav_resp_dd a.activeNavSel {
-                    background-color: #296EFB;
-                    color: white;
-                }
-            </style>
-
-            <div class="icon hide-on-large show-on-med  show-on-small" id="menuTrigBtn_responsive" style="position:absolute;top:15px;right:30px">
-                <!--<span class="menuBurgerBtnIcon_responsive" onclick="openNav()">&#9776;</span>-->
-                <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
+        <div class="row on-header on-header-style">
+          
+            <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
+                  <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </span>
             </div>
 
-            <style>
-                .sidenav_resp_dd {
-                    height: 100%;
-                    width: 0;
-                    position: fixed;
-                    z-index: 1;
-                    top: 0;
-                    left: 0px;
-                    background-color: #111;
-                    overflow-x: hidden;
-                    transition: 0.5s;
-                    padding-top: 60px;
-                }
-
-                    .sidenav_resp_dd a {
-                        padding: 8px 8px 8px 32px;
-                        text-decoration: none;
-                        font-size: 25px;
-                        color: #818181;
-                        display: block;
-                        transition: 0.3s;
-                    }
-
-                        .sidenav_resp_dd a:hover {
-                            color: #f1f1f1;
-                        }
-
-                    .sidenav_resp_dd .closebtn {
-                        position: absolute;
-                        top: 0;
-                        right: 25px;
-                        font-size: 36px;
-                        margin-left: 50px;
-                    }
-
-                #bodyMainID {
-                    transition: left .5s;
-                }
-
-                @media screen and (max-height: 450px) {
-                    .sidenav_resp_dd {
-                        padding-top: 15px;
-                    }
-
-                        .sidenav_resp_dd a {
-                            font-size: 18px;
-                        }
-                }
-            </style>
-
+          
 
             <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="#" class="activeNavSel">Buy</a>
-                <a href="#">Sell</a>
+                <a href="#" class="activeNavSel">Buy/Sell</a>
                 <a href="#">Withdraw</a>
                 <a href="#">Reedem</a>
                 <a href="#">Funding</a>
@@ -101,7 +36,7 @@
 
 
 
-            <ul style="list-style:none; padding-top:24px" class="hide-on-med hide-on-small">
+            <ul class="hide-on-med hide-on-small navbar-hide-style">
                 <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy/Sell</a> </li>
                 <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
                 <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
@@ -109,28 +44,38 @@
             </ul>
 
 
-            <div class="dropdown dropdown-c" style="position:absolute;right:0;top:26px;right:40px">
-                <a href="#" class="logged-user" data-toggle="dropdown" aria-expanded="true" style="text-decoration:none">
-                    <span style="margin-right:20px;color:#E7F1EF;cursor:pointer;text-decoration:none">Allison Campbell</span>
-                    <i class="fa fa-angle-down" style="color:#E7F1EF;cursor:pointer;text-decoration:none"></i>
+            <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
+                <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
+                    <span class="right-header-style">Allison Campbell</span>
+                    <i class="fa fa-angle-down i-style"></i>
+
                 </a>
-                <div style="background-color: #2B303D;" class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+
+                
+
+                <div class="notificationBellCounter">
+                    2
+                </div>
+
+
+                    <i class="fa fa-bell pad-l-20"></i>
+                <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
                     <nav class="nav">
-                        <ul style="list-style:none;margin:0; padding:10px 30px">
-                            <li style="padding:10px 0px">
-                                <a href="#" class="dg-nav-link" style="color:#E7F1EF;cursor:pointer;text-decoration:none">
+                        <ul class="ul-style">
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
                                     <i class="fa fa-user"></i>
                                     Settings
                                 </a>
                             </li>
-                            <li style="padding:10px 0px">
-                                <a href="#" class="dg-nav-link" style="color:#E7F1EF;cursor:pointer;text-decoration:none">
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
                                     <i class="fa fa-cog"></i>
                                     Docs
                                 </a>
                             </li>
-                            <li style="padding:10px 0px">
-                                <a href="#" class="dg-nav-link" style="color:#E7F1EF;cursor:pointer;text-decoration:none">
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
                                     <i class="fa fa-download"></i>
                                     Account
                                 </a>
@@ -141,7 +86,7 @@
             </div>
 
         </div>
-        <div class="row on-header " style="background-color:black;color:white;display:block;text-align:right;padding:0px 10px 0px 0px;margin-bottom:0;height:24px">
+        <div class="row on-header hide-me-style">
             <span class="hide-on-med hide-on-small">
                 EXAMPLE SCROLLING TICK TEXT | 24 Hour Change Gold 116.42 | 24 Change Silver 116.42
             </span>
@@ -149,29 +94,26 @@
     </div>
 
     <!--navBar Ends-->
-
-
-
+    
     <div>
         <div class="container">
             <div class="row">
 
                 <div class="container">
                     <div class="row">
-                        <!--<div class="col-lg-6 col-xs-4 col-md-6 col-sm-6 marT-60">-->
-                        <div class="col-lg-5 col-sm-12 marT-60">
+                        <div class="col-lg-5 col-sm-12 marT-80">
                             <h3> Welcome Allison</h3>
-                            <p class="marT-15 pad-b-15"> Start Trading on Digital Gold by Funding Your <a href="#" class="colr" style="font-weight:bold"> Account</a></p>
+                            <p class="marT-15 pad-b-15"> Start Trading on Digital Gold by Funding Your <a href="#" class="colr font-b"> Account</a></p>
                         </div>
 
                         <div class="col-lg-5 col-sm-12">
 
-                            <div class="col-lg-6 col-sm-12 marT-60Resp" style="padding:0">
-                                <div class="colorResponsive" style="font-size:20px;font-weight:bold">Account Value</div>
-                                <div class="colorResponsive" style="font-size:16px;font-weight:bold">$3,499.99</div>
+                            <div class="col-lg-6 col-sm-12 marT-60Resp pad-0">
+                                <div class="colorResponsive t-20">Account Value</div>
+                                <div class="colorResponsive t-16">$3,499.99</div>
                             </div>
 
-                            <div class="col-lg-6 col-sm-12 marT-15 marT-60Resp" style="padding:0">
+                            <div class="col-lg-6 col-sm-12 marT-15 marT-60Resp pad-0">
                                 <div class="GreycolorResponsive">Available to Trade</div>
                                 <div class="GreycolorResponsive">$37,355.38</div>
                             </div>
@@ -180,7 +122,7 @@
                         </div>
 
                         <div class="col-lg-2 marT-60  hide-on-med hide-on-small">
-                            <button class="btn btn-primary marT-40" style="text-align:left; border-radius: 0"> Fund Account</button>
+                            <button class="btn btn-primary marT-40 bd-0 text-a-left"> Fund Account</button>
                         </div>
 
                     </div>
@@ -193,12 +135,10 @@
                 <div class="dash-headline-item-one">
                     <div id="chartArea1" class="dash-chartist"></div>
                     <div class="dash-item-overlay">
-                        <!--<h3>Historical Data</h3>-->
                         <img class="img-responsive" src="../img/chart.png">
                     </div>
-                </div><!-- dash-headline-item-one -->
-            </div><!-- dash-headline -->
-
+                </div>
+            </div>
 
 
             <div class="dash-table-wrapper">
@@ -207,118 +147,109 @@
                     <div class="col-lg-6">
                         <div class="dg-card card-table">
                             <div class="dg-card-header">
-                                <h6 class="dg-card-title t-24 colr" style="padding:10px">Your Portfolio</h6>
-                            </div><!-- card-header -->
+                                <h6 class="dg-card-title t-24 colr pad-15">Your Portfolio</h6>
+                            </div>
                             <div class="table-responsive">
-                                <!-- Table Starts-->
                                 <table class="table tab-style">
 
                                     <tbody>
                                         <tr>
-                                            <td align="left">Zurich</td>
-                                            <td align="center">
-                                                <i class="fa fa-circle" style="color:#007BFF;font-size:10px;"></i>
-                                                <span style="padding-left:4px">
+                                            <td class="align-left">Zurich</td>
+                                            <td class="align-centr">
+                                                <i class="fa fa-circle table-style"></i>
+                                                <span class="pad-l-4">
                                                     Gold
                                                 </span>
                                             </td>
-                                            <td align="center">100 oz</td>
-                                            <td align="right">$1300.00 USD</td>
+                                            <td class="align-centr">100 oz</td>
+                                            <td class="align-rgt">$1300.00 USD</td>
                                         </tr>
                                         <tr>
-                                            <td align="left">New York</td>
-                                            <td align="center">
-                                                <i class="fa fa-circle" style="color:#007BFF;font-size:10px;"></i>
-                                                <span style="padding-left:4px">
+                                            <td class="align-left">New York</td>
+                                            <td class="align-centr">
+                                                <i class="fa fa-circle table-style"></i>
+                                                <span class="pad-l-4">
                                                     Gold
                                                 </span>
                                             </td>
-                                            <td align="center">100 oz</td>
-                                            <td align="right">$1300.00 USD</td>
+                                            <td class="align-centr">100 oz</td>
+                                            <td class="align-rgt">$1300.00 USD</td>
                                         </tr>
                                         <tr>
-                                            <td align="left">RCM</td>
-                                            <td align="center">
-                                                <i class="fa fa-circle" style="color:#007BFF;font-size:10px;"></i>
-                                                <span style="padding-left:4px">
+                                            <td class="align-left">RCM</td>
+                                            <td class="align-centr">
+                                                <i class="fa fa-circle table-style"></i>
+                                                <span class="pad-l-4">
                                                     Gold
                                                 </span>
                                             </td>
-                                            <td align="center">100 oz</td>
-                                            <td align="right">$1300.00 USD</td>
+                                            <td class="align-centr">100 oz</td>
+                                            <td class="align-rgt">$1300.00 USD</td>
                                         </tr>
                                         <tr>
-                                            <td align="left">Toronto</td>
-                                            <td align="center">
-                                                <i class="fa fa-circle" style="color:#007BFF;font-size:10px;"></i>
-                                                <span style="padding-left:4px">
+                                            <td class="align-left">Toronto</td>
+                                            <td class="align-centr">
+                                                <i class="fa fa-circle table-style"></i>
+                                                <span class="pad-l-4">
                                                     Gold
                                                 </span>
                                             </td>
-                                            <td align="center">100 oz</td>
-                                            <td align="right">$1300.00 USD</td>
+                                            <td class="align-centr">100 oz</td>
+                                            <td class="align-rgt">$1300.00 USD</td>
                                         </tr>
 
 
 
                                     </tbody>
-                                </table>     <!-- Table ends-->
-                            </div><!-- table-responsive -->
-                        </div><!-- card -->
-                    </div><!-- col-6 -->
+                                </table>     
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="dg-card card-table dg-purchase-history">
                             <div class="dg-card-header">
-                                <h6 class="dg-card-title t-24 colr" style="padding:10px">Personal Purchase History</h6>
-                            </div><!-- card-header -->
+                                <h6 class="dg-card-title t-24 colr pad-10">Personal Purchase History</h6>
+                            </div>
                             <div class="table-responsive">
-                                <table class="table t-14" style="margin-bottom: 0;">
-                                    <!--<thead>
-                                        <tr class="tr-style">
-                                            <th class="pdt-5-pdb-5-wid-10">&nbsp;</th>
-                                            <th class="pdt-5-pdb-5" ">Type</th>
-                                            <th class="pdt-5-pdb-5">Location</th>
-                                            <th class="pdt-5-pdb-5">Date</th>
-                                        </tr>
-                                    </thead>-->
+                                <table class="table t-14 mart">
                                     <tbody>
 
                                         <tr>
-                                            <td align="center" class="t-20">Gold</td>
-                                            <td align="center" class="t-12">RCM</td>
-                                            <td align="center" class="t-12">April 19</td>
-                                            <td align="center" class="t-12">Pending</td>
+                                            <td class="t-20 align-centr">Gold</td>
+                                            <td class="t-12 align-centr">RCM</td>
+                                            <td class="t-12 align-centr">April 19</td>
+                                            <td class="t-12 align-centr">Pending</td>
                                         </tr>
 
 
                                         <tr>
-                                            <td align="center" class="t-20">Gold</td>
-                                            <td align="center" class="t-12">RCM</td>
-                                            <td align="center" class="t-12">April 19</td>
-                                            <td align="center" class="t-12">Pending</td>
+                                            <td class="t-20 align-centr">Gold</td>
+                                            <td class="t-12 align-centr">RCM</td>
+                                            <td class="t-12 align-centr">April 19</td>
+                                            <td class="t-12 align-centr">Pending</td>
                                         </tr>
 
 
                                         <tr>
-                                            <td align="center" class="t-20">Silver</td>
-                                            <td align="center" class="t-12">RCM</td>
-                                            <td align="center" class="t-12">April 19</td>
-                                            <td align="center" class="t-12">Pending</td>
+                                            <td class="t-20 align-centr">Silver</td>
+                                            <td class="t-12 align-centr">RCM</td>
+                                            <td class="t-12 align-centr">April 19</td>
+                                            <td class="t-12 align-centr">Pending</td>
                                         </tr>
 
                                     </tbody>
                                 </table>
-                            </div><!-- table-responsive -->
-                        </div><!-- card -->
-                    </div><!-- col-6 -->
-                </div><!-- row -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-            </div><!-- container -->
-        </div><!-- end contianer -->
-    </div><!--end manipanel-->
+            </div>
+        </div>
+    </div>
     <!-- Footer Starts-->
-    <div class="container-fluid foot-style" style="height:auto">
+    <div class="container-fluid foot-style ht-auto">
         <div class="row">
             <div class="col-md-6 col-xs-12 col-sm-12 mg-t-20 pd-l-20">
                 <h4 class="tx-normal">Lorem Ipsum</h4>
@@ -333,13 +264,13 @@
                 </ul>
             </div>
 
-            <div class="col-md-12 col-xs-12 col-sm-12" style="text-align:center">
-                <h4 class="tx-normal" style="color:rgba(255,255,255,0.2);font-size:14px"><span>Digital Gold 	&copy; 2018 </span>. All rights reserved.</h4>
+            <div class="col-md-12 col-xs-12 col-sm-12 align-centr">
+                <h4 class="tx-normal t-14 rgb-col"><span>Digital Gold 	&copy; 2018 </span>. All rights reserved.</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
     </div>
-    </div>
+   
     <!-- Footer Ends-->
 
 
