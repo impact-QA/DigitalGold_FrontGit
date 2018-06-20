@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link href="../../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styleSheet.css">
+</head>
+
+<body>
+    <!-- ONBOARDING HEADER -->
+    <div class="mainBodyContent">
+
+        <!--navBar Starts-->
+        <div class="container-fluid">
+            <div class="on-brand" style="position:absolute;top:0;left:0;height:84px;background-color:#296EFB;color:#E7F1EF;padding-left:40px; padding-right:40px;margin:0">
+                <h2 style="border:0px solid black;font-size:26px;margin:0;padding:0;position:relative;top:-6px">Digital Gold</h2>
+            </div>
+            <div class="row on-header" style="height:60px;color:white;margin-bottom:0;padding:0px 0px 0px 250px">
+                <div class="dropdown dropdown-c" style="position:absolute;right:0;top:30px;right:40px">
+                    <a href="#" class="logged-user" data-toggle="dropdown" aria-expanded="true" style="text-decoration:none">
+                        <span style="margin-right:20px;color:#E7F1EF;cursor:pointer;text-decoration:none">Allison Campbell</span>
+                        <i class="fa fa-angle-down" style="color:#E7F1EF;cursor:pointer;text-decoration:none"></i>
+                    </a>
+                    <div style="background-color: #2B303D;" class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+                        <nav class="nav">
+                            <ul style="list-style:none;margin:0; padding:10px 30px">
+                                <li>
+                                    <a href="#" class="dg-nav-link" style="color:#E7F1EF;cursor:pointer;text-decoration:none">Log in</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row on-header " style="background-color:black;color:white;display:block;text-align:right;padding:0px 10px 0px 0px;margin-bottom:0;height:24px">
+            </div>
+        </div>
+
+        <!--navBar Ends-->
+        <!-- ONBOARDING Content -->
+        <div class="container marT-60">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 col-xs-12 marB-40">
+                    <h1 class="verify colr">Create Account</h1>
+                </div>
+            </div>
+            <form action="verify-email.html" class="needs-validation" id="create-account" novalidate>
+                <div class="form-layout">
+                    <div class="form-row mg-b-25">
+                        <div class="col-md-3 offset-md-3 col-xs-12">
+                            <div class="form-group marB-10">
+                                <label class="form-control-label" for="fname">First name</label>
+                                <input class="form-control" type="text" name="fname" id="fname" value="" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter your first name.
+                                </div>
+                            </div><!-- col-6 -->
+                        </div> <!-- margin div end -->
+                        <div class="col-md-3 push-md-3 col-xs-12">
+                            <div class="form-group">
+                                <label class="form-control-label" for="lname">Last name</label>
+                                <input class="form-control" type="text" name="lname" id="lname" value="" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter your last name.
+                                </div>
+                            </div><!-- col-6 -->
+                        </div>
+                        <div class="col-md-6 offset-md-3 col-xs-12">
+                            <div class="form-group marB-10">
+                                <label class="form-control-label" for="email">Email address</label>
+                                <input class="form-control" type="email" name="email" id="email" value="" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter your email address.
+                                </div>
+                            </div>
+                        </div><!-- col-12 -->
+                        <div class="col-md-6 offset-md-3 col-xs-12">
+                            <div class="form-group marB-10">
+                                <label class="form-control-label" for="password">Password</label>
+                                <input class="form-control" type="password" name="password" id="password" value="" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter your password.
+                                </div>
+                            </div>
+                        </div><!-- col-12 -->
+                        <div class="col-md-6 offset-md-3 col-xs-12">
+                            <div class="form-group marB-10">
+                                <label class="form-control-label" for="confirmpw">Confirm password</label>
+                                <input class="form-control" type="password" name="confirmpw" id="confirmpw" value="" required="">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please confirm your password.
+                                </div>
+                                
+                            </div>
+                        </div><!-- col-12 -->
+                        <div class="col-md-6 offset-md-3 col-xs-12">
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="invalidCheck" value="" required="">
+                                    <label class="form-check-label" for="invalidCheck">
+                                        <span>By creating this account, you agree to our <a href="#" class="heavy">User Agreement</a> and <a href="#" class="heavy">Privacy Policy</a>.</span>
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- row -->
+
+
+                    <div class="row">
+                        <div class="form-layout-footer col-md-6 offset-md-3 col-xs-12">
+                            <button class="btn btn-primary bd-0 btn-color" type="submit">Sign up</button>
+            </form>
+        </div>
+        <div class="col-md-6 offset-md-3 col-xs-12 marT-15">
+            <p>Already have an account? <a href="login-dg.html" class="heavy">Log in</a></p>
+        </div>
+    </div><!-- form-layout-footer -->
+    </div><!-- form-layout -->
+    </div>
+    </div><!--end wrapper-->
+    <!-- ONBOARDING FOOTER -->
+
+    <div class="container-fluid foot-style">
+        <p>Digital Gold 	&copy; 2018 </p>
+    </div>
+    <!-- Footer content Ends -->
+    <script src="../../js/formValidation.js"></script>
+</body>
+</html>
