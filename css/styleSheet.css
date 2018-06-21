@@ -1,3 +1,8 @@
+.fontFamily{
+    font-family:Avenir;
+}
+
+
 
 .progressBarCirlce {
     width: 25px;
@@ -6,13 +11,17 @@
     border-radius: 50px;
     background-color: #fff;
     color: #296EFB;
-    font-size: 14px;
+    font-size: 16px;
 }
-
-.progressBarCirlce.active {
-    color: #fff;
-    background-color: #296EFB;
+.footerLinks{
+    color: white;
+    padding: 0px 10px;
 }
+    .progressBarCirlce.active {
+        color: #fff;
+        background-color: #296EFB;
+        border: 1px solid #296EFB;
+    }
 
 .progressBarBGColorActive {
     background-color: #296EFB;
@@ -31,7 +40,7 @@
 .navBarElement {
     list-style: none;
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 1.25rem;
     color: #E7F1EF;
     -moz-transition-duration: 0.1s;
     -o-transition-duration: 0.1s;
@@ -43,13 +52,15 @@
 }
 
 
-ul li.navBarElement:hover {
+ul li.navBarElement a.navBarElementColor:hover {
     border-bottom: 4px solid #296EFB;
     -moz-transition-duration: 0.1s;
     -o-transition-duration: 0.1s;
     -webkit-transition-duration: 0.1s;
     transition-duration: 0.1s;
-    text-decoration: none
+    text-decoration: none;
+    padding-bottom:8px;
+      
 }
 
 
@@ -1945,6 +1956,12 @@ a:hover {
 .pad-l-4 {
     padding-left: 4px
 }
+.pad-l-8{
+    padding-left:8px;
+}
+.pad-l-25 {
+    padding-left: 25px
+}
     .tab-style {
         margin-bottom: 0px;
         font-size: 14px
@@ -2084,10 +2101,12 @@ a:hover {
     .login-color {
         color: #fff
     }
-
-    .marT-80 {
-        margin-top: 80px
-    }
+.marT-5{
+    margin-top: 5pxht0
+}
+.marT-80 {
+    margin-top: 80px
+}
 
     .marT-120 {
          margin-top: 120px
@@ -2095,11 +2114,15 @@ a:hover {
     .marT-20 {
         margin-top: 20px
     }
-
+.marT-10 {
+    margin-top: 10px
+}
     .marT-60 {
         margin-top: 60px
     }
-
+    .marR-10{
+        margin-right:10px
+    }
     .t-bold {
         font-weight: 700;
     }
@@ -2198,10 +2221,12 @@ i.fa.fa-bell.pad-l-20 {
     .wid-28p {
         width: 28%;
     }
-
-    .ht-20 {
-        height: 20px
+    .pad-b-10{
+        padding-bottom: 10px;
     }
+.ht-20 {
+    height: 20px
+}
 
     .header-account {
         display: flex;
@@ -2222,7 +2247,7 @@ i.fa.fa-bell.pad-l-20 {
         padding:0px 0px 0px 250px;
     }
 .on-header-sty {
-    height: 60px;
+    height: 66px;
     color: white;
     margin-bottom: 0;
     padding: 0px 0px 0px 250px
@@ -2237,7 +2262,13 @@ i.fa.fa-bell.pad-l-20 {
     .colr {
         color: #296EFB;
     }
-
+.blackoppo {
+    color: #2B303D;
+    opacity:0.75;
+}
+.black {
+    color: #2B303D
+}
 .colorResponsive {
     color: #296EFB;
     display: inline-block;
@@ -2246,7 +2277,7 @@ i.fa.fa-bell.pad-l-20 {
 
 
 .GreycolorResponsive {
-    color: #296EFB;
+    color: black;
     display: inline-block;
 }
 
@@ -2324,7 +2355,7 @@ i.fa.fa-bell.pad-l-20 {
 }
 
 .hide-me-style {
-    background-color: black;
+    background-color: #00002D;
     color: white;
     display: block;
     text-align: right;
@@ -2336,12 +2367,13 @@ i.fa.fa-bell.pad-l-20 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 84px;
+    height: 90px;
     background-color: #296EFB;
     color: #E7F1EF;
     padding-left: 40px;
     padding-right: 40px;
-    margin: 0
+    margin: 0;
+    width:230px;
 }
 
 .h2-styl {
@@ -2439,7 +2471,7 @@ h2 {
 }
 
 .on-header-style {
-    height: 60px;
+    height: 66px;
     color: white;
     margin-bottom: 0;
     padding: 0px 0px 0px 200px
@@ -2449,12 +2481,15 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 84px;
+    height: 90px;
+    width:230px;
     background-color: #296EFB;
     color: #E7F1EF;
     padding-left: 40px;
     padding-right: 40px;
-    margin: 0
+    margin: 0;
+    padding-top:30px;
+    
 }
 
 .menu-trig-btn {

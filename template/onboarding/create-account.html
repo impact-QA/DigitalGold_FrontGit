@@ -15,7 +15,7 @@
     </style>
 </head>
 
-<body>
+<body class="fontFamily">
     <!-- ONBOARDING HEADER -->
     <div class="mainBodyContent">
 
@@ -27,7 +27,7 @@
             <div class="row on-header on-header-sty">
                 <div class="dropdown dropdown-c drop-style">
 
-                    <a href="#" class="logged-user" data-toggle="dropdown" aria-expanded="true" >
+                    <a href="#" class="logged-user" data-toggle="dropdown" aria-expanded="true">
 
                         <span class="right-header-style">Allison Campbell</span>
                         <i class="fa fa-angle-down right-header-style"></i>
@@ -56,7 +56,7 @@
         <div class="container marT-120">
             <div class="row">
                 <div class="col-md-6 offset-md-3 col-xs-12 marB-60">
-                    <h1 class="verify colr">Create Account</h1>
+                    <h1 class="verify colr black">Create Account</h1>
                 </div>
             </div>
             <form action="verify-email.html" class="needs-validation" id="create-account" novalidate>
@@ -64,7 +64,7 @@
                     <div class="form-row mg-b-25">
                         <div class="col-md-3 offset-md-3 col-xs-12">
                             <div class="form-group marB-10">
-                                <label class="form-control-label" for="fname">First name</label>
+                                <label class="form-control-label blackoppo" for="fname">First name</label>
                                 <input class="form-control" type="text" name="fname" id="fname" value="" required="">
                                 <div class="valid-feedback">
                                     Looks good!
@@ -76,7 +76,7 @@
                         </div> <!-- margin div end -->
                         <div class="col-md-3 push-md-3 col-xs-12">
                             <div class="form-group">
-                                <label class="form-control-label" for="lname">Last name</label>
+                                <label class="form-control-label blackoppo" for="lname">Last name</label>
                                 <input class="form-control" type="text" name="lname" id="lname" value="" required="">
                                 <div class="valid-feedback">
                                     Looks good!
@@ -146,15 +146,20 @@
                     </div>
                 </div>
             </form>
-        <div class="col-md-6 offset-md-3 col-xs-12 marT-15">
-            <p>Already have an account? <a href="login-dg.html" class="heavy">Log in</a></p>
+            <div class="col-md-6 offset-md-3 col-xs-12 marT-15">
+                <p>Already have an account? <a href="login-dg.html" class="heavy">Log in</a></p>
+            </div>
         </div>
     </div>
-    </div>
     <!-- ONBOARDING FOOTER -->
-
     <div class="container-fluid foot-style">
-        <p>Digital Gold 	&copy; 2018 </p>
+        <span style="float:left">Digital Gold 	&copy; 2018 </span>
+        <span style="float:right">
+            <a href="#!" class="footerLinks">Sitemap</a>
+            <a href="#!" class="footerLinks">FAQS</a>
+            <a href="#!" class="footerLinks">Privacy Policy</a>
+            <a href="#!" class="footerLinks">User Agreement</a>
+        </span>
     </div>
     <!-- Footer content Ends -->
     <script src="../../js/formValidation.js"></script>
