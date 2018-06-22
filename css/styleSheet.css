@@ -2,7 +2,13 @@
     font-family:Avenir;
 }
 
+.r-Float{
+    float: right;
+}
 
+.l-Float {
+    float: left;
+}
 
 .progressBarCirlce {
     width: 25px;
@@ -2501,4 +2507,13 @@ h2 {
 
 a.heavy:hover {
     color: #007bff;
+}
+
+.notificationBellCounterTxt{
+    position:relative;
+    top:2px
+}
+
+.marT-26{
+    margin-top:26px;
 }
