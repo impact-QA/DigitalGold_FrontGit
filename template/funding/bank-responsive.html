@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/styleSheet.css">
+</head>
+<body id="bodyMainID" class="fontFamily">
+    <div class="mainBodyContent">
+        <!-- Navbar Starts-->
+        <div class="container-fluid">
+            <div class="on-brand on-brand-style">
+                <h2>Digital Gold</h2>
+            </div>
+            <div class="row on-header on-header-style">
+
+                <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
+                    <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#">Buy/Sell</a>
+                    <a href="#">Withdraw</a>
+                    <a href="#">Reedem</a>
+                    <a href="#" class="activeNavSel">Funding</a>
+                </div>
+
+
+
+                <ul class="hide-on-med hide-on-small navbar-hide-style">
+                    <li class="navBarElement "> <a href="#!" class="navBarElementColor">Buy</a> </li>
+                    <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
+                    <li class="navBarElement Active"><a href="#!" class="navBarElementColor">Fund</a> </li>
+                </ul>
+
+
+                <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
+                    <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
+                        <span class="right-header-style">Allison Campbell</span>
+                        <i class="fa fa-angle-down i-style"></i>
+                    </a>
+
+                    <div class="notificationBellCounter">
+                        2
+                    </div>
+
+
+                    <i class="fa fa-bell pad-l-20"></i>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
+                        <nav class="nav">
+                            <ul class="ul-style">
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-user marR-10"></i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-cog marR-10"></i>
+                                        Docs
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-download marR-10"></i>
+                                        Account
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row on-header hide-me-style">
+                <span class="hide-on-med hide-on-small">&nbsp;</span>
+            </div>
+        </div>
+        <!--navBar Ends-->
+
+        <div class="container">
+            <div class="col-lg-12  brd-btm" style="height: auto">
+                <h4 class="marT-30 t-24 align-centr"> Cash Balance </h4>
+                <h3 class="t-36 align-centr"> $0.00 <span class="t-18 txt-light"> USD </span></h3>
+            </div>
+            <div class="col-lg-12  marT-40" id="bankAccount_div">
+
+                <div class="col-12 col-md-6 ">
+                    <span class="txt-color align-left"> Amount</span>
+                    <input class="input-styl col-lg-12 col-lg-12 wid-100p" type="text" placeholder="$1,500.00" />
+                </div>
+                <div class="col-12 col-md-6 marT-40">
+                    <span class="txt-color align-left">Account</span>
+                    <center>
+
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle bd-0 wid-100p align-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:  white; border-color: #868BA1;overflow:hidden">
+                                <span class="align-left greyColor" id="bankAccountDropDown"> Choose Account</span>
+                            </button>
+                            <div class="dropdown-menu wid-100p" aria-labelledby="dropdownMenuButton">
+
+                                <a class="dropdown-item ddPad0" href="#" onclick="changeDropDown1()">
+                                    <span id="account_dd1"><img src="../../img/chase_img.png" width="20px" />Account Ending with 8938</span>
+                                </a>
+                                <a class="dropdown-item ddPad0" href="#" onclick="changeDropDown2()">
+                                    <span id="account_dd2"><img src="../../img/blue-bank-icon.png" width="20px" />Add Account</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-12">
+                    <div class=" marT-40">
+                        <div class="row">
+                            <div class="col-md-3  col-lg-3">
+                                <button class="btn btn-primary bd-0 input-styl white wid-100p" style="border-color:#296EFB;">
+                                    Continue
+                                </button>
+                            </div>
+                            <div class="col-md-3  col-lg-3 marT-30">
+                                <button class="btn bd-0 input-styl colr bd-white-btn wid-100p">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer Starts-->
+    <footer>
+        <div class="container-fluid foot-style">
+            <span class="l-Float hide-on-small">Digital Gold &copy; 2018 </span>
+            <span class="r-Float hide-on-small">
+                <a href="#!" class="footerLinks">Sitemap</a>
+                <a href="#!" class="footerLinks">FAQS</a>
+                <a href="#!" class="footerLinks">Privacy Policy</a>
+                <a href="#!" class="footerLinks">User Agreement</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Footer Ends-->
+
+    <script src="../../js/script.js"></script>
+        <script src="../../js/funding.js"></script>
+</body>
+</html>

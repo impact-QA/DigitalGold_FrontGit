@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Last-page-debit</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/styleSheet.css">
+
+</head>
+<body id="bodyMainID" class="fontFamily">
+
+    
+
+
+    <div class="mainBodyContent">
+        <!-- Navbar Starts-->
+        <div class="container-fluid">
+            <div class="on-brand on-brand-style">
+                <h2>Digital Gold</h2>
+            </div>
+            <div class="row on-header on-header-style">
+
+                <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
+                    <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#" class="activeNavSel">Buy/Sell</a>
+                    <a href="#">Withdraw</a>
+                    <a href="#">Reedem</a>
+                    <a href="#">Funding</a>
+                </div>
+
+
+
+                <ul class="hide-on-med hide-on-small navbar-hide-style">
+                    <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy</a> </li>
+                    <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Fund</a> </li>
+                </ul>
+
+
+                <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
+                    <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
+                        <span class="right-header-style">Allison Campbell</span>
+                        <i class="fa fa-angle-down i-style"></i>
+                    </a>
+
+                    <div class="notificationBellCounter">
+                        2
+                    </div>
+
+
+                    <i class="fa fa-bell pad-l-20"></i>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
+                        <nav class="nav">
+                            <ul class="ul-style">
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-user marR-10"></i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-cog marR-10"></i>
+                                        Docs
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-download marR-10"></i>
+                                        Account
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row on-header hide-me-style">
+                <span class="hide-on-med hide-on-small">&nbsp;</span>
+            </div>
+        </div>
+        <!--navBar Ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 marT-80 ht-80 div-brd-bottom">
+                    <h2 style="padding-top: 30px;"> Deposit </h2>
+                </div>
+                <div class="col-md-3 marT-80 hide-on-small ht-80 div-brd-bottom">
+                </div>
+                <div class="col-md-5 marT-80 hide-on-small ht-80 div-brd-bottom">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h4 style="font-weight: 400" class="colr">Account Value</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-3" style="margin-top:5px">
+                            <p class="t-16 colr">$0.00</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3" style="margin-top:9px">
+                            <p class="t-12 colr">USD</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6" style="margin-top:-5px">
+                            <p class="t-16"> Cash Balance</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <p class="t-12">$0.00</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <p class="t-12">USD</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+                $("#bankAccount").click(function () {
+                    $("#defaultLoading_div").css("display", "none");
+                    $("#bankAccount_div").css("display", "block");
+                    $("#creditCard_div").css("display", "none");
+                    $("#wireTransfer_div").css("display", "none");
+                    $("#payPal_div").css("display", "none");
+
+                    $("#bankAccount").addClass("active-div");
+                    $("#creditCard").removeClass("active-div");
+                    $("#wireTransfer").removeClass("active-div");
+                    $("#paypal").removeClass("active-div");
+
+                    $("#bankAccount").children().children().removeClass("iconBlue");
+                    $("#creditCard").children().children().removeClass("iconBlue");
+                    $("#wireTransfer").children().children().removeClass("iconBlue");
+                    $("#paypal").children().children().removeClass("iconBlue");
+
+                    $("#bankAccount").children().children().removeClass("white-lite");
+                   $("#creditCard").children().children().addClass("white-lite");
+                   $("#wireTransfer").children().children().addClass("white-lite");
+                   $("#paypal").children().children().addClass("white-lite");
+
+                    //edited by akash
+                    $("#bankAccount").children().children().removeClass("black-lite");
+                    $("#creditCard").children().children().removeClass("black-lite");
+                    $("#wireTransfer").children().children().removeClass("black-lite");
+                    $("#paypal").children().children().removeClass("black-lite");
+                   
+                            
+                   
+
+                });
+
+
+                $("#creditCard").click(function () {
+                    $("#defaultLoading_div").css("display", "none");
+                    $("#bankAccount_div").css("display", "none");
+                    $("#creditCard_div").css("display", "block");
+                    $("#wireTransfer_div").css("display", "none");
+                    $("#payPal_div").css("display", "none");
+
+                    $("#bankAccount").removeClass("active-div");
+                    $("#creditCard").addClass("active-div");
+                    $("#wireTransfer").removeClass("active-div");
+                    $("#paypal").removeClass("active-div");
+
+                    //$("#creditCard").children().children().removeClass("iconBlue");
+                    //$("#creditCard").children().children().children().children().removeClass("black-lite");
+
+
+                    $("#bankAccount").children().children().removeClass("iconBlue");
+                    $("#creditCard").children().children().removeClass("iconBlue");
+                    $("#wireTransfer").children().children().removeClass("iconBlue");
+                    $("#paypal").children().children().removeClass("iconBlue");
+
+                    $("#bankAccount").children().children().addClass("white-lite");
+                    $("#creditCard").children().children().removeClass("white-lite");
+                    $("#wireTransfer").children().children().addClass("white-lite");
+                    $("#paypal").children().children().addClass("white-lite");
+
+                });
+
+                $("#wireTransfer").click(function () {
+                    $("#defaultLoading_div").css("display", "none");
+                    $("#bankAccount_div").css("display", "none");
+                    $("#creditCard_div").css("display", "none");
+                    $("#wireTransfer_div").css("display", "block");
+                    $("#payPal_div").css("display", "none");
+
+                    $("#bankAccount").removeClass("active-div");
+                    $("#creditCard").removeClass("active-div");
+                    $("#wireTransfer").addClass("active-div");
+                    $("#paypal").removeClass("active-div");
+
+                    $("#bankAccount").children().children().removeClass("iconBlue");
+                    $("#creditCard").children().children().removeClass("iconBlue");
+                    $("#wireTransfer").children().children().removeClass("iconBlue");
+                    $("#paypal").children().children().removeClass("iconBlue");
+
+                    $("#bankAccount").children().children().addClass("white-lite");
+                    $("#creditCard").children().children().addClass("white-lite");
+                    $("#wireTransfer").children().children().removeClass("white-lite");
+                    $("#paypal").children().children().addClass("white-lite");
+                });
+
+
+                $("#paypal").click(function () {
+                    $("#defaultLoading_div").css("display", "none");
+                    $("#bankAccount_div").css("display", "none");
+                    $("#creditCard_div").css("display", "none");
+                    $("#wireTransfer_div").css("display", "none");
+                    $("#payPal_div").css("display", "block");
+
+                    $("#bankAccount").removeClass("active-div");
+                    $("#creditCard").removeClass("active-div");
+                    $("#wireTransfer").removeClass("active-div");
+                    $("#paypal").addClass("active-div");
+
+                    $("#bankAccount").children().children().removeClass("iconBlue");
+                    $("#creditCard").children().children().removeClass("iconBlue");
+                    $("#wireTransfer").children().children().removeClass("iconBlue");
+                    $("#paypal").children().children().removeClass("iconBlue");
+
+                    $("#bankAccount").children().children().addClass("white-lite");
+                    $("#creditCard").children().children().addClass("white-lite");
+                    $("#wireTransfer").children().children().addClass("white-lite");
+                    $("#paypal").children().children().removeClass("white-lite");
+                });
+
+
+
+
+
+
+
+
+            });
+        </script>
+
+
+
+        <div class="container marT-40" style="border: 1px solid #296EFB ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 brd-btm">
+
+
+                    <!--<div class="row active-div" id="bankAccount">-->
+                        <div class="row ">
+                            <div class="col-lg-2 col-md-2 brd-btm ht-130">
+                                <i class="fa fa-university icon-styl iconBlue iconPos" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-8 col-md-8 brd-btm brd ht-130">
+                                <p class="t-18 marT-30 marB-5 black-lite"> Bank Account</p>
+                                <p class="t-12 pad-b-10 black-lite">
+                                    Link your bank account to instantly fund your wallet and start buying today.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 brd brd-btm ht-130">
+                                <i class="fa fa-play icon-styl white-lite iconPos" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row ">
+                            <div class="col-lg-2 col-md-2 brd-btm ht-130">
+                                <i class="fa fa-credit-card icon-styl iconBlue iconPos" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-8 col-md-8 brd-btm brd ht-130">
+                                <p class="t-18 marT-30 marB-5 black-lite"> Credit Card</p>
+                                <p class="t-12 pad-b-10 black-lite">
+                                    Add any Visa or MasterCard debit or credit card to your Digital Gold Account.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 brd brd-btm ht-130">
+                                <i class="fa fa-play icon-styl white-lite iconPos" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 brd-btm ht-130">
+                                <i class="fa fa-refresh icon-styl iconBlue iconPos" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-8 col-md-8 brd brd-btm ht-130">
+                                <p class="t-18 marT-30 marB-5 black-lite"> Wire Transfer</p>
+                                <p class="t-12 pad-b-10 black-lite">
+                                    Wire Funds directly into your wallet. Recommended for Funding large Amounts.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 brd-btm brd ht-130">
+                                <i class="fa fa-play icon-styl white-lite iconPos " aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 ht-130">
+                                <i class="fa fa-paypal icon-styl iconPos iconBlue" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-8 col-md-8 brd ht-130">
+                                <p class="t-18 marT-30 marB-5 black-lite"> PayPal</p>
+                                <p class="t-12 pad-b-10 black-lite">
+                                    Securely log in to your PayPal account to buy instantly.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 brd ht-130">
+                                <i class="fa fa-play icon-styl white-lite iconPos" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="col-lg-7 col-md-7 ">
+
+                    <div class="col-lg-12  brd-btm" style="height:100px">
+                        <h4 class="marT-30 t-24 align-centr"> Cash Balance </h4>
+                        <h3 class="t-36 align-centr"> $4,500.00 <span class="t-18 txt-light"> USD </span></h3>
+                    </div>
+
+                    <div class="col-lg-12 " id="defaultLoading_div" style="display:block">
+                        <p class="align-centr marT-30">
+                            Please visit your local branch to intiate <br>a bank wire using the payment information below.
+                        </p>
+                    </div>
+
+                     
+                            <div class="col-lg-12 marT-25">
+                                    
+                                            <div class="row">
+                                              <div class="col-6 align-rgt t-10"> 
+                                                   <p class="white-lite">Amount</p>
+                                           </div>
+                                           <div class="col-6"> 
+                                              <p class="t-10">$2,000.0</p>
+                                                
+        </div>
+                       <div class="col-lg-12 marT-25">
+                         <div class="row">
+                           <div class="col-6 align-rgt t-10"> 
+                                <p class="white-lite"> Beneficiary</p>
+                        </div>
+                        <div class="col-6"> 
+                           <p class="t-10">APMEX - Clearing Acct<br>
+                              226 Dean McGee Ave<br>
+                            Oklahoma City, OK 73102</p>
+                            </div>
+             </div>
+             <div class="col-lg-12 marT-25">
+                    <div class="row">
+                      <div class="col-6 align-rgt t-10"> 
+                           <p class="white-lite">Account Number</p>
+                   </div>
+                   <div class="col-6"> 
+                      <p class="t-10">7792990008<br>
+                         Bank of Oklahoma N.A.<br>
+                       Tulsa,OK</p>
+                       </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 marT-25">
+                            <div class="row">
+                              <div class="col-6 align-rgt t-10"> 
+                                   <p class="white-lite">ABA Routing Number</p>
+                           </div>
+                           <div class="col-6"> 
+                              <p class="t-10">
+                               103 900 036</p>
+                               </div>
+                                </div>
+        
+                            </div>
+                           
+           
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+            <div class="row">
+                <div class="col-md-4 marT-80 ht-80 div-brd-bottom">
+                    <h2 style="padding-top: 30px;"> Recent Deposits </h2>
+                </div>
+                <div class="col-md-3 marT-80 hide-on-small ht-80 div-brd-bottom">
+                </div>
+                <div class="col-md-5 marT-80 hide-on-small ht-80 div-brd-bottom">
+                   
+
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="dash-table-wrapper">
+
+                <div class="row row-sm mt-20">
+                    <div class="col-lg-12">
+                        <div class="dg-card card-table">
+                            <div class="table-responsive">
+                                <table class="table tab-style">
+
+                                    <tbody>
+                                        <tr class="heavy colr">
+                                            <td class="align-centr">Method</td>
+                                            <td class="align-centr">
+                                                <span class="pad-l-4">
+                                                    Amount
+                                                </span>
+                                            </td>
+                                            <td class="align-centr">Institution</td>
+                                            <td class="align-centr">Status</td>
+                                            <td class="align-centr">Action</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-centr">Bank Wire </td>
+                                            <td class="align-centr">
+                                             2,000.00
+                                            </td>
+                                            <td class="align-centr">Chase</td>
+                                            <td class="align-centr">Pending</td>
+                                            <td class="align-centr"><a href="#" class="txt-und-blck">Cancel</a></td>
+                                        </tr>
+                                        <tr>
+                                                <td class="align-centr">ACH</td>
+                                                <td class="align-centr">
+                                                 2,20.00
+                                                </td>
+                                                <td class="align-centr">Midfurst</td>
+                                                <td class="align-centr">Complete</td>
+                                                <td class="align-centr"><a href="#" class="txt-und-blck">View</a></td>
+                                        </tr>
+                                        <tr>
+                                                <td class="align-centr">Paypal</td>
+                                                <td class="align-centr">
+                                                 3,000.00
+                                                </td>
+                                                <td class="align-centr">Paypal</td>
+                                                <td class="align-centr">Complete</td>
+                                                <td class="align-centr"><a href="#" class="txt-und-blck">View</a></td>
+                                        </tr>
+                                        <tr>
+                                                <td class="align-centr">Capital One</td>
+                                                <td class="align-centr">
+                                                 10,000.00
+                                                </td>
+                                                <td class="align-centr">Visa</td>
+                                                <td class="align-centr">Complete</td>
+                                                <td class="align-centr"><a href="#" class="txt-und-blck">View</a></td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>     
+                            </div>
+                        </div>
+                    </div>
+                    </div> 
+                    </div>
+                </div>
+
+    <!-- Footer Starts-->
+
+    <footer>
+        <div class="container-fluid foot-style">
+            <span class="l-Float hide-on-small">Digital Gold 	&copy; 2018 </span>
+            <span class="r-Float hide-on-small">
+                <a href="#!" class="footerLinks">Sitemap</a>
+                <a href="#!" class="footerLinks">FAQS</a>
+                <a href="#!" class="footerLinks">Privacy Policy</a>
+                <a href="#!" class="footerLinks">User Agreement</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Footer Ends-->
+    
+    <!-- Modal-->
+    <script src="../../js/script.js"></script>
+    
+</body>
+</html>

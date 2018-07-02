@@ -43,8 +43,8 @@
 .marB-5{
 	margin-bottom: 5px;
 }
-.footerLinks {
-    color: rgba(231, 241, 239, 0.7);
+.footerLinks{
+    color: white;
     padding: 0px 10px;
 }
     .progressBarCirlce.active {
@@ -2088,13 +2088,13 @@ a:hover {
         margin-right: 5px;
     }
 
-.foot-style {
-    background-color: #2B303D;
-    margin-top: 30px;
-    padding: 15px;
-    color: rgba(231, 241, 239, 0.7);
-    height: 55px;
-}
+    .foot-style {
+        background-color: #2B303D;
+        margin-top: 30px;
+        padding: 15px;
+        color: #fff;
+        height: 55px;
+    }
 .foot-style-mob {
         background-color: #2B303D;
         margin-top: 30px;
@@ -2118,9 +2118,6 @@ a:hover {
         background-color: #8AC80D;
         margin-right: 5px;
         border-radius: 50%
-    }
-    bg-white{
-        background-color: 
     }
 
     .tr-style {
@@ -2261,6 +2258,9 @@ a:hover {
     border: 1px solid #296EFB;
    background-color: white;
 }
+.marL_70{
+    margin-left: -70px;
+}
 .ht-600{
     height: 600px;
 }
@@ -2307,7 +2307,6 @@ i.fa.fa-bell.pad-l-20 {
     top: -8px;
     right: 8px;
     padding-left: 7px;
-    padding-top:2px;
     font-size:12px;
     background-color: #296EFB;
     color:white;
@@ -2631,9 +2630,6 @@ i.fa.fa-bell.pad-l-20 {
     list-style: none;
     padding-top: 24px
 }
-.pad-l-175{
-    padding-left: 175px;
-}
 .pad-15{
     padding: 15px;
 }
@@ -2796,9 +2792,7 @@ a.heavy:hover {
     border: 1px solid #296EFB
 }
 
-.hideMagT-80-onSmall {
-    margin-top: 80px;
-}
+
 
 @media only screen and (max-width: 768px) {
     .hide-on-SMALL {
@@ -2816,19 +2810,4 @@ a.heavy:hover {
     .brd{
         border-right:0px solid black
     }
-
-    .hideMagT-80-onSmall{
-        margin-top:20px;
-        text-align:center
-    }
-
-}
-
-
-.greyColor{
-    color:grey;
-}
-
-.ddPad0{
-    padding:0
 }
