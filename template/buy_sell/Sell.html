@@ -1,20 +1,18 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title> Sell </title>
+    <title> Buy </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../css/styleSheet.css">
-    <style>
-    </style>
 </head>
-<body class="fontFamily">
 
+<body id="bodyMainID" class="fontFamily">
     <div class="mainBodyContent">
         <!-- Navbar Starts-->
         <div class="container-fluid">
@@ -22,14 +20,11 @@
                 <h2>Digital Gold</h2>
             </div>
             <div class="row on-header on-header-style">
-
                 <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
                     <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </span>
                 </div>
-
-
 
                 <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -39,8 +34,6 @@
                     <a href="#">Funding</a>
                 </div>
 
-
-
                 <ul class="hide-on-med hide-on-small navbar-hide-style">
                     <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy</a> </li>
                     <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
@@ -49,20 +42,15 @@
                     <li class="navBarElement"><a href="#!" class="navBarElementColor">Fund</a> </li>
                 </ul>
 
-
                 <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
                     <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
                         <span class="right-header-style">Allison Campbell</span>
                         <i class="fa fa-angle-down i-style"></i>
-
                     </a>
-
-
 
                     <div class="notificationBellCounter">
                         2
                     </div>
-
 
                     <i class="fa fa-bell pad-l-20"></i>
                     <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
@@ -90,7 +78,6 @@
                         </nav>
                     </div>
                 </div>
-
             </div>
             <div class="row on-header hide-me-style">
                 <span class="hide-on-med hide-on-small">
@@ -108,8 +95,8 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 marB-25">
                     <h5 class="marT-60 "> Choose A Product </h5>
-                    <div class="row pad-l-20">
-                        <div class="col-md-3  col-lg-3 marT-25">
+                    <div class="row pad-l-30">
+                        <div class="col-md-3 col-lg-3 marT-25">
                             <span class="t-18 colr"> Name</span>
                         </div>
                         <div class="col-md-2  col-lg-2 marT-25">
@@ -127,16 +114,13 @@
                     </div>
                     <div id="col-lg-12 col-md-12 accordion marT-25">
                         <div class="card">
-                            <div class="card-style bg" id="headingOne">
+                            <div class="card-header bg" id="headingOne">
                                 <h5 class="mb-0 pad-0 white">
                                     <button class="btn btn-link pad-0 white t-14 txt-decor" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="row">
-                                            <div class="col-md-3 col-lg-3">
-                                                <i class="fa fa-angle-down up-down-styl" aria-hidden="true">&nbsp;</i>
-                                                <span class="up-down-styl"> Vault chain Gold </span>
-                                            </div>
-                                            <div class="col-md-2 col-lg-2 align-left pad-l-50">
-                                                Gold
+                                            <div class="col-md-3 col-lg-3"><em class="fa fa-angle-down up-down-styl" aria-hidden="true">&nbsp;</em> <span class="up-down-styl"> Vault chain Gold </span></div>
+                                            <div class="col-md-2 col-lg-2  pad-l-40">
+                                                 <span><span class="white" style="width: 20px; height: 5px; background-color: white; margin-right: 5px">&nbsp &nbsp </span>Gold </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-50">
                                                 New York
@@ -151,31 +135,28 @@
                                     </button>
                                 </h5>
                             </div>
-
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body col-brd">
+                                <div class="card-body col-brd accor-colr">
                                     <div class="row">
-                                        <div class="col-md-7 col-lg-7 pad-l-20 ">
+                                        <div class="col-md-7 col-lg-7 pad-l-30 ">
                                             <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
                                         </div>
-                                        <div class="col-md-2 align-centr col-lg-2 t-12">
+                                        <div class="col-md-2 align-left col-lg-2 t-12 pad-l-30">
                                             <span> Ticker </span></br>
                                             <span> Partner</span></br>
                                             <span> Spread</span></br>
                                             <span><a href="#">Storage Fee</a>  </span></br>
                                         </div>
-                                        <div class="col-md-3 align-centr col-lg-3 t-12">
-                                            <span> AUR </span></br>
-                                            <span> RCM </span></br>
-                                            <span> 0.75% </span></br>
-                                            <span> 0.06% per annual </span></br>
+                                        <div class="col-md-3 align-left col-lg-3 t-12 pad-l-40" style="padding-left: 30px">
+                                            <span> AUR </span><br>
+                                            <span> RCM </span><br>
+                                            <span> 0.75% </span><br>
+                                            <span> 0.06% per annual </span><br>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
 
 
                         <div class="card">
@@ -187,8 +168,8 @@
                                                 <i class="fa fa-angle-up up-down-styl " aria-hidden="true">&nbsp;</i>
                                                 <span class="up-down-styl">Silver-APMEX-US </span>
                                             </div>
-                                            <div class="col-md-2 col-lg-2 align-left pad-l-50">
-                                                Silver
+                                            <div class="col-md-2 col-lg-2 pad-l-40">
+                                                <span><span class="white bg" style="width: 20px; height: 5px;margin-right: 5px">&nbsp &nbsp </span>Silver </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-50">
                                                 Toronto
@@ -204,18 +185,18 @@
                                 </h5>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="card-body  accor-colr">
                                     <div class="row">
-                                        <div class="col-md-7 col-lg-7 pad-l-20 ">
+                                        <div class="col-md-7 col-lg-7 pad-l-20">
                                             <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
                                         </div>
-                                        <div class="col-md-2 col-lg-2 t-12 pad-l-20" style="text-align: left">
-                                            <span> Ticker </span></br>
-                                            <span> Partner</span></br>
-                                            <span> Spread</span></br>
+                                        <div class="col-md-2 col-lg-2 t-12 align-left pad-l-30">
+                                            <span> Ticker </span><br>
+                                            <span> Partner</span><br>
+                                            <span> Spread</span><br>
                                             <span><a href="#">Storage Fee</a>  </span></br>
                                         </div>
-                                        <div class="col-md-3  col-lg-3 t-12" style="text-align: left">
+                                        <div class="col-md-3  col-lg-3 t-12 align-left pad-l-30">
                                             <span> AUR </span></br>
                                             <span> RCM </span></br>
                                             <span> 0.75% </span></br>
@@ -226,7 +207,6 @@
                             </div>
                         </div>
 
-
                         <div class="card">
                             <div class="card-style" id="headingSix">
                                 <h5 class="mb-0">
@@ -236,8 +216,8 @@
                                                 <i class="fa fa-angle-up up-down-styl " aria-hidden="true">&nbsp;</i>
                                                 <span class="up-down-styl"> Silver-APMEX-US </span>
                                             </div>
-                                            <div class="col-md-2 col-lg-2 align-left pad-l-50">
-                                                Silver
+                                            <div class="col-md-2 col-lg-2  pad-l-40">
+                                                <span class="align-left"><span class="white bg" style="width: 20px; height: 5px;margin-right: 5px">&nbsp &nbsp </span>Silver</span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-50">
                                                 Toronto
@@ -253,18 +233,18 @@
                                 </h5>
                             </div>
                             <div id="collapseSix" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="card-body  accor-colr">
                                     <div class="row">
-                                        <div class="col-md-7 col-lg-7 pad-l-20 ">
+                                        <div class="col-md-7 col-lg-7 pad-l-20 accor-colr">
                                             <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
                                         </div>
-                                        <div class="col-md-2 align-centr col-lg-2 t-12">
+                                        <div class="col-md-2 align-left pad-l-30 col-lg-2 t-12">
                                             <span> Ticker </span></br>
                                             <span> Partner</span></br>
                                             <span> Spread</span></br>
                                             <span><a href="#">Storage Fee</a>  </span></br>
                                         </div>
-                                        <div class="col-md-3 align-centr col-lg-3 t-12">
+                                        <div class="col-md-3 align-left pad-l-30 col-lg-3 t-12">
                                             <span> AUR </span></br>
                                             <span> RCM </span></br>
                                             <span> 0.75% </span></br>
@@ -275,31 +255,27 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-md-4 col-lg-4 marB-25 marT-25 ht-550" style="border: 1px solid #296EFB">
+                <div class="col-md-4 col-lg-4 marB-25 marT-25 ht-600 hide-on-med" style="border: 1px solid #296EFB">
                     <div class="container align-centr marT-25">
                         <span class="t-18 ">
                             You Are Selling
                         </span>
-                        <h4 class="colr t-24"> Vault Chain Gold </h4>
-                        <span class="t-14 align-centr">
+                        <h4 class="colr t-24 marT-10"> Vault Chain Gold </h4>
+                        <span class="t-14 align-centr marT-10">
                             Current: $1,300.00 Gold Spot
                         </span>
                         <div class="row">
-                            <div class="c0l-md-6 col-lg-6 marT-10 ">
+                            <div class="col-md-6 col-lg-6 marT-10 ">
                                 <span class="t-18 float_left txt-color"> Amount </span>
                                 <input class="number input-styl col-lg-12 col-md-12 t-12" type="text" placeholder="$0000.00 &nbsp USD" />
                             </div>
-
-                            <div class="c0l-md-1 col-lg-1 marT-35">
+                            <div class="col-md-1 col-lg-1 marT-35">
                                 <i class="fa fa-arrows-h marT-10 t-14" aria-hidden="true"></i>
                             </div>
-
-                            <div class="c0l-md-4 col-lg-4 marT-40">
-                                <div>
-                                    <select class="custom-select t-14  bd-0 input-styl" id="inputGroupSelect03">
+                            <div class="col-md-4 col-lg-4 marT-40">
+                                <div class="align-right grams">
+                                    <select class="custom-select t-14  bd-0 align-right input-styl" id="inputGroupSelect03">
                                         <option selected>0 G</option>
                                         <option value="1">1 G</option>
                                         <option value="2">2 G</option>
@@ -307,12 +283,10 @@
                                     </select>
                                 </div>
                             </div>
-
                         </div>
                         <div class="pad-0">
                             <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
                                 <span class="t-18 float_left txt-color"> Payment Method </span>
-
                                 <div class="col-md-12 col-lg-12 marT-10 marB-10 float_left pad-0">
                                     <select class="custom-select t-14 bd-0 input-styl" id="inputGroupSelect03">
                                         <option selected>My Wallet</option>
@@ -334,27 +308,30 @@
                                         <div class="col-lg-6 col-md-6 marT-5">
                                             <span class="float_left t-12 txt-color">Limits &nbsp $1,000.00 USD  </span>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 marT-5">
-                                            <span class="float t-12 txt-color"><a href=""> What does this mean?</a><span>
+                                        <div class="col-lg-6 col-md-6">
+                                            <span class="r-Float t-12 txt-decor-black txt-color"><a href=""><u> What does this mean?</u></a><span>
                                         </div>
-                                    </div>
+                                  </div>
                                 </div>
                                 <div class="col-md=12 col-lg-12 marT-15 pad-0">
-                                    <span class="t-18 colr"> Sub Total . . . . . . . . . . . . . . . . . $8.00  </span>
+                                    <span class="t-18 colr align-left"> Sub Total . . . . . . . . . . . . . . . . . $8.00  </span>
                                 </div>
                                 <div class="col-md=12 col-lg-12 marT-10 pad-0">
-                                    <span class="t-14 float_left"> Breakdown of Fees </span>
+                                    <span class="t-14 float_left txt-color"> Breakdown of Fees </span>
                                 </div>
-                                <div class="col-md=12 col-lg-12 marT-5 pad-0">
-                                    <span class="t-14 float_left"> Transaction Fee . . . . . . . . . . . . . . . . . . . .$4.00  </span>
+                                <div class="col-md-12 col-lg-12 marT-10 pad-0">
+                                    <span class="t-14 float_left txt-color"> Transaction Fee . . . . . . . . . . . . . . . . . . . .$4.00  </span>
                                 </div>
-                                <div class="col-md-12 col-lg-12 marT-5 pad-0">
-                                    <span class="t-14 float_left"> Processing Fee . . . . . . . . . . . . . . . . . . . . $4.00  </span>
+                                <div class="col-md-12 col-lg-12 marT-10 pad-0">
+                                    <span class="t-14 float_left txt-color"> Processing Fee . . . . . . . . . . . . . . . . . . . . $4.00  </span>
                                 </div>
-                                <div class="col-md=12 col-lg-12 marT-10 float_left pad-0">
-                                    <button class="btn btn-primary bd-0 pad-15">
+                                <div class="col-md-12 col-lg-12 marT-10 float_left pad-0">
+                                    <button class="btn btn-primary bd-0 pad-15 wid-100p">
                                         Sell Vault Chain Gold For $1,377.62
                                     </button>
+                                </div>
+                                <div>
+                                    <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marT-15 "><u> Learn about our fees here </u></a></span>
                                 </div>
                             </div>
                         </div>
@@ -363,9 +340,7 @@
             </div>
         </div>
     </div>
-
     <!-- Footer Starts-->
-
     <footer>
         <div class="container-fluid foot-style">
             <span class="l-Float hide-on-small">Digital Gold &copy; 2018 </span>
@@ -377,8 +352,7 @@
             </span>
         </div>
     </footer>
-
     <!-- Footer Ends-->
-
+    <script src="../../js/script.js"></script>
 </body>
 </html>

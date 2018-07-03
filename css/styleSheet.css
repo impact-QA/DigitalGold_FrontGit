@@ -1,9 +1,202 @@
-.fontFamily{
-    font-family:Avenir;
+
+.pad-TB-0-LR-50 {
+    padding: 0px 50px
+}
+
+
+
+.pdt-30 {
+    padding-top: 30px;
+}
+
+.mrL--15 {
+    margin-left: -15px;
+}
+
+.ftw-400 {
+    font-weight: 400;
+}
+
+.marT-5 {
+    margin-top: 5px
+}
+
+.marT-9 {
+    margin-top: 9px
+}
+
+.marT--5 {
+    margin-top: -5px
+}
+
+.dis-blk {
+    display: block;
+}
+
+.wt-130 {
+    width: 130px
+}
+
+.brdr-colr-blue {
+    border-color: #296EFB;
+}
+
+.dis-none {
+    display: none;
+}
+
+.brdr-colr-grey {
+    border-color: #868BA1;
+}
+
+.wt-180 {
+    width: 180px;
+}
+
+.ht-100 {
+    height: 100px;
+}
+
+.wt-290 {
+    width: 290px;
+}
+
+.colr-white {
+    color: white;
+}
+
+.ovrflw-hide {
+    overflow: hidden;
+}
+
+.pdt-50 {
+    padding-top: 50px
+}
+
+.pdt-12 {
+    padding-top: 12px;
+}
+
+.brdr-btm-15 {
+    border-bottom: 1.5px solid black;
+    /*height: 90px;*/
+}
+
+.pdt-btm-marT-10 {
+    padding-bottom: 10px;
+    margin-top: -10px
+}
+
+.ft-30 {
+    font-size: 30px;
+}
+
+.flt {
+    float: left;
+    color: #999896
+}
+
+.pd-8-pdl-15 {
+    padding: 8px;
+    padding-left: 15px
+}
+
+.pdt-50 {
+    padding-top: 50px
+}
+
+.txt-colr-form {
+    color: #2B303D;
+}
+
+.pdt-15 {
+    padding-top: 15px;
+}
+
+.ht-50 {
+    height: 50px;
+}
+
+.marT-27-mrB--20 {
+    margin-top: 27px;
+    margin-bottom: -20px
+}
+
+.marT-60 {
+    margin-top: 60px;
+}
+
+.ft-18 {
+    font-size: 18px;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.brdr-btm {
+    border-bottom: 1px solid #2B303D;
+}
+
+
+
+
+.accor-colr {
+    background-color: #EAF0FF;
+}
+
+.formLabelClr {
+    color: #868BA1;
+}
+
+.caretIconStyle{
+font-size:30px;
+position:relative;
+top:-4px;
+}
+
+.blackColor {
+    color: #2B303D;
+}
+
+.marR-100{
+	margin-right: 100px;
+}
+.pad-l-40{
+	padding-left: 40px;
+}
+
+.marT-40 {
+    margin-top:40px;
+}
+
+.pad-l-40{
+	padding-left: 40px;
+}
+.opac-10{
+	opacity: 10%;
+}
+.opac-70{
+	opacity: 70%;
+}
+
+.fontFamily {
+    font-family: Avenir;
 }
 .pad-l-130{
 	padding-left: 130px;
 }
+.mar-l-20{
+	margin-left: 20px;
+}
+.mar-r-1{
+	margin-right: 1px;
+}
+.grams
+	{
+    position: relative;
+    left: 18px;
+	}
 .posRel-l-90{
 	position: relative;
 	left: 90px;
@@ -47,11 +240,11 @@
     color: rgba(231, 241, 239, 0.7);
     padding: 0px 10px;
 }
-    .progressBarCirlce.active {
-        color: #fff;
-        background-color: F;
-        border: 1px solid #296EFB;
-    }
+.progressBarCirlce.active {
+    color: #fff;
+    background-color: #296EFB;
+    border: 1px solid #296EFB;
+}
 
 .up-down-styl {
     position: relative;
@@ -2334,15 +2527,28 @@ i.fa.fa-bell.pad-l-20 {
 .brd-btm {
     border-bottom: 1px solid #eeeeee;
 }
-
+.brd-btm-black{
+	border-bottom: 1px solid #2B303D;
+}
 .white {
     color: #EEEEEE;
     font-weight: 500;
 }
-
+.wid-215{
+	width: 215px;
+}
+.marL-40{
+	margin-left: 40px;
+}
 .white-lite {
     color: rgba(43, 48, 61, 0.3);
     font-weight: 200;
+}
+.edge{
+	
+      POSITION: relative;
+    left: 40px;
+
 }
 
 .black-lite {
@@ -2359,12 +2565,16 @@ i.fa.fa-bell.pad-l-20 {
 .iconBlue {
     color: #296EFB;
 }
-
+.t-22{
+	font-size: 22px;
+}
 .iconPos {
     position: relative;
     left: -10px;
 }
-
+.ht-50{
+	height: 45px;
+}
 
 .ht-80 {
     height: 80px;
@@ -2745,7 +2955,7 @@ a.heavy:hover {
     color: #007bff;
 }
 
-<!-- New Additions-->
+
  .t-15 {
         font-size: 15px;
     }
@@ -2757,6 +2967,9 @@ a.heavy:hover {
     .marT--30 {
         margin-top: -30px;
     }
+.marL--20{
+	margin-left: -20px;
+}
 
     .marT--55 {
         margin-top: -55px;

@@ -25,7 +25,7 @@
                 <div class="dropdown dropdown-c drop-style">
                     <a href="#" class="logged-user" data-toggle="dropdown" aria-expanded="true">
                         <span class="right-header-style">Allison Campbell</span>
-                        <i class="fa fa-angle-down right-header-style"></i>
+                        <i class="fa fa-angle-down right-header-style caretIconStyle"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right bgcolor" x-placement="bottom-end">
                         <nav class="nav">
@@ -41,6 +41,8 @@
             <div class="row on-header hide-me-style">
             </div>
         </div>
+
+
         <!--Navbar Ends-->
 
         <div class="container marT-80 ProgresponsiveWidth">
@@ -100,9 +102,9 @@
                             <div class="form-row marB-25 marT-20 ">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="form-group">
-                                        <label class="form-control-label" for="inlineFormCustomSelect">Choose Country</label>
+                                        <label class="form-control-label formLabelClr" for="inlineFormCustomSelect">Choose Country</label>
                                         <select class="form-control select2 select2-hidden-accessible custom-select" id="inlineFormCustomSelect" name="country" value="" data-placeholder="Choose Country" required>
-                                            <option label="Choose Country" selected disabled>Choose Country</option>
+                                            <option value="" label="Choose Country" selected disabled>Choose Country</option>
                                             <option value="USA">United States of America</option>
                                             <option value="UK">United Kingdom</option>
                                             <option value="China">China</option>
@@ -118,7 +120,7 @@
                                 </div><!-- col-6 -->
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="form-group">
-                                        <label class="form-control-label" for="phone">Phone Number</label>
+                                        <label class="form-control-label formLabelClr" for="phone">Phone Number</label>
                                         <input class="form-control" type="tel" name="phone" value="" required>
                                         <div class="valid-feedback">
                                             Looks good!
@@ -144,7 +146,7 @@
     <footer>
         <div class="container-fluid foot-style">
             <span class="l-Float">Digital Gold 	&copy; 2018 </span>
-            <span class="r-Float">
+            <span class="r-Float hide-on-SMALL">
                 <a href="#!" class="footerLinks">Sitemap</a>
                 <a href="#!" class="footerLinks">FAQS</a>
                 <a href="#!" class="footerLinks">Privacy Policy</a>
