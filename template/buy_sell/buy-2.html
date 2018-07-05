@@ -143,44 +143,6 @@
                     <div class="col-md-7 col-lg-8 marT-60">
                         <span class="float-right txt-color"> your prices will expire in <span class="t-24" id="demo">02</span><span class="t-24"></span> </span>
 
-                        <script>
-                            var time_in_minutes = 10;
-                            var current_time = Date.parse(new Date());
-                            var deadline = new Date(current_time + time_in_minutes * 60 * 1000);
-
-
-                            function time_remaining(endtime) {
-                                var t = Date.parse(endtime) - Date.parse(new Date());
-                                var seconds = Math.floor((t / 1000) % 60);
-                                var minutes = Math.floor((t / 1000 / 60) % 60);
-                                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                                var days = Math.floor(t / (1000 * 60 * 60 * 24));
-                                return { 'total': t, 'days': days, 'hours': hours, 'minutes': minutes, 'seconds': seconds };
-                            }
-                            function run_clock(demo, endtime) {
-                                var clock = document.getElementById(demo);
-                                function update_clock() {
-                                    var t = time_remaining(endtime);
-                                    clock.innerHTML = '' + t.minutes + ':' + t.seconds;
-                                    if (t.total <= 0) {
-                                        clearInterval(timeinterval);
-
-                                        $("#btnID").click();
-
-                                        //									$("#modal-Call").modal(
-                                        //										{
-                                        //											show: 'true'
-                                        //										});
-                                        //
-
-                                    }
-                                }
-
-                                update_clock(); // run function once at first to avoid delay
-                                var timeinterval = setInterval(update_clock, 1000);
-                            }
-                            run_clock('demo', deadline);
-                        </script>
                         <!-- Modal Starts-->
 
                         <div id="modal-Call">
@@ -207,7 +169,7 @@
                             </div>
                             <!-- Modal Ends-->
                         </div>
-                        <div class="marT-120 align-centr col-lg-12 col-md-12 offset-2">
+                        <div class="marT-120 align-centr col-lg-12 col-md-12 marR10per">
                             <span class="t-24 colr  marL--200"> Confirm your Buy</span>
                             <div class=" col-md-6 col-lg-6 offset-1 align-centr marT-15">
                                 Funds will  be debited witin 24 hours or within 3 buisness days for ACH transfer
@@ -276,6 +238,7 @@
         </div>
 <!-- Modal Ends-->
     
+    <script src="../../js/buy.js"></script>
     
 </body>
 </html>
