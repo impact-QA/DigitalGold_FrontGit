@@ -58,6 +58,11 @@ function wireTransfer_redir() {
             $("#wireTransfer").removeClass("active-div");
             $("#paypal").removeClass("active-div");
 
+            $("#bankAccount").removeClass("txt-colr-form-opacity-30");            
+            $("#creditCard").addClass("txt-colr-form-opacity-30");
+            $("#wireTransfer").addClass("txt-colr-form-opacity-30");
+            $("#paypal").addClass("txt-colr-form-opacity-30");
+
             $("#bankAccount").children().children().attr("src", "../../img/blue-bank-icon_white.png");
             $("#creditCard").children().children().attr("src", "../../img/credit-icon_grey.png");
             $("#wireTransfer").children().children().attr("src", "../../img/wire-transfer-icon_grey.png");
@@ -92,6 +97,12 @@ function wireTransfer_redir() {
                     $("#wireTransfer").removeClass("active-div");
                     $("#paypal").removeClass("active-div");
 
+                    $("#creditCard").removeClass("txt-colr-form-opacity-30");
+                    $("#bankAccount").addClass("txt-colr-form-opacity-30");
+                    $("#wireTransfer").addClass("txt-colr-form-opacity-30");
+                    $("#paypal").addClass("txt-colr-form-opacity-30");
+        
+
                     //$("#creditCard").children().children().removeClass("iconBlue");
                     //$("#creditCard").children().children().children().children().removeClass("black-lite");
 
@@ -120,6 +131,12 @@ function wireTransfer_redir() {
                     $("#wireTransfer").addClass("active-div");
                     $("#paypal").removeClass("active-div");
 
+
+            $("#bankAccount").addClass("txt-colr-form-opacity-30");            
+            $("#creditCard").addClass("txt-colr-form-opacity-30");
+            $("#wireTransfer").removeClass("txt-colr-form-opacity-30");
+            $("#paypal").addClass("txt-colr-form-opacity-30");
+
                     $("#bankAccount").children().children().attr("src", "../../img/blue-bank-icon_grey.png");
                     $("#creditCard").children().children().attr("src", "../../img/credit-icon_grey.png");
                     $("#wireTransfer").children().children().attr("src", "../../img/wire-transfer-icon_white.png");
@@ -143,6 +160,12 @@ function wireTransfer_redir() {
                     $("#creditCard").removeClass("active-div");
                     $("#wireTransfer").removeClass("active-div");
                     $("#paypal").addClass("active-div");
+
+
+            $("#bankAccount").addClass("txt-colr-form-opacity-30");            
+            $("#creditCard").addClass("txt-colr-form-opacity-30");
+            $("#wireTransfer").addClass("txt-colr-form-opacity-30");
+            $("#paypal").removeClass("txt-colr-form-opacity-30");
                     $("#bankAccount").children().children().attr("src", "../../img/blue-bank-icon_grey.png");
                     $("#creditCard").children().children().attr("src", "../../img/credit-icon_grey.png");
                     $("#wireTransfer").children().children().attr("src", "../../img/wire-transfer-icon_grey.png");

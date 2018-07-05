@@ -3,13 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title> Buy </title>
+    <title> Sell </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../css/styleSheet.css">
+    
 </head>
 
 <body id="bodyMainID" class="fontFamily">
@@ -120,7 +121,7 @@
                                         <div class="row">
                                             <div class="col-md-3 col-lg-3"><em class="fa fa-angle-down up-down-styl" aria-hidden="true">&nbsp;</em> <span class="up-down-styl"> Vault chain Gold </span></div>
                                             <div class="col-md-2 col-lg-2  pad-l-40">
-                                                 <span><span class="white" style="width: 20px; height: 5px; background-color: white; margin-right: 5px">&nbsp &nbsp </span>Gold </span>
+                                                 <span><span class="white wt-20-h-5-mrR-5 bg-white" >&nbsp &nbsp </span>Gold </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-50">
                                                 New York
@@ -160,12 +161,12 @@
 
 
                         <div class="card">
-                            <div class="card-style" id="headingFive">
+                            <div class="card-style opac-70" id="headingFive">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link pad-0 black t-14" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                         <div class="row">
                                             <div class="col-md-3 col-lg-3">
-                                                <i class="fa fa-angle-up up-down-styl " aria-hidden="true">&nbsp;</i>
+                                                <i class="fa fa-angle-up colr opac-70 up-down-styl " aria-hidden="true">&nbsp;</i>
                                                 <span class="up-down-styl">Silver-APMEX-US </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-40">
@@ -213,7 +214,7 @@
                                     <button class="btn btn-link pad-0 black t-14" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                         <div class="row">
                                             <div class="col-md-3 col-lg-3 up-down-sty">
-                                                <i class="fa fa-angle-up up-down-styl " aria-hidden="true">&nbsp;</i>
+                                                <i class="fa fa-angle-up up-down-styl colr opac-70" aria-hidden="true">&nbsp;</i>
                                                 <span class="up-down-styl"> Silver-APMEX-US </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2  pad-l-40">
@@ -271,12 +272,12 @@
                                 <input class="number input-styl col-lg-12 col-md-12 t-12" type="text" placeholder="$0000.00 &nbsp USD" />
                             </div>
                             <div class="col-md-1 col-lg-1 marT-35">
-                                <i class="fa fa-arrows-h marT-10 t-14" aria-hidden="true"></i>
+                                <i class="fa fa-arrows-h marT-10 t-20 font-clr" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-4 col-lg-4 marT-40">
+                            <div class="col-md-4 col-lg-4 marT-35">
                                 <div class="align-right grams">
-                                    <select class="custom-select t-14  bd-0 align-right input-styl" id="inputGroupSelect03">
-                                        <option selected>0 G</option>
+                                    <select class="custom-select t-14 ht-50 bd-0 align-right input-styl" id="inputGroupSelect03">
+                                        <option selected>0 G </option>
                                         <option value="1">1 G</option>
                                         <option value="2">2 G</option>
                                         <option value="3">3 G</option>
@@ -287,29 +288,34 @@
                         <div class="pad-0">
                             <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
                                 <span class="t-18 float_left txt-color"> Payment Method </span>
-                                <div class="col-md-12 col-lg-12 marT-10 marB-10 float_left pad-0">
-                                    <select class="custom-select t-14 bd-0 input-styl" id="inputGroupSelect03">
-                                        <option selected>My Wallet</option>
-                                        <option value="1">1 G</option>
-                                        <option value="2">2 G</option>
-                                        <option value="3">3 G</option>
-                                    </select>
+                                  <div class="col-md-12 col-lg-12  pad-0">
+                                   <div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
+  										<button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Wallet   </button>
+									  <div class="dropdown-menu wid-100p">
+										    <a class="dropdown-item" href="#"><i class="fa fa-id-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> My Wallet  </span></a>
+										    <hr><a class="dropdown-item" href="#"><i class="fa fa-address-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bank Account  </span></a>
+										    <hr><a class="dropdown-item" href="#"><i class="fa fa-refresh colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wire Transfer  </span></a>
+										    <hr><a class="dropdown-item" href="#"><i class="fa fa-credit-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Credit Card  </span></a>
+											<hr><a class="dropdown-item" href="#"><i class="fa fa-btc colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bitcoin  </span></a>
+										
+									  </div>
+									</div>
                                 </div>
-                                <div class="col-md-12 col-lg-12  pad-0">
-                                    <select class="custom-select t-14  bd-0 input-styl" id="inputGroupSelect03">
-                                        <option selected>Choose account ending 8906</option>
-                                        <option value="1">1 G</option>
-                                        <option value="2">2 G</option>
-                                        <option value="3">3 G</option>
-                                    </select>
+                                  <div class="col-md-12 col-lg-12  pad-0">
+                                   <div class="btn-group col-12 marT-10 pad-0 col-lg-12 col-md-12">
+  										<button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../img/chase_img.png"> Chase Account ending 8905  </button>
+									  <div class="dropdown-menu wid-100p">
+										    <a class="dropdown-item" href="#"><img src="../../img/chase_img.png"> Chase Account ending 8905  </a>
+									  </div>
+									</div>
                                 </div>
                                 <div class="col-md-12 col-lg-12 marT-5 pad-0">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 marT-5">
                                             <span class="float_left t-12 txt-color">Limits &nbsp $1,000.00 USD  </span>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <span class="r-Float t-12 txt-decor-black txt-color"><a href=""><u> What does this mean?</u></a><span>
+                                        <div class="col-lg-6 col-md-6 ">
+                                            <span class="r-Float t-12 "><a href="" class="txt-decor-black txt-color"><u> What does this mean?</u></a><span>
                                         </div>
                                   </div>
                                 </div>

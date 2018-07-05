@@ -10,184 +10,199 @@
     <link rel="stylesheet" href="../../css/styleSheet.css">
 
 </head>
-<body id="bodyMainID" class="fontFamily">
-
-    <div class="mainBodyContent">
-        <!-- Navbar Starts-->
+<body class="fontFamily">
+<!-- Navbar Starts-->
         <div class="container-fluid">
-            <div class="on-brand on-brand-style">
-                <h2>Digital Gold</h2>
-            </div>
-            <div class="row on-header on-header-style">
-
-                <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
-                    <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </span>
-                </div>
-
-                <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="#" class="activeNavSel">Buy/Sell</a>
-                    <a href="#">Withdraw</a>
-                    <a href="#">Reedem</a>
-                    <a href="#">Funding</a>
-                </div>
-
-                <ul class="hide-on-med hide-on-small navbar-hide-style">
-                    <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy</a> </li>
-                    <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
-                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
-                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
-                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Fund</a> </li>
-                </ul>
-
-                <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
-                    <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
-                        <span class="right-header-style">Allison Campbell</span>
-                        <i class="fa fa-angle-down i-style"></i>
-                    </a>
-
-                    <div class="notificationBellCounter">
-                        2
-                    </div>
-
-                    <i class="fa fa-bell pad-l-20"></i>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
-                        <nav class="nav">
-                            <ul class="ul-style">
-                                <li class="li-style">
-                                    <a href="#" class="dg-nav-link li-a-style">
-                                        <i class="fa fa-user marR-10"></i>
-                                        Settings
-                                    </a>
-                                </li>
-                                <li class="li-style">
-                                    <a href="#" class="dg-nav-link li-a-style">
-                                        <i class="fa fa-cog marR-10"></i>
-                                        Docs
-                                    </a>
-                                </li>
-                                <li class="li-style">
-                                    <a href="#" class="dg-nav-link li-a-style">
-                                        <i class="fa fa-download marR-10"></i>
-                                        Account
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="row on-header hide-me-style">
-                <span class="hide-on-med hide-on-small">
-                    EXAMPLE SCROLLING TICK TEXT | 24 Hour Change Gold 116.42 | 24 Change Silver 116.42
+        <div class="on-brand on-brand-style">
+            <h2>Digital Gold</h2>
+        </div>
+        <div class="row on-header on-header-style">
+          
+            <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
+                  <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </span>
             </div>
-        </div>
-        <!--navBar Ends-->
-        <div class="container">
-            <div class="col-12 col-sm-12">
-                <h3 class="align-centr marT-30 pad-b-10" style="border-bottom: 1px solid #000000"> Sell  </h3>
+
+          
+
+            <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#" class="activeNavSel">Buy/Sell</a>
+                <a href="#">Withdraw</a>
+                <a href="#">Reedem</a>
+                <a href="#">Funding</a>
             </div>
-            <div class="col-12 col-sm-12 marT-20 txt-light">
-                <h6 class="align-centr t-24"> You are Selling </h6>
-            </div>
-            <div class="col-12 col-sm-12 marT-20 txt-light">
-                <h4 class="align-centr colr t-24 "> Vault Chain Gold </h4>
-            </div>
-            <div class="col-12 col-sm-12 marT-20 align-centr">
-                <span class="t-14"> Current: $1,300 Gold Spot </span>
-            </div>
-            <div class="col-12 col-sm-12 marT-20">
-                <span class="txt-color t-18">Amount </span>
-            </div>
-            <div class="col-12 col-sm-12 marT-10">
-                <div class="row">
-                    <div class="col-sm-7 col-7">
-                        <input class="col-sm-12 col-12 t-12 pad-10" type="text" placeholder="$0000.00 &nbsp USD" />
-                    </div>
-                    <div class="col-sm-1 col-1">
-                        <i class="fa fa-arrows-h marT-10 t-22 font-clr" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-sm-4 col-4">
-                        <div>
-                            <select class="custom-select t-14 pad-10 ht-50 bd-0 input-styl" id="inputGroupSelect03">
-                                <option selected>0 G</option>
-                                <option value="1">1 G</option>
-                                <option value="2">2 G</option>
-                                <option value="3">3 G</option>
-                            </select>
-                        </div>
-                    </div>
+
+
+
+            <ul class="hide-on-med hide-on-small navbar-hide-style">
+                <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy</a> </li>
+                <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
+                <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
+                <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
+                <li class="navBarElement"><a href="#!" class="navBarElementColor">Fund</a> </li>
+            </ul>
+
+
+            <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
+                <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
+                    <span class="right-header-style">Allison Campbell</span>
+                    <i class="fa fa-angle-down i-style"></i>
+
+                </a>
+
+                
+
+                <div class="notificationBellCounter">
+                    2
                 </div>
-                <div class="pad-0">
-                    <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
-                        <span class="t-18 float_left txt-color t-18"> Payment Method </span>
-                        <div class="col-md-12 col-lg-12 marT-10 marB-10 float_left pad-0">
-                            <select class="custom-select t-14 bd-0 input-styl" id="inputGroupSelect03">
-                                <option selected>My Wallet</option>
-                                <option value="1">1 G</option>
-                                <option value="2">2 G</option>
-                                <option value="3">3 G</option>
-                            </select>
+
+
+                    <i class="fa fa-bell pad-l-20"></i>
+                <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
+                    <nav class="nav">
+                        <ul class="ul-style">
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
+                                    <i class="fa fa-user marR-10"></i>
+                                    Settings
+                                </a>
+                            </li>
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
+                                    <i class="fa fa-cog marR-10"></i>
+                                    Docs
+                                </a>
+                            </li>
+                            <li class="li-style">
+                                <a href="#" class="dg-nav-link li-a-style">
+                                    <i class="fa fa-download marR-10"></i>
+                                    Account
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <div class="row on-header hide-me-style">
+            <span class="hide-on-med hide-on-small">
+                EXAMPLE SCROLLING TICK TEXT | 24 Hour Change Gold 116.42 | 24 Change Silver 116.42
+            </span>
+        </div>
+    </div>
+<!--navBar Ends-->
+   <div class="container">
+   		<div class="col-12 col-sm-12">
+   			<h3 class="align-centr marT-30 pad-b-10 borderCust"> Sell  </h3>
+	   	</div>
+   		<div class="col-12 col-sm-12 marT-20 txt-light">
+   			<h6 class="align-centr t-24"> You are Selling </h6>
+   		</div>	
+   		<div class="col-12 col-sm-12 marT-20 txt-light">
+   			<h4 class="align-centr colr t-24 "> Vault Chain Gold </h4>
+   		</div>	
+		<div class="col-12 col-sm-12 marT-20 align-centr">
+   			<span class="t-14"> Current: $1,300 Gold Spot </span>
+	   </div>
+	   <div class="col-12 col-sm-12 marT-20">
+	   	<span class="txt-color t-18">Amount </span>
+	   </div>
+	   <div class="col-12 col-sm-12 marT-10">
+   		<div class="row">
+	   		<div class="col-sm-7 col-7">
+				<input class="col-sm-12 col-12 t-12 pad-10" type="text" placeholder="$0000.00 &nbsp USD" />
+	   		</div>
+	   		<div class="col-sm-1 col-1">
+	   			 <i class="fa fa-arrows-h marT-10 t-22 font-clr" aria-hidden="true"></i>
+	   		</div>
+	   		<div class="col-sm-4 col-4">
+               <div>
+               		<select class="custom-select t-14 pad-10 ht-50 bd-0 input-styl" id="inputGroupSelect03">
+                    	<option selected>0 G</option>
+                        <option value="1">1 G</option>
+                        <option value="2">2 G</option>
+                        <option value="3">3 G</option>
+                    </select>
+               </div>
+			</div>
+	   	 </div>
+	   	 <div class="pad-0">
+				<div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
+                	<span class="t-18 float_left txt-color t-18"> Payment Method </span>
+
+                    	<div class="col-md-12 col-lg-12 marT-10 marB-10 float_left pad-0">
+                            <div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
+                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="myWalletID">Please Select </button>
+                                <div class="dropdown-menu wid-100p">
+                                    <a class="dropdown-item" href="#" id="walletID1" onclick="changeWalletDD(this.id)"><i class="fa fa-id-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wallet  </span></a>
+                                   <hr> <a class="dropdown-item" href="#" id="walletID2" onclick="changeWalletDD(this.id)"><i class="fa fa-address-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bank Account  </span></a>
+                                    <hr><a class="dropdown-item" href="#" id="walletID3" onclick="changeWalletDD(this.id)"><i class="fa fa-refresh colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wire Transfer  </span></a>
+                                   <hr> <a class="dropdown-item" href="#" id="walletID4" onclick="changeWalletDD(this.id)"><i class="fa fa-credit-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Credit Card  </span></a>
+                                   <hr> <a class="dropdown-item" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><i class="fa fa-btc colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bitcoin  </span></a>
+
+                                </div>
                         </div>
                         <div class="col-sm-12 col-12  pad-0">
-                            <select class="custom-select t-14  bd-0 input-styl" id="inputGroupSelect03">
-                                <option selected>Choose account ending 8906</option>
-                                <option value="1">1 G</option>
-                                <option value="2">2 G</option>
-                                <option value="3">3 G</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-12 marT-5 pad-0">
-                            <div class="row">
-                                <div class="col-sm-6 col-6 marT-5">
-                                    <span class="float_left t-12 txt-color">Limits &nbsp $1,000.00 USD </span>
+                            <div class="btn-group col-12 marT-10 pad-0 col-lg-12 col-md-12">
+                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../img/chase_img.png"> Chase Account ending 8905  </button>
+                                <div class="dropdown-menu wid-100p">
+                                    <a class="dropdown-item" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><img src="../../img/chase_img.png"><span class="txt-color"> Chase Account ending 8905   </span> </a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-12 col-sm-12 marT-5 pad-0">
+                             <div class="row">
+                             	<div class="col-sm-6 col-6 marT-5">
+                                     <span class="float_left t-12 txt-color">Limits &nbsp $1,000.00 USD </span>
                                 </div>
                                 <div class="col-sm-6 col-6">
-                                    <span class="txt-decor-black t-12 txt-color float_right marT-15 "><a href=""><u> What does this mean? </u></a><span>
+                                     <span class="txt-decor-black t-12 txt-color float_right marT-15 "><a href=""><u> What does this mean? </u></a><span>
+                                </div>
+                             </div>
+                          </div>
+                           <div class="col-sm-12 col-12 marT-15 pad-0">
+                                    <span class="t-18 colr"> Sub Total . . . . . . . . . . . . . . . . . . . $8.00  </span>
+                                </div>
+                                <div class="col-sm-12 col-12 marT-10 pad-0">
+                                    <span class="t-14 float_left txt-color"> Breakdown of Fees </span>
+                                </div>
+                                <div class="col-sm-12 float_left  col-12 marT-5 pad-0">
+									<span class="t-14 txt-color">
+                                    Transaction Fee . . . . . . . . . . . . . . . . . . . . . .$4.00  </span>
+                                </div>
+                                <div class="col-12 col-sm-12 marT-5 pad-0">
+                                    <span class="t-14 float_left txt-color"> Processing Fee . . . . . . . . . . . . . . . . . . . . . . $4.00  </span>
+                                </div>
+                                <div class="col-12 col-sm-12 marT-10 float_left pad-0">
+                                    <button class="btn btn-primary bd-0 wid-100p pad-15">
+                                        Sell Vault Chain Gold For $1,377.62
+                                    </button>
+                                </div>
+                                <div>
+                                    <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marT-15 "><u> Learn about our fees here </u></a></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-12 marT-15 pad-0">
-                            <span class="t-18 colr"> Sub Total . . . . . . . . . . . . . . . . . . . $8.00  </span>
-                        </div>
-                        <div class="col-sm-12 col-12 marT-10 pad-0">
-                            <span class="t-14 float_left txt-color"> Breakdown of Fees </span>
-                        </div>
-                        <div class="col-sm-12 float_left  col-12 marT-5 pad-0">
-                            <span class="t-14 txt-color">
-                                Transaction Fee . . . . . . . . . . . . . . . . . . . . . .$4.00
-                            </span>
-                        </div>
-                        <div class="col-12 col-sm-12 marT-5 pad-0">
-                            <span class="t-14 float_left txt-color"> Processing Fee . . . . . . . . . . . . . . . . . . . . . . $4.00  </span>
-                        </div>
-                        <div class="col-12 col-sm-12 marT-10 float_left pad-0">
-                            <button class="btn btn-primary bd-0 wid-100p pad-15">
-                                Sell Vault Chain Gold For $1,377.62
-                            </button>
-                        </div>
-                        <div>
-                            <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marT-15 "><u> Learn about our fees here </u></a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	   </div>
+   </div>
+  <!-- Footer Starts-->
 
-
-    <!-- Footer Starts-->
     <footer>
-        <div class="container-fluid foot-style">
-            <span class="l-Float">Digital Gold 	© 2018 </span>
-
+        <div class="container-fluid foot-style-mob">
+            <span class="l-Float hide-on-small">Digital Gold &copy; 2018 </span>
+            <span class="r-Float hide-on-small">
+                <a href="#!" class="footerLinks">Sitemap</a>
+                <a href="#!" class="footerLinks">FAQS</a>
+                <a href="#!" class="footerLinks">Privacy Policy</a>
+                <a href="#!" class="footerLinks">User Agreement</a>
+            </span>
         </div>
     </footer>
-    <script src="../../js/script.js"></script>
 
     <!-- Footer Ends-->
+
 </body>
 </html>

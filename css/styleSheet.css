@@ -1,4 +1,39 @@
 
+
+
+.marZero{
+    margin:0;
+}
+
+.padZero{
+    padding:0;
+}
+.col-12{
+    border:0px solid red;
+}
+
+
+.btnPadding{
+    padding:10px 40px;
+}
+
+
+.form-control {
+    color: #2B303D;
+    border: 1px solid rgba(43, 48, 61,0.2);
+}
+
+.zeroBorder{
+    border:0px;
+    border-radius:0;
+}
+
+
+.card-header:first-child {
+    border-radius: 0
+}
+
+
 .pad-TB-0-LR-50 {
     padding: 0px 50px
 }
@@ -173,15 +208,16 @@ top:-4px;
 .pad-l-40{
 	padding-left: 40px;
 }
-.opac-10{
-	opacity: 10%;
+/*.opac-10{
+	opacity: 0.1;
 }
 .opac-70{
-	opacity: 70%;
-}
+	opacity: 0.7;
+}*/
 
 .fontFamily {
     font-family: Avenir;
+    color:#2B303D;
 }
 .pad-l-130{
 	padding-left: 130px;
@@ -204,9 +240,18 @@ top:-4px;
 .min-width-120{
 	min-width: 120px;	
 }
+.pad-l-30{
+	padding-left: 30px
+}
 .modal-style{
 	  margin-right: 90px;
     	margin-left: -30px;
+}
+.accor-colr{
+	background-color:#EAF0FF;
+}
+.pad-r-10{
+	padding-right: 10px;
 }
 .t-100{
 	font-size: 100px;
@@ -355,7 +400,8 @@ a:hover {
 
 @media only screen and (min-width: 993px) {
     .ProgresponsiveWidth {
-        width: 40%;
+        /*width: 40%;*/
+        width:100%;
     }
 }
 
@@ -364,7 +410,8 @@ a:hover {
 
     @media only screen and (min-width: 992px) and (max-width: 1300px) {
         .ProgresponsiveWidth {
-            width: 50%;
+            /*width: 50%;*/
+            width: 100%;
         }
     }
 
@@ -418,7 +465,8 @@ a:hover {
         }
 
         .ProgresponsiveWidth {
-            width: 70%;
+            /*width: 70%;*/
+            width:100%;
         }
     }
 
@@ -451,7 +499,8 @@ a:hover {
         }
 
         .ProgresponsiveWidth {
-            width: 90%;
+            /*width: 90%;*/
+            width: 100%;
         }
     }
 
@@ -2224,6 +2273,9 @@ a:hover {
         color: #343a40;
         letter-spacing: 1px;
     }
+.t-20{
+	font-size: 20px;
+}
 .pad-l-4 {
     padding-left: 4px
 }
@@ -2303,7 +2355,7 @@ a:hover {
         border-radius: 50%
     }
 
-    .btn-color 
+    .btn-color {
         color: #E7F1EF;
     }
 
@@ -2312,8 +2364,8 @@ a:hover {
         margin-right: 5px;
         border-radius: 50%
     }
-    bg-white{
-        background-color: 
+    .bg-white{
+        background-color: white;
     }
 
     .tr-style {
@@ -2413,6 +2465,9 @@ a:hover {
     .marR-10{
         margin-right:10px
     }
+.t-34{
+	font-size: 32px;
+}
     .t-bold {
         font-weight: 700;
     }
@@ -2575,7 +2630,9 @@ i.fa.fa-bell.pad-l-20 {
 .ht-50{
 	height: 45px;
 }
-
+.ht-40{
+	height: 40px;
+}
 .ht-80 {
     height: 80px;
 }
@@ -2923,7 +2980,7 @@ h2 {
 }
 .active-div{
 	background-color: #296EFB;
-	color: white;
+	color: #E7F1EF;
 }
 .on-header-style {
     height: 60px;
@@ -2970,7 +3027,9 @@ a.heavy:hover {
 .marL--20{
 	margin-left: -20px;
 }
-
+.marL--200{
+	margin-left: -200px;
+}
     .marT--55 {
         margin-top: -55px;
     }
@@ -2990,8 +3049,8 @@ a.heavy:hover {
 
     .imageStyling_fund {
         position: relative;
-        top: 40px;
-        width: 50px
+        top: 30px;
+        width: 65px
     }
 
 .imageStyling_fund_resp {
@@ -3018,6 +3077,11 @@ a.heavy:hover {
         display: none;
     }
 
+    .hide-border-SMALL {
+        border: 0px;
+    }
+
+
     .show-on-SMALL {
         display: inline-block;
     }
@@ -3039,9 +3103,95 @@ a.heavy:hover {
 
 
 .greyColor{
-    color:grey;
+    color: #868BA1 ;
 }
 
 .ddPad0{
     padding:0
 }
+
+
+.txt-colr-form-opacity-30{
+    color: #2B303D;
+    opacity:0.3;
+}
+
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .380rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #868BA1;
+    vertical-align: middle;
+     background-color: #fff;
+    background-size: 16.6px 13px;
+}
+
+.pdt-6{
+    padding-top: 6px;
+}
+.input-color{
+    color:#868BA1;
+}
+.input-color-2{
+    color:#2B303D;
+}
+.marL--15{
+    margin-left:-15px;
+}
+.t-14{
+    font-size:14px;
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .imageStyling_fund {
+        position: relative;
+        top: 30px;
+        width: 50px;
+    }
+
+    .fa-play:before {
+        content: "\f04b";
+        margin-left: -17px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mrL-57-mrT--26 {
+        margin-left: 70px;
+        margin-top: -26px;
+    }
+    .mar-l-15 {
+        margin-left: 15px;
+    }
+    
+
+}
+
+.pdl-25{
+    padding-left: 25px;
+}
+img {
+    vertical-align: top;
+    border-style: none;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.edi{width: 20px;
+     height: 5px;
+      background-color: white;
+       margin-right: 5px}
+
+
+      .wt-20-h-5-mrR-5 {
+        width: 20px; height: 5px;margin-right: 5px;
+       }
+
+
+      .ft {
+        font-weight: 1000 
+       }
