@@ -94,9 +94,9 @@
             </div>
         </div>
         <!--navBar Ends-->
-
-        <div class="container">
-            <div class="row">
+       <div id="mainbody" id="mainbody">
+        <div class="container" >
+            <div class="row" >
                 <div class="col-md-4  col-lg-4 hideMagT-80-onSmall  div-brd-bottom">
                     <h2 class="pdt-30 mrL--15 t-36"> Deposit </h2>
                 </div>
@@ -208,6 +208,7 @@
                 <div class="col-lg-7 col-md-7 hide-on-SMALL ">
 
                     <div class="col-lg-12  brdr-btm ht-100">
+                     
                         <h4 class="marT-30 t-24 align-centr"> Cash Balance </h4>
                         <h3 class="t-36 align-centr"> $0.00 <span class="t-18 txt-light"> USD </span></h3>
                     </div>
@@ -228,7 +229,7 @@
                                 <span class="font-clr t-15"> Amount </span>
                             </div>
                             <div class="marT-5 align-left">
-                                <input type="text" placeholder="$1,500.00" class="col-md-12 input-styl input-color" />
+                                <input type="text" placeholder="$1,500.00" class="col-md-12 input-styl input-color-2" />
                             </div>
 
                             <div class="marT-30">
@@ -285,7 +286,7 @@
                                 <span class="font-clr t-15"> Amount </span>
                             </div>
                             <div class="marT-5 align-left">
-                                <input type="text" placeholder="$1,500.00" class="col-md-12 input-styl input-color" />
+                                <input type="text" placeholder="$1,500.00" class="col-md-12 input-styl input-color-2" />
                             </div>
 
                             <div class="marT-30">
@@ -375,7 +376,232 @@
         </div>
 
     </div>
+    <div class="container hide-on-SMALL hide-on-large" id="bank">
+            <div class="col-lg-12 marT-60 brdr-btm-15 ht-auto" >
+                <h4 class="marT-30 t-24 align-centr"> Cash Balance </h4>
+                <h3 class="t-36 align-centr"> $0.00 <span class="t-18 txt-light"> USD </span></h3>
+            </div>
+            <div class="col-lg-12  marT-40" id="bankAccount_div">
 
+                <div class="col-12 col-md-12 col-sm-12">
+                    <span class="txt-color align-left"> Amount</span>
+                    <input class="input-styl col-lg-12 col-lg-12 wid-100p txt-colr-form input-color-2" type="text" placeholder="$1,500.00" />
+                </div>
+                <div class="col-12 col-md-12 col-sm-12 marT-40">
+                    <span class="txt-color align-left">Account</span>
+                    <center>
+
+                        <div class="dropdown">
+                            <button class="btn custom-select bd-0 wid-100p align-left bg-white brdr-colr-grey ovrflw-hide" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="align-left greyColor" id="bankAccountDropDown"> Choose Account</span>
+                            </button>
+                            <div class="dropdown-menu wid-100p" aria-labelledby="dropdownMenuButton">
+
+                                <a class="dropdown-item pdd-15" href="#" onclick="changeDropDown1()">
+                                    <span id="account_dd1"><img src="../../img/chase_img.png" width="20px" />Account Ending with 8938</span>
+                                </a>
+                                <hr class="input-color">
+                                <a class="dropdown-item pdd-15" href="#" onclick="changeDropDown2()">
+                                    <span id="account_dd2"><img src="../../img/blue-bank-icon.png" width="20px" />Add Account</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class=" marT-40">
+                        <div class="row">
+                            <div class="col-md-12  col-lg-3 col-sm-12">
+                                <button class="btn btn-primary bd-0 input-styl white wid-100p brdr-colr-blue">
+                                    Continue
+                                </button>
+                            </div>
+                            <div class="col-md-12  col-lg-3 col-sm-12 marT-15">
+                                <button class="btn bd-0 input-styl colr bd-white-btn wid-100p">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+  
+  
+        <div class="container  hide-on-SMALL hide-on-large" id="credit">
+
+                <div class="col-sm-12 col-xs-12 align-centr brdr-btm-15 marT-60" >
+                    <h2 class="align-centr h2-styl pdt-50">Deposit</h2>
+                </div>
+    
+                <div class="col-sm-12 col-xs-12 align-centr ht-100">
+                    <h5 class="pdt-12">Cash Balance</h5>
+                    <p class="pdt-btm-marT-10"><span class="ft-30">$0.00</span> USD</p>
+                </div>
+    
+                <div class="col-sm-12 col-xs-12 align-centr ht-100">
+                    <h6 class="flt">Amount</h6>
+                    <input type="text" placeholder="$4,500.00" class="wid-100p heavy pd-8-pdl-15 txt-colr-form" >
+                </div>
+    
+                <div class="col-sm-12 col-xs-12 align-centr ht-100" >
+                    <h6 class="flt">Account</h6>
+                    <div class="dropdown">
+                        <button class="btn custom-select bd-0 wid-100p align-left brdr-colr-grey bg-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <span class="align-left" id="creditCardDropDown">  Please Select </span>
+                        </button>
+                        <div class="dropdown-menu wid-100p" aria-labelledby="dropdownMenuButton">
+    
+                            <a class="dropdown-item" href="#" onclick="changeCreditDD1()" id="changeCreditDD1">  <i class="fa fa-address-card colr" aria-hidden="true"></i> Card Ending with 8938</a> <hr class="input-color-2">
+                            <a class="dropdown-item pdt-15" onclick="addCard_redir()">  <i class="fa fa-address-card colr" aria-hidden="true"></i> Add Card</a>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-xs-12 align-centr">
+                    <button class="btn btn-primary bd-0 input-styl marT-20 wid-100p brdr-colr-blue">
+                        Continue
+                    </button>
+                </div>
+    
+                <div class="col-sm-12 col-xs-12 align-centr marT-15">
+    
+                    <button class="btn bd-0 input-styl wid-100p brdr-colr-blue bg-white colr">
+                        Cancel
+                    </button>
+                </div>
+    
+            </div>
+   
+            <div class="container hide-on-SMALL hide-on-large" id="wire">
+                    <div class="col-lg-12  border-btm ht-auto" >
+                        <h4 class="marT-30 t-36 align-centr"> Deposit </h4>
+                     
+                    </div>
+        
+                    <div class="col-lg-12 ht-auto">
+                        <h4 class="marT-30 t-24 align-centr"> Cash Balance </h4>
+                        <h3 class="t-36 align-centr"> $0.00 <span class="t-18 txt-light"> USD </span></h3>
+                    </div>
+                    <div class="col-lg-12 marT-40" id="bankAccount_div">
+        
+                        <div class="col-12 col-md-12 col-sm-12 marT-40">
+                            <span class="txt-color align-left"> Amount</span>
+                            <input class="input-styl col-lg-12 col-lg-12 wid-100p input-color-2 ft-18" type="text" />
+                        </div>
+                        <div class="col-12 col-md-12 col-sm-12 marT-40">
+                            <span class="txt-color align-left">Name of Account</span>
+                            <input class="input-styl col-lg-12 col-lg-12 wid-100p input-color-2 ft-18" type="text" />
+                        </div>
+                        <div class="col-12 col-md-12  col-sm-12 marT-40">
+                            <span class="txt-color align-left">Bank Name</span>
+                            <input class="input-styl col-lg-12 wid-100p input-color-2 ft-18" type="text" />
+                        </div>
+        
+                        <div class="col-md-12">
+                            <div class=" marT-40">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-lg-3">
+                                        <button class="btn btn-primary bd-0 input-styl white wid-100p brdr-colr-blue" >
+                                            Continue
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3 col-md-12 col-sm-12 col-lg-3 marT-15">
+                                        <button class="btn bd-0 input-styl colr bd-white-btn wid-100p">
+                                            Cancel
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+
+
+                <div class="container hide-on-SMALL hide-on-large" id="xd">
+
+
+                        <div class="col-sm-12 col-xs-12 align-centr black-lite brdr-btm-15 marT-60" >
+                            <h2 class="align-centr h2-styl pdt-50">Deposit</h2>
+                        </div>
+            
+                        <div class="col-sm-12 col-xs-12 align-centr ht-auto" >
+                            <h5 class="pdt-12">Cash Balance</h5>
+                            <p class="pdt-btm-marT-10"><span class="ft-30">$0.00</span> USD</p>
+                        </div>
+            
+                        <div class="col-sm-12 col-xs-12 align-centr ht-80" >
+                            <h6 class="flt">Name on Card</h6>
+                            <input type="text" placeholder="Staley Stidham" class="wid-100p pd-8-pdl-15 txt-colr-form">
+                        </div>
+                        <div class="col-sm-12 col-xs-12 align-centr ht-80">
+                            <h6 class="flt">Card Number</h6>
+                            <input type="text"   class="wid-100p black pd-8-pdl-15 txt-colr-form"  placeholder="1070072525">
+                        </div>
+            
+                        <div class="col-sm-12 col-xs-12 align-centr ht-80">
+            
+                            <div class="form-row align-items-center">
+                                <div class="col-6 col-sm-6 align-left">
+                                    <label class=" font-clr t-14" for="inlineFormCustomSelect">Expiration Month</label>
+                                    <select class="custom-select mr-sm-2 txt-colr-form bd-0" id="inlineFormCustomSelect">
+                                        <option selected>01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="4">04</option>
+                                        <option value="5">05</option>
+                                        <option value="6">06</option>
+                                        <option value="7">07</option>
+                                        <option value="8">08</option>
+                                        <option value="9">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+            
+                                </div>
+                                <!--<div class="col-1 col-sm-1">
+                                    </div>-->
+                                <div class="col-6 col-sm-6 align-left">
+                                    <label class=" font-clr t-14" for="inlineFormCustomSelect">Expiration Year</label>
+                                    <input type="text" id="defaultForm-email" class="form-control validate txt-colr-form bd-0" placeholder="2022">
+                                </div>
+                            </div>
+            
+            
+                        </div>
+            
+                        <div class="col-sm-12 col-xs-12 align-centr ht-50">
+                            <div class="form-row align-items-center">
+                                <div class=" col-6 col-sm-6">
+                                    <span class="font-clr l-Float">CVV</span>
+                                    <span class="colr r-Float">?</span>
+                                    <input class="form-control txt-colr-form bd-0" type="text" placeholder="333">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 align-centr ht-100 marT-27-mrB--20">
+                            <button class="btn btn-primary bd-0 input-styl white marT-20 wid-100p brdr-colr-blue">
+                                Add Card
+                            </button>
+                        </div>
+            
+                        <div class="col-sm-12 col-xs-12 align-centr">
+            
+                            <button class="btn bd-0 input-styl wid-100p brd-colr colr bd-white-btn ">
+                                Cancel
+                            </button>
+                        </div>
+            
+                    </div>
+
+
+        </div>
 
 
     <!-- Footer Starts-->

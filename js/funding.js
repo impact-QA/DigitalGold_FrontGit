@@ -14,15 +14,27 @@ $(document).ready(function () {
 });
 
 function creditCard_redir() {
-    window.location.href = "credit-responsive.html";
+    window.location.href = "#credit";
+    $("#mainbody").css("display", "none");
+    $("#credit").css("display", "block");
 }
 
 function bankAccount_redir() {
-    window.location.href = "bank-responsive.html";
+    window.location.href = "#bank";
+    $("#mainbody").css("display", "none");
+    $("#bank").css("display", "block");
 }
 
 function wireTransfer_redir() {
-    window.location.href = "wire-responsive.html";
+    window.location.href = "#wire";
+    $("#mainbody").css("display", "none");
+    $("#wire").css("display", "block")
+}
+
+function addCard_redir(){
+    window.location.href = "#xd";
+    $("#credit").css("display", "none");
+    $("#xd").css("display", "block");
 }
 
 
