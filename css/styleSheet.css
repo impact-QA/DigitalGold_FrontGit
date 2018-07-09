@@ -74,6 +74,7 @@
 
 .brdr-colr-blue {
     border-color: #296EFB;
+
 }
 
 .dis-none {
@@ -298,12 +299,15 @@ top:-4px;
 
 button.btn.btn-link.pad-0.white.t-14.txt-decor:hover {
     text-decoration: none;
-    color: white;
+    color: #E7F1EF;
 }
-
+button.btn.btn-link.white.t-14.pad-l-20:hover{
+	 text-decoration: none;
+    color: #E7F1EF;
+}
 div.card-header.bg:hover {
     text-decoration: none;
-    color: white;
+    color: #E7F1EF;
 }
 
 div.card-body.col-brd:hover {
@@ -3119,7 +3123,6 @@ a.heavy:hover {
 .custom-select {
     display: inline-block;
     width: 100%;
-    height: calc(2.25rem + 2px);
     padding: .380rem 1.75rem .375rem .75rem;
     line-height: 1.5;
     color: #868BA1;

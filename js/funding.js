@@ -1,6 +1,6 @@
 $(document).ready(function () {
     setInterval(function () {
-        if ($(window).width() <= "768") {
+        if ($(window).width() <= "993") {
             $("#creditCard").attr("onclick", "creditCard_redir()");
             $("#bankAccount").attr("onclick", "bankAccount_redir()");
             $("#wireTransfer").attr("onclick", "wireTransfer_redir()");
@@ -35,6 +35,59 @@ function addCard_redir(){
     window.location.href = "#xd";
     $("#credit").css("display", "none");
     $("#xd").css("display", "block");
+}
+
+function debit_page_redir(){
+    window.location.href = "#debitPage";
+    $("#usd").css("display", "none");
+    $("#debitPage").css("display", "block");
+    $("#table1").css("display", "block");
+    $("#recent").css("display", "block");
+}
+
+
+function debit_page_redir2(){
+    window.location.href = "#debitPage2";
+   
+ //   $("#hideme").css("display", "none");
+  $("#xd").css("display", "none");
+    $("#debitPage2").css("display", "block");
+    $("#table1").css("display", "block");
+    $("#recent").css("display", "block");
+} 
+
+
+function wire_page_redir(){
+    window.location.href = "#wirePage";
+    $("#usd").css("display", "none");
+    $("#wirePage").css("display", "block");
+    $("#table1").css("display", "block");
+    $("#recent").css("display", "block");
+}
+
+function wire_page_redir2(){
+    window.location.href = "#wirePage2";
+   
+ //   $("#hideme").css("display", "none");
+  $("#wire").css("display", "none");
+    $("#wirePage2").css("display", "block");
+    
+} 
+
+function bank_page_redir(){
+    window.location.href = "#debitPage";
+    $("#usd").css("display", "none");
+    $("#debitPage").css("display", "block");
+    
+}
+
+function bank_page_redir2(){
+    window.location.href = "#debitPage2";
+   
+    //   $("#hideme").css("display", "none");
+     $("#bank").css("display", "none");
+       $("#debitPage2").css("display", "block");
+      
 }
 
 
