@@ -43,6 +43,48 @@ function debit_page_redir(){
     $("#debitPage").css("display", "block");
     $("#table1").css("display", "block");
     $("#recent").css("display", "block");
+
+
+    $("#bankAccount").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "block");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#wireTransfer").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "block");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#paypal").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "block");
+    });
+
+
 }
 
 
@@ -63,6 +105,47 @@ function wire_page_redir(){
     $("#wirePage").css("display", "block");
     $("#table1").css("display", "block");
     $("#recent").css("display", "block");
+
+    $("#bankAccount").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#wirePage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "block");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#creditCard").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#wirePage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "block");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#paypal").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#wirePage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "block");
+    });
+
+
 }
 
 function wire_page_redir2(){
@@ -78,6 +161,48 @@ function bank_page_redir(){
     window.location.href = "#debitPage";
     $("#usd").css("display", "none");
     $("#debitPage").css("display", "block");
+
+    $("#creditCard").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "block");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#wireTransfer").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "block");
+        $("#payPal_div").css("display", "none");
+    });
+
+    $("#paypal").click(function(){
+         
+        $("#usd").css("display", "block");
+        $("#debitPage").css("display", "none");
+        $("#table1").css("display", "none");
+    $("#recent").css("display", "none");
+        $("#defaultLoading_div").css("display", "none");
+        $("#bankAccount_div").css("display", "none");
+        $("#creditCard_div").css("display", "none");
+        $("#wireTransfer_div").css("display", "none");
+        $("#payPal_div").css("display", "block");
+    });
+
+
+
     
 }
 
@@ -182,6 +307,13 @@ function bank_page_redir2(){
                     $("#wireTransfer").children().children().addClass("white-lite");
                     $("#paypal").children().children().addClass("white-lite");
 
+
+                    $("#bankAccount").children().children().removeClass("black-lite");
+                    $("#creditCard").children().children().removeClass("black-lite");
+                    $("#wireTransfer").children().children().removeClass("black-lite");
+                    $("#paypal").children().children().removeClass("black-lite");
+        
+
                 });
 
                 $("#wireTransfer").click(function () {
@@ -211,6 +343,13 @@ function bank_page_redir2(){
                     $("#creditCard").children().children().addClass("white-lite");
                     $("#wireTransfer").children().children().removeClass("white-lite");
                     $("#paypal").children().children().addClass("white-lite");
+
+
+                    $("#bankAccount").children().children().removeClass("black-lite");
+                    $("#creditCard").children().children().removeClass("black-lite");
+                    $("#wireTransfer").children().children().removeClass("black-lite");
+                    $("#paypal").children().children().removeClass("black-lite");
+        
                 });
 
 
@@ -240,6 +379,14 @@ function bank_page_redir2(){
                     $("#creditCard").children().children().addClass("white-lite");
                     $("#wireTransfer").children().children().addClass("white-lite");
                     $("#paypal").children().children().removeClass("white-lite");
+
+
+
+                    $("#bankAccount").children().children().removeClass("black-lite");
+                    $("#creditCard").children().children().removeClass("black-lite");
+                    $("#wireTransfer").children().children().removeClass("black-lite");
+                    $("#paypal").children().children().removeClass("black-lite");
+        
                 });
 
 
