@@ -2865,7 +2865,9 @@ i.fa.fa-bell.pad-l-20 {
     position: relative;
     top: -6px
 }
-
+.marL-70{
+    margin-left: 70px;
+}
 .ul-style {
     list-style: none;
     margin: 0;
