@@ -2,7 +2,7 @@ function changeWalletDD(walletDDID) {
     $("#myWalletID").html($("#" + walletDDID).html());
 }
 
-var time_in_minutes = 10;
+var time_in_minutes =10;
                             var current_time = Date.parse(new Date());
                             var deadline = new Date(current_time + time_in_minutes * 60 * 1000);
 
@@ -21,9 +21,9 @@ var time_in_minutes = 10;
                                     var t = time_remaining(endtime);
                                     clock.innerHTML = '' + t.minutes + ':' + t.seconds;
                                     if (t.total <= 0) {
-        clearInterval(timeinterval);
-
-    $("#btnID").click();
+                                        clearInterval(timeinterval);
+    
+                                          $("#btnID").click();
 
                                         //									$("#modal-Call").modal(
                                         //										{

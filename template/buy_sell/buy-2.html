@@ -73,7 +73,7 @@
             </div>
             <div class="row on-header hide-me-style">
                 <span class="hide-on-med hide-on-small">
-                    EXAMPLE SCROLLING TICK TEXT | 24 Hour Change Gold 116.42 | 24 Change Silver 116.42
+                    &nbsp;
                 </span>
             </div>
         </div>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-5 ht-auto marT-60 containerBlueBorder">
+                    <div class="col-lg-4 col-md-5 ht-auto marT-60 containerBlueBorder" style="width: 340px">
                         <div class="container">
                             <h5 class="align-centr marT-30 t-18"> You are Buying </h5>
                             <h4 class="align-centr marT-15 colr"> Vault Chain Gold</h4>
@@ -118,17 +118,17 @@
                             <div class="col-md=12 col-lg-12 marT-15  pad-0">
                                 <span class="t-18 colr"> Sub Total <span class="wid-100p min-width-20">. . . . . . . . . . . . . . . . $8.00</span>  </span>
                             </div>
-                            <div class="col-md=12 col-lg-12 marT-10 pad-0">
-                                <span class="t-12 txt-color float_left"> Breakdown of Fees </span>
+                            <div class="col-md=12 col-lg-12 pad-0">
+                                <span class="t-12 txt-color  marT-10  float_left"> Breakdown of Fees </span>
                             </div>
-                            <div class="col-md=12 col-lg-12 marT-10 pad-0">
-                                <span class="t-12 txt-color float_left align-right"> Transaction Fee . . . . . . . . . . . . . . . . . . . . . .  . .$4.00  </span>
+                            <div class="col-md=12 col-lg-12  pad-0">
+                                <span class="t-12 txt-color marT-10 float_left align-right"> Transaction Fee . . . . . . . . . . . . . . . . . . . . . .  . .$4.00  </span>
                             </div>
-                            <div class="col-md-12 col-lg-12 marT-10 pad-0">
-                                <span class="t-12 txt-color  float_left"> Processing Fee <span class="leftPanel-buySell">. . . . . . . . . . . . . . . . . . . . . . . . </span> $4.00  </span>
+                            <div class="col-md-12 col-lg-12  pad-0">
+                                <span class="t-12 txt-color marT-10  float_left"> Processing Fee <span class="leftPanel-buySell">. . . . . . . . . . . . . . . . . . . . . . . . </span> $4.00  </span>
                             </div>
                             <div class="col-md-12 col-lg-12">
-                                <span class="t-14 float_left marT-15 marT_15 colr"> Total. . . . . . . . . . . . . . . . . .  . . . . . . . . . $8.00</span>
+                                <span class="t-14 marT-10  float_left marT_15 colr"> Total. . . . . . . . . . . . . . . . . .  . . . . . . . . . .$8.00</span>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-12 marT-5 marT_15 align-rgt">
@@ -137,20 +137,30 @@
                     </div>
                     <div class="col-md-7 col-lg-8 marT-60">
                         <span class="float-right txt-color"> your prices will expire in <span class="t-24" id="demo">02</span><span class="t-24"></span> </span>
+
+                        
+                        <button class="col-md-12 btn btn-primary pad-10 bd-0 wid-215 min-width-120 marL--200 " data-toggle="modal" data-target="#modalEnd-ID" id="TriID" style="display: none">
+                        
+                        	
+                        </button>
                         <!-- Modal Starts-->
                         <div id="modal-Call">
                             <div class="modal fade" id="modalEnd-ID" tabindex="-1" role="dialog" aria labelledby="modalEnd-IDTitle" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content brd-colr">
                                         <div class="modal-header">
                                             <h5 class="modal-title r-float t-24 pad-l-130" id="modalEnd-IDTitle">Price Has Expired</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      												<span aria-hidden="true">&times;</span>
+                 							   </button>
                                         </div>
                                         <div class="modal-body">
                                             <center>
-                                                <i class="fa fa-clock-o t-100 colr" aria-hidden="true"></i>				   		<div class="container marT-40">
+                                                <i class="fa fa-clock-o t-100 colr" aria-hidden="true"></i>				   		
+                                                   <div class="container marT-40">
                                                     <span class="align-centr">The 10 minutes price look for your order has expired. Please select "Refresh Prices" below to return to the buying process and see your updated pricing.   </span>
-                                                    <div class="modal-footer align-left modal-style marT-30 marB-40">
-                                                        <button type="button" class="btn btn-primary wid-66p bd-0">Refresh Prices</button>
+                                                    <div class="modal-footer align-center marT-30 marB-40 marL0-marR0">
+                                                        <button type="button" class="btn btn-primary wid-100p bd-0">Refresh Prices</button>
                                                     </div>
                                                 </div>
                                             </center>
@@ -176,7 +186,7 @@
 
                                     </div>
                                     <div class="col-md-12 col-lg-4 marT-10">
-                                        <button class="col-md-12 btn btn-primary pad-10 bd-0 wid-215 min-width-120 marL--200 " data-toggle="modal" data-target="#modalID" id="btnID">
+                                        <button class="col-md-12 btn btn-primary pad-10 bd-0 wid-215 min-width-215 marL--200 " data-toggle="modal" data-target="#modalID" id="btnID">
                                             <span class="align-left">Confirm Buy</span>
                                         </button>
                                     </div>
@@ -207,14 +217,14 @@
             <div class="col-12 col-sm-12 marT-10">
                 <div class="row">
                     <div class="col-sm-7 col-6">
-                        <input class="col-sm-12 col-12 t-12 pad-10" type="text" placeholder="$0000.00 &nbsp USD" />
+                        <input class="col-sm-12 col-12 t-12 pad-10 height54" type="text" placeholder="$0000.00 &nbsp USD" />
                     </div>
                     <div class="col-sm-1 col-1">
                         <i class="fa fa-arrows-h marT-10 t-22 font-clr" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-4 col-4">
                         <div>
-                            <select class="custom-select t-14 pad-10 ht-50 bd-0 input-styl" id="inputGroupSelect03">
+                            <select class="custom-select t-14 pad-10 ht-50 bd-0 input-styl height54" id="inputGroupSelect03">
                                 <option selected>0 G</option>
                                 <option value="1">1 G</option>
                                 <option value="2">2 G</option>
@@ -229,7 +239,7 @@
 
                         <div class="col-sm-12 col-12 marT-10 marB-10  pad-0">
                             <div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
-                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="myWalletID">My wallet </button>
+                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left height54" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="myWalletID">My wallet </button>
                                 <div class="dropdown-menu wid-100p">
                                     <a class="dropdown-item" href="#" id="walletID1" onclick="changeWalletDD(this.id)"><i class="fa fa-id-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wallet  </span></a>
                                     <hr> <a class="dropdown-item" href="#" id="walletID2" onclick="changeWalletDD(this.id)"><i class="fa fa-address-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bank Account  </span></a>
@@ -241,7 +251,7 @@
                         </div>
                         <div class="col-sm-12 col-12  pad-0">
                             <div class="btn-group col-12 marT-10 pad-0 col-lg-12 col-md-12">
-                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../img/chase_img.png"> Chase Account ending 8905  </button>
+                                <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left height54" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../img/chase_img.png"> Chase Account ending 8905  </button>
                                 <div class="dropdown-menu wid-100p">
                                     <a class="dropdown-item" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><img src="../../img/chase_img.png"><span class="txt-color"> Chase Account ending 8905   </span> </a>
                                 </div>
@@ -260,16 +270,16 @@
                         <div class="col-sm-12 col-12 marT-15 pad-0">
                             <span class="t-18 colr"> Sub Total . . . . . . . . . . . . . . $8.00  </span>
                         </div>
-                        <div class="col-sm-12 col-12 marT-10 pad-0">
-                            <span class="t-14 float_left txt-color"> Breakdown of Fees </span>
+                        <div class="col-sm-12 col-12  pad-0">
+                            <span class="t-14 marT-10 float_left txt-color"> Breakdown of Fees </span>
                         </div>
-                        <div class="col-sm-12 float_left  col-12 marT-5 pad-0">
-                            <span class="t-14 txt-color">
+                        <div class="col-sm-12 float_left  col-12  pad-0">
+                            <span class="t-14 marT-10 txt-color">
                                 Transaction Fee . . . . . . . . . . . . . . $4.00
                             </span>
                         </div>
-                        <div class="col-12 col-sm-12 marT-5 pad-0">
-                            <span class="t-14 float_left txt-color"> Processing Fee . . . . . . . . . . . . . . $4.00  </span>
+                        <div class="col-12 col-sm-12  pad-0">
+                            <span class="t-14 marT-10 float_left txt-color"> Processing Fee . . . . . . . . . . . . . . $4.00  </span>
                         </div>
                         <div class="col-12 col-sm-12 marT-10 float_left pad-0">
                             <button class="btn btn-primary bd-0 wid-100p pad-15">
@@ -313,8 +323,8 @@
                         <i class="fa fa-check-circle-o t-100 txt-light colr" aria-hidden="true"></i>
                         <div class="container marT-40">
                             <span class="align-centr">"Thank you for submitting a Buy Order. You can view the full details in this order at any time on your dashboard  and within your profile settings."  </span>
-                            <div class="modal-footer align-left modal-style marT-30 marB-40">
-                                <button type="button" class="btn btn-primary white wid-66p bd-0"><a href="#" class="white">Back to dashboard</a></button>
+                            <div class="modal-footer align-left  marT-30 marL0-marR0 marB-40">
+                                <button type="button" class="btn btn-primary white wid-100p bd-0"><a href="#" class="white">Back to dashboard</a></button>
                             </div>
                         </div>
                     </center>
