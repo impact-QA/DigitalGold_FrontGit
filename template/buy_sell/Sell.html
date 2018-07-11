@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Sell </title>
+    <title> Buy </title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
                 </div>
                 <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="#" class="activeNavSel">Buy/Sell</a>
+                    <a href="#" class="activeNavSel">Sell/Sell</a>
                     <a href="#">Withdraw</a>
                     <a href="#">Reedem</a>
                     <a href="#">Funding</a>
@@ -97,7 +97,6 @@
                             <span class="t-18 colr ">
                                 Name<i class="fa fa-sort-alpha-asc padL-10" aria-hidden="true"></i>
 
-
                             </span>
                         </div>
                         <div class="col-md-2  col-lg-2 marT-25">
@@ -113,6 +112,7 @@
                             <span class="t-18 colr"> Price </span>
                         </div>
                     </div>
+
                     <div id="col-lg-12 col-md-12 accordion marT-25">
                         <div class="card zeroBorder">
                             <div class="card-header bg" id="headingOne">
@@ -121,12 +121,12 @@
                                         <div class="row">
                                             <div class="col-md-3 col-lg-3"><em class="fa fa-angle-down up-down-styl heavy" aria-hidden="true">&nbsp;</em> <span class="up-down-styl"> Vault chain Gold </span></div>
                                             <div class="col-md-2 col-lg-2  pad-l-40">
-                                                <span><span class="edi marR-25" id="gold">&nbsp &nbsp </span>Gold </span>
+                                                <span><span class="edi marR-25" id="gold"> &nbsp; &nbsp; </span>&nbsp;Gold </span>
                                             </div>
                                             <div class="col-md-2 col-lg-2 pad-l-50">
                                                 New York
                                             </div>
-                                            <div class="col-md-2 col-lg-2 pad-l-70">
+                                            <div class="col-md-2 col-lg-2 pad-l-70 align-left">
                                                 USA
                                             </div>
                                             <div class="col-md-3 col-lg-3 pad-l-70">
@@ -139,8 +139,8 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                 <div class="card-body col-brd accor-colr">
                                     <div class="row">
-                                        <div class="col-md-7 col-lg-7 pad-l-45 ">
-                                            <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span class="t-12 align-left">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
                                         </div>
                                         <div class="col-md-2 align-left col-lg-2 t-12 pad-l-45">
                                             <span> Ticker </span><br>
@@ -148,7 +148,7 @@
                                             <span> Spread</span><br>
                                             <span><a href="#">Storage Fee</a>  </span><br>
                                         </div>
-                                        <div class="col-md-3 align-left col-lg-3 t-12 pad-l-45">
+                                        <div class="col-md-3 align-left col-lg-3 t-12 pad-l-45 tableBuySell">
                                             <span> AUR </span><br>
                                             <span> RCM </span><br>
                                             <span> 0.75% </span><br>
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                         <div class="card zeroBorder">
-                            <div class="card-style opac-70" id="headingFive">
+                            <div class="card-style brd-card opac-70" id="headingFive">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link pad-0 black t-14" id="btnWhite5" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                         <div class="row">
@@ -194,7 +194,7 @@
                                             <span> Spread</span><br>
                                             <span><a href="#">Storage Fee</a>  </span></br>
                                         </div>
-                                        <div class="col-md-3  col-lg-3 t-12 align-left pad-l-45">
+                                        <div class="col-md-3  col-lg-3 t-12 align-left pad-l-45 tableBuySell">
                                             <span> AUR </span></br>
                                             <span> RCM </span></br>
                                             <span> 0.75% </span></br>
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div class="card zeroBorder">
-                            <div class="card-style" id="headingFour">
+                            <div class="card-style brd-card" id="headingFour">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link pad-0 black t-14" id="btnWhite4" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                         <div class="row">
@@ -264,14 +264,14 @@
                         <div class="row">
                             <div class="col-md-6 col-lg-6 marT-10 ">
                                 <span class="t-18 float_left txt-color"> Amount </span>
-                                <input class="number input-styl col-lg-12 col-md-12 t-12 height54" type="text" placeholder="$0000.00 &nbsp USD" />
+                                <input class="number input-styl col-lg-12 col-md-12 t-12 height54 inputStyle" type="text" placeholder="$0000.00 &nbsp USD" />
                             </div>
                             <div class="col-md-1 col-lg-1 marT-35">
                                 <i class="fa fa-arrows-h marT-10 t-20 font-clr" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-4 col-lg-4 marT-35">
                                 <div class="align-right grams">
-                                    <select class="custom-select t-14 ht-50 bd-0 align-right input-styl height54" id="inputGroupSelect03">
+                                    <select class="custom-select t-14 bd-0 align-right input-styl height54" id="inputGroupSelect03">
                                         <option selected>0 G </option>
                                         <option value="1">1 G</option>
                                         <option value="2">2 G</option>
@@ -284,24 +284,64 @@
                             <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
                                 <span class="t-18 float_left txt-color"> Payment Method </span>
                                 <div class="col-md-12 col-lg-12  pad-0">
-                                    <div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
+
+
+
+                                    <!--change required-->
+                                    <!--<div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
                                         <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left height54" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="myWalletID">Please Select </button>
                                         <div class="dropdown-menu wid-100p">
-                                            <a class="dropdown-item" href="#" id="walletID1" onclick="changeWalletDD(this.id)"><i class="fa fa-id-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wallet  </span></a>
-                                            <hr> <a class="dropdown-item" href="#" id="walletID2" onclick="changeWalletDD(this.id)"><i class="fa fa-address-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bank Account  </span></a>
-                                            <hr><a class="dropdown-item" href="#" id="walletID3" onclick="changeWalletDD(this.id)"><i class="fa fa-refresh colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Wire Transfer  </span></a>
-                                            <hr> <a class="dropdown-item" href="#" id="walletID4" onclick="changeWalletDD(this.id)"><i class="fa fa-credit-card colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Credit Card  </span></a>
-                                            <hr> <a class="dropdown-item" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><i class="fa fa-btc colr" aria-hidden="true"></i> &nbsp;<span class="txt-color"> Bitcoin  </span></a>
+                                            <a class="dropdown-item" href="#" id="walletID1" onclick="changeWalletDD(this.id)"><i class="fa fa-id-card colr" aria-hidden="true"></i> <span class="txt-color align-left"> Wallet  </span></a>
+                                            <hr> <a class="dropdown-item" href="#" id="walletID2" onclick="changeWalletDD(this.id)"><i class="fa fa-address-card colr" aria-hidden="true"></i> <span class="txt-color align-left"> Bank Account  </span></a>
+                                            <hr><a class="dropdown-item" href="#" id="walletID3" onclick="changeWalletDD(this.id)"><i class="fa fa-refresh colr" aria-hidden="true"></i> <span class="txt-color align-left"> Wire Transfer  </span></a>
+                                            <hr> <a class="dropdown-item" href="#" id="walletID4" onclick="changeWalletDD(this.id)"><i class="fa fa-credit-card colr" aria-hidden="true"></i> <span class="txt-color align-left"> Credit Card  </span></a>
+                                            <hr> <a class="dropdown-item" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><i class="fa fa-btc colr" aria-hidden="true"></i><span class="txt-color align-left"> Bitcoin  </span></a>
+                                        </div>
+                                    </div>-->
+
+                                    <div class="dropdown marT-15">
+                                        <button class="btn custom-select bd-0 wid-100p align-left bg-white brdr-colr-lightgrey height54 ddOptionSetConfig" type="button" id="changeDD_div" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="align-left" id="creditCardDropDown">  My Wallet</span>
+                                        </button>
+                                        <div class="dropdown-menu wid-100p bd-0" aria-labelledby="changeDDCredit_Desk">
+                                            <a class="dropdown-item marB--3 " href="#" id="changeDD_1" onclick="changeDD_buy(this.id)"><i class="fa fa fa-address-card colr DDPosLeft" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Wallet  </span></a>
+
+                                            <hr>
+                                            <a class="dropdown-item marB--3" href="#" id="changeDD_2" onclick="changeDD_buy(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-refresh  DDPosLeft colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Wire Transfer  </span></a>
+
+                                            <hr>
+                                            <a class="dropdown-item marB--3" href="#" id="changeDD_3" onclick="changeDD_buy(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-credit-card DDPosLeft colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Credit Card  </span></a>
+
+                                            <hr>
+                                            <a class="dropdown-item marB--8" href="#" id="changeDD_4" onclick="changeDD_buy(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-btc DDPosLeft colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Credit Card  </span></a>
                                         </div>
                                     </div>
+
+
                                 </div>
                                 <div class="col-md-12 col-lg-12  pad-0">
-                                    <div class="btn-group col-12 marT-10 pad-0 col-lg-12 col-md-12">
+
+                                    <!--change required-->
+                                    <!--<div class="btn-group col-12 marT-10 pad-0 col-lg-12 col-md-12">
                                         <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left l-Float height54" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../../img/chase_img.png"> Chase Account ending 8905  </button>
                                         <div class="dropdown-menu wid-100p align-left l-Float">
                                             <a class="dropdown-item marL--11" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><img src="../../img/chase_img.png"><span class="txt-color"> Chase Account ending 8905   </span> </a>
                                         </div>
+                                    </div>-->
+
+
+
+                                    <div class="dropdown marT-15">
+                                        <button class="btn custom-select bd-0 wid-100p align-left bg-white brdr-colr-lightgrey height54 ddOptionSetConfig" type="button" id="changeDDCredit_Desk" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="align-left" id="creditCardDropDown">  Please Select </span>
+                                        </button>
+                                        <div class="dropdown-menu wid-100p bd-0" aria-labelledby="changeDDCredit_Desk">
+                                            <a class="dropdown-item marT--5 " href="#" id="credit_dd1" onclick="changeDDCredit_Desk(this.id)"><i class="fa fa-id-card colr DDPosLeft" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Card Ending with 8938  </span></a>
+                                            <hr> <a class="dropdown-item marB--8" href="#" id="credit_dd2" onclick="changeDDCredit_Desk(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-address-card DDPosLeft colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Add Card  </span></a>
+                                        </div>
                                     </div>
+
+
                                 </div>
                                 <div class="col-md-12 col-lg-12 marT-5 pad-0">
                                     <div class="row">
@@ -313,25 +353,38 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md=12 col-lg-12 marT-15 pad-0">
-                                    <span class="t-18 colr align-left l-Float"> Sub Total . . . . . . . . . . . . . . . . . $8.00  </span>
-                                </div>
-                                <div class="col-md=12 col-lg-12  pad-0">
-                                    <span class="t-14 float_left marT-10 txt-color"> Breakdown of Fees </span>
-                                </div>
-                                <div class="col-md-12 col-lg-12  pad-0">
-                                    <span class="t-14 float_left marT-10 txt-color"> Transaction Fee . . . . . . . . . . . . . . . . . . . .$4.00  </span>
-                                </div>
-                                <div class="col-md-12 col-lg-12  pad-0">
-                                    <span class="t-14 float_left marT-10 txt-color"> Processing Fee . . . . . . . . . . . . . . . . . . . . $4.00  </span>
-                                </div>
-                                <div class="col-md-12 col-lg-12 marT-10 float_left pad-0">
-                                    <button class="btn btn-primary bd-0 pad-15 wid-100p">
-                                        Sell Vault Chain Gold For $1,377.62
-                                    </button>
-                                </div>
-                                <div>
-                                    <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marB-40 marT-10"><u> Learn about our fees here </u></a></span>
+                                <div class="col-md-12 col-lg-12 marT-10  pad-0">
+                                    <div class="container pad-0">
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 pad-0 subTotal align-left">
+                                                <span class="t-18 colr pad-0"> Sub Total</span>
+                                            </div>
+                                            <div class="col-md-6 col-lg-6 pad-0">
+                                                <span class="txt-color t-18"> . . . . . . . . . . . . . . . . .</span>
+                                            </div>
+                                            <div class="col-md-2 col-lg-2">
+                                                <span class="t-18 colr align-rgt marL--20"> $8.00</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md=12 col-lg-12  pad-0">
+                                        <span class="t-14 float_left marT-10 txt-color"> Breakdown of Fees </span>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12  pad-0">
+                                        <span class="t-14 float_left marT-10 txt-color"> Transaction Fee . . . . . . . . . . . . . . . . . . . . . . .$4.00  </span>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12  pad-0">
+                                        <span class="t-14 float_left marT-10 txt-color"> Processing Fee . . . . . . . . . . . . . . . . . . . . . . .  $4.00  </span>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 marT-10 float_left pad-0">
+                                        <button class="btn btn-primary bd-0 pad-15 wid-100p">
+                                            Sell Vault Chain Gold For $1,377.62
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marB-40 marT-10"><u> Learn about our fees here </u></a></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -351,17 +404,20 @@
                 <p class="colr t-14 align-centr"> Name / Place</p>
             </div>
             <div class="container">
-                <div id="col-sm-12 col-12 accordion marT-25">
+                <div class="col-sm-12 col-12 accordion marT-25">
                     <div class="card">
-                        <div class="card-header bg opac-10" id="headingOneOne">
-                            <h5 class="mb-0 white ">
-                                <button class="btn btn-link white t-14  pad-l-20" data-toggle="collapse" data-target="#collapseOneOne" aria-expanded="true" aria-controls="collapseOneOne">
-                                    <div class="col-12 col-sm-12 pad-l-r-100">
-                                        <i class="fa fa-angle-down up-down-styl" aria-hidden="true">&nbsp;</i>
-                                        <span class="pad-l-20 t-18"> Vault chain Silver </span>
-                                    </div>
-                                    <div class="col-12 col-sm-12">
-                                        <span class="pad-l-20 t-18">  $1,3000.000 </span>
+                        <div class="card-style bg whiteColor" id="headingOneOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link pad-0 black t-14" data-toggle="collapse" data-target="#collapseOneOne" aria-expanded="true" aria-controls="collapseOneOne">
+                                    <div class="row">
+                                        <div class="col--12 col-sm-12  align-centr">
+                                            <i class="fa fa-angle-up float-left" aria-hidden="true">&nbsp;</i>
+                                            <span class="pad-l-r-100 t-18 align-centr">Vault Chain Silver </span>
+                                        </div>
+
+                                        <div class="col-12 col-sm-12 pad-l-r-100">
+                                            <span class="mar-L-R-50 t-18"> $1,300.00 USD </span>
+                                        </div>
                                     </div>
                                 </button>
                             </h5>
@@ -389,7 +445,7 @@
 
                                 </div>
                                 <div class="col-12 col-sm-12 marT-10">
-                                    Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World.<span style="font-weight: 1000 "> Learn More.</span>
+                                    Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World.<span> Learn More.</span>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 col-6">
@@ -442,21 +498,50 @@
                         <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                             <div class="card-body brd-btm-black accor-colr">
                                 <div class="row">
-                                    <div class="col-6 col-sm-6 col-6 pad-l-20 ">
-                                        <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="marT-20 pad-l-20">
+                                            <span class="align-left heavy">Metal</span>
+                                        </div>
+                                        <div class="marT-20 pad-l-20">
+                                            <span class="align-left t-16 heavy"> Locations </span>
+                                        </div>
                                     </div>
-                                    <div class="col-3 col-sm-3 t-12 pad-l-20" style="text-align: left">
-                                        <span> Ticker </span><br>
-                                        <span> Partner</span><br>
-                                        <span> Spread</span><br>
-                                        <span><a href="#">Storage Fee</a>  </span><br>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="marT-20 marL-40 align-left">
+                                            <span class="t-14"> Gold </span>
+                                        </div>
+                                        <div class="marT-20 align-left marL-40">
+                                            <span class="t-14"> Toronto </span>
+                                        </div>
                                     </div>
-                                    <div class="col-3  col-sm-3 t-12" style="text-align: left">
-                                        <span> AUR </span><br>
-                                        <span> RCM </span><br>
-                                        <span> 0.75% </span><br>
-                                        <span> 0.06% per annual </span><br>
+
+                                </div>
+                                <div class="col-12 col-sm-12 marT-10">
+                                    Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World.<span> Learn More.</span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-6">
+                                        <div class="col-12 col-sm-12 t-12 pad-l-20 marT-20 align-left">
+                                            <span class="black-lite opac-70"> Ticker </span><br>
+                                            <span class="black-lite opac-70"> Partner</span><br>
+                                            <span class="black-lite opac-70"> Spread</span><br>
+                                            <span class="black-lite opac-70 txt-decor-black"><a href="#"><u>Storage Fee</u></a>  </span><br>
+                                        </div>
                                     </div>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="col-12 col-sm-12 t-12 pad-l-20 marT-20 align-left">
+                                            <span> AUR </span><br>
+                                            <span> RCM </span><br>
+                                            <span> 0.75% </span><br>
+                                            <span> 0.06% per annual </span><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12">
+                                    <button class="btn btn-default wid-100p marT-10 white bgclr">
+                                        Sell Vault Chain Gold
+                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -480,23 +565,52 @@
                             </h5>
                         </div>
                         <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                            <div class="card-body accor-colr brd-btm-black">
+                            <div class="card-body brd-btm-black accor-colr">
                                 <div class="row">
-                                    <div class="col-7 col-sm-7 pad-l-20 ">
-                                        <span class="t-12">  Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World. <a href="#"> Learn More.</a> </span>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="marT-20 pad-l-20">
+                                            <span class="align-left heavy">Metal</span>
+                                        </div>
+                                        <div class="marT-20 pad-l-20">
+                                            <span class="align-left t-16 heavy"> Locations </span>
+                                        </div>
                                     </div>
-                                    <div class="col-2 col-sm-2 t-12 pad-l-20 align-left">
-                                        <span> Ticker </span><br>
-                                        <span> Partner</span><br>
-                                        <span> Spread</span><br>
-                                        <span><a href="#">Storage Fee</a>  </span><br>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="marT-20 marL-40 align-left">
+                                            <span class="t-14"> Gold </span>
+                                        </div>
+                                        <div class="marT-20 align-left marL-40">
+                                            <span class="t-14"> Toronto </span>
+                                        </div>
                                     </div>
-                                    <div class="col-3  col-sm-3 t-12 align-left">
-                                        <span> AUR </span><br>
-                                        <span> RCM </span><br>
-                                        <span> 0.75% </span><br>
-                                        <span> 0.06% per annual </span><br>
+
+                                </div>
+                                <div class="col-12 col-sm-12 marT-10">
+                                    Backed by physical Gold vaulted with the royal Canadian Mint, one the most trusted mints in the World.<span> Learn More.</span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-6">
+                                        <div class="col-12 col-sm-12 t-12 pad-l-20 marT-20 align-left">
+                                            <span class="black-lite opac-70"> Ticker </span><br>
+                                            <span class="black-lite opac-70"> Partner</span><br>
+                                            <span class="black-lite opac-70"> Spread</span><br>
+                                            <span class="black-lite opac-70 txt-decor-black"><a href="#"><u>Storage Fee</u></a>  </span><br>
+                                        </div>
                                     </div>
+                                    <div class="col-sm-6 col-6">
+                                        <div class="col-12 col-sm-12 t-12 pad-l-20 marT-20 align-left">
+                                            <span> AUR </span><br>
+                                            <span> RCM </span><br>
+                                            <span> 0.75% </span><br>
+                                            <span> 0.06% per annual </span><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-12">
+                                    <button class="btn btn-default wid-100p marT-10 white bgclr">
+                                        Sell Vault Chain Gold
+                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -506,6 +620,7 @@
         </div>
 
     </div>
+
     <!-- Footer Starts-->
     <footer>
         <div class="container-fluid foot-style">

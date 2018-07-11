@@ -21,7 +21,16 @@ $(document).ready(function(){
         $("#silver2").addClass("bg");
           $("#silver2").removeClass("edi");
         
-      
+          $("#headingOne").removeClass("brd-card");
+          $("#headingFive").addClass("brd-card");
+          $("#headingFour").addClass("brd-card");
+
+         $("#collapseFive").removeClass("show");
+         $("#collapseSix").removeClass("show");
+        
+        
+
+
     });
     
     
@@ -49,9 +58,14 @@ $(document).ready(function(){
            $("#silver1").addClass("edi");
           $("#silver1").removeClass("bg");
         $("#silver2").addClass("bg");
-          $("#silver2").removeClass("edi");
-        
-        
+        $("#silver2").removeClass("edi");
+        $("#headingOne").addClass("brd-card");
+        $("#headingFive").removeClass("brd-card");
+        $("#headingFour").addClass("brd-card");        
+
+        $("#collapseOne").removeClass("show");
+        $("#collapseSix").removeClass("show");
+
     });
 
   
@@ -71,8 +85,9 @@ $(document).ready(function(){
         $("#gold").removeClass("edi");
         $("#silver2").removeClass("bg");
         $("#silver2").addClass("edi");
-       
-           
+        $("#headingOne").addClass("brd-card");
+        $("#headingFive").addClass("brd-card");
+        $("#headingFour").removeClass("brd-card");           
         
          $("#gold").addClass("bg");
           $("#gold").removeClass("edi");
@@ -80,8 +95,15 @@ $(document).ready(function(){
           $("#silver1").removeClass("edi");
         $("#silver2").addClass("edi");
           $("#silver2").removeClass("bg");
-        
-        
+
+          $("#collapseOne").removeClass("show");
+          $("#collapseFive").removeClass("show");
+
+          $("#collapseOne").removeClass("show");
+          $("#collapseFive").removeClass("show");
+
+
+
     });
     
 
@@ -93,6 +115,13 @@ $(document).ready(function(){
 
 
         $("#headingOneOne").addClass("whiteColor");
+        $("#collapseNine").removeClass("show");
+        $("#collapseSeven").removeClass("show");
+
+
+
+       
+
 	});        
 
     $("#headingNine").click(function(){
@@ -101,6 +130,15 @@ $(document).ready(function(){
         $("#headingSeven").removeClass("bg");
 
         $("#headingNine").addClass("whiteColor");
+
+
+        $("#collapseOneOne").removeClass("show");
+        $("#collapseSeven").removeClass("show");
+
+
+
+      
+
         });
     
     $("#headingSeven").click(function(){
@@ -110,6 +148,12 @@ $(document).ready(function(){
         $("#headingOneOne").addClass("bg-bw");
 
         $("#headingSeven").addClass("whiteColor");
+
+        $("#collapseOneOne").removeClass("show");
+        $("#collapseNine").removeClass("show");
+
+
+
         
         
 	});

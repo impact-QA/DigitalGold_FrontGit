@@ -1,6 +1,58 @@
+.subTotal{
+    position:relative;
+    left:14px;
+}
+
+    .subTotal:after {
+        content: ". . .";
+        color: #868BA1
+    }
+
+.tableBuySell{
+    position:relative;
+    left:-6px;
+}
+
+
+.inputStyle {
+    border:1px solid #ced4da !important;
+}
+
+
+.ddOptionSetConfig{
+    overflow:hidden;
+    padding-left:24px !important;
+
+}
+
+
+.adjustAccountSection {
+    float: right;
+    text-align: right;
+    padding-right: 0;
+}
+
+
+.DDPosLeft {
+    position: relative;
+    left: -20px;
+}
+
+
+
+.verify{
+    font-size:36px;
+}
+
 .bg-bw {
     background-color: white;
     color: #2B303D;
+}
+.marL--15 {
+    margin-left: -15px;
+}
+.marL--10 {
+    margin-left: -10px;
 }
 
 .padL-10{
@@ -2605,6 +2657,9 @@ a:hover {
 .card-style {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
+    
+}
+.brd-card {
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
     .marT-15 {
@@ -3297,15 +3352,14 @@ hr {
        .brdr-colr-lightgrey{
         border: 1px solid #ced4da;
        }
-       .marL--3{
+       .marL--20{
+        margin-left: -20px;
+       }
+
+  .marL--3{
         margin-left: -3px;
        }
 
-       .card-style {
-        padding: .75rem 1.25rem;
-        margin-bottom: 0;
-        border-bottom: 1px solid rgba(36, 42, 55, 0.6);
-    }
 
     .wt-20-ht-20{
         width: 20px;
@@ -3349,4 +3403,51 @@ height:43px;
     }
 .marbB-20 {
 margin-bottom:20px;
+}
+
+
+
+.marL--18{
+
+    margin-left:-18px;
+}
+.ft-14{
+    font-size: 14px;
+   line-height:16px;
+}
+.wid-90
+{
+    width: 90%;
+}
+.p-r-t-3{
+    position: relative;
+    top: 3px;
+
+}
+.p-r-t-1{
+    position: relative;
+    top: 1px;
+ 
+}
+
+.marT--5{
+    margin-top: -5px;
+}
+
+.marB--8{
+    margin-bottom: -8px;
+}
+.pdB-8{
+    padding-bottom: 8px;
+}
+
+@media only screen and (width: 320px) {
+
+.marL--14{
+    margin-left: -14px;
+}
+}
+
+.marB--3 {
+margin-bottom:-3px;
 }
