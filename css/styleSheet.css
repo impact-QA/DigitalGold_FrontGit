@@ -2,11 +2,17 @@
     position:relative;
     left:14px;
 }
+.DDPos30{
+	
+      position: relative;
+    left: 30px;
 
-    .subTotal:after {
+}
+
+    /*.subTotal:after {
         content: ". . .";
         color: #868BA1
-    }
+    }*/
 
 .tableBuySell{
     position:relative;
@@ -37,8 +43,23 @@
     position: relative;
     left: -20px;
 }
+.DDPosL10{
+	position: relative;
+	left: -10px;
+}
+.DDPos3{
+    position: relative;
+    left: -3px;
 
+}
+.pad-r-0{
+	padding-right: 0px;
+}
+.DDPos5{
+    position: relative;
+    left: -5px;
 
+}
 
 .verify{
     font-size:36px;
@@ -87,6 +108,10 @@
 
 .pad-l-45 {
     padding-left: 45px;
+}
+
+.pad-l-35 {
+    padding-left: 35px;
 }
 .marL--11{
 	margin-left: -11px;
@@ -218,7 +243,9 @@ div.progressBarBGColorActive.wd50{
 .colr-white {
     color: white;
 }
-
+.marR_10{
+	margin-right: -10px;
+}
 .ovrflw-hide {
     overflow: hidden;
 }
@@ -400,8 +427,12 @@ top:-4px;
     color: #868BA1;
     font-size: 16px;
 }
-
-
+@media (min-width: 1199px) {
+        .grams{
+            position: relative;
+			left:28px;
+        }
+}
 .stepperColorInactive{
     color:#868BA1;
 }

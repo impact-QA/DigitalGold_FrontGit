@@ -19,6 +19,9 @@ var time_in_minutes =10;
                                 var clock = document.getElementById(demo);
                                 function update_clock() {
                                     var t = time_remaining(endtime);
+                                    if (t.seconds.toString().length == 1) {
+                                        t.seconds = "0" + t.seconds;
+                                    }
                                     clock.innerHTML = '' + t.minutes + ':' + t.seconds;
                                     if (t.total <= 0) {
                                         clearInterval(timeinterval);
@@ -38,3 +41,5 @@ var time_in_minutes =10;
                                 var timeinterval = setInterval(update_clock, 1000);
                             }
                             run_clock('demo', deadline);
+
+
