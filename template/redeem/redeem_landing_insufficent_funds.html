@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Redeem</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/styleSheet.css">
+</head>
+
+<body id="bodyMainID" class="fontFamily">
+    <div class="mainBodyContent">
+        <!-- Navbar Starts-->
+        <div class="container-fluid">
+            <div class="on-brand on-brand-style">
+                <h2>Digital Gold</h2>
+            </div>
+            <div class="row on-header on-header-style">
+                <div class="icon hide-on-large show-on-med  show-on-small menu-trig-btn" id="menuTrigBtn_responsive">
+                    <span class="menuBurgerBtnIcon_responsive" onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#" class="activeNavSel">Buy/Sell</a>
+                    <a href="#">Withdraw</a>
+                    <a href="#">Reedem</a>
+                    <a href="#">Funding</a>
+                </div>
+                <ul class="hide-on-med hide-on-small navbar-hide-style">
+                    <li class="navBarElement Active"> <a href="#!" class="navBarElementColor">Buy</a> </li>
+                    <li class="navBarElement"> <a href="#!" class="navBarElementColor">Sell</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Withdraw</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Redeem</a> </li>
+                    <li class="navBarElement"><a href="#!" class="navBarElementColor">Fund</a> </li>
+                </ul>
+                <div class="dropdown dropdown-c drop-style hide-on-med hide-on-small">
+                    <a href="#" class=" txt-decor" data-toggle="dropdown" aria-expanded="true">
+                        <span class="right-header-style">Allison Campbell</span>
+                        <i class="fa fa-angle-down i-style"></i>
+                    </a>
+                    <div class="notificationBellCounter">
+                        2
+                    </div>
+                    <i class="fa fa-bell pad-l-20"></i>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-style" x-placement="bottom-end">
+                        <nav class="nav">
+                            <ul class="ul-style">
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-user marR-10"></i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-cog marR-10"></i>
+                                        Docs
+                                    </a>
+                                </li>
+                                <li class="li-style">
+                                    <a href="#" class="dg-nav-link li-a-style">
+                                        <i class="fa fa-download marR-10"></i>
+                                        Account
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row on-header hide-me-style">
+                <span class="hide-on-med hide-on-small">&nbsp;</span>
+            </div>
+        </div>
+        <!--navBar Ends-->
+
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12  col-lg-4 hideMagT-80-onSmall  div-brd-bottom">
+                    <h2 class="pdt-30 mrL--15 t-36"> Redeem </h2>
+                </div>
+                <div class="col-md-1 col-lg-3 marT-80 hide-on-SMALL ht-80 div-brd-bottom hide-on-med">
+                </div>
+                <div class="col-md-7 col-lg-5 marT-80 hide-on-SMALL ht-80 div-brd-bottom hide-on-med adjustAccountSection">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h4 class="colr ftw-400 t-24">Account Value</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-3 marT-5">
+                            <p class="t-16 colr">$0.00</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 marT-5">
+                            <p class="t-16 colr">USD</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 marT--5">
+                            <p class="t-18"> Cash Balance</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <p class="t-12">$0.00</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <p class="t-12">USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12 col-lg-7 marB-25 marT-25 bg-lightgey">
+                            <div class="row">
+                               <div class="col-lg-5 col-sm-12 col-md-12 marT-25 txt-align-center">
+                                 <span CLASS="t-18 colr heavy"> Digital Gold by APMEX </span>
+                                   </div> 
+                                   <div class="col-lg-4 col-md-4">
+                                       </div>
+                                       <div class="col-lg-3 col-md-3 hide-on-small marT-15 hide-on-med">
+                                             <img src="../../img/APMEX-blue.png"  />
+                                           </div>
+                            </div>
+                            <div class="row marT-5">
+                           <div class="col-lg-12">
+                          <span class="t-14 fnt-12"> Digital Gold orders are fulfilled by APMEX via white label dropshipping.if you would like to <br> purchase
+                                 products other than that what you seehere, please call (800) 375-9006, 8 a.m. to 8 p.m. Monday-Friday
+                         </span>
+                             </div>
+                           </div>
+                           <div class="row marT-45">
+                               <div class="col-lg-3 col-md-12 col-sm-12 txt-align-center">
+                                   <span class="t-18 fnt-16" id="gold_product_heading"> Gold products</span>
+                               </div>
+                               <div class="col-lg-4"></div>
+         
+                             
+         
+                               <div class="col-lg-5 hide-on-med hide-on-SMALL hide-on-small ps-r-lft-22">
+                                 
+                                     
+                                     <span class="t-10 heavy "> Choose a metal</span>
+                                     <button class="btn btn-primary bd-0 wt-60 brdr-colr-blue ht-18 t-10 pd-2" id="selectgold" onclick="gold_redir()">
+                                             Gold
+                                          </button><button class="btn bd-0  colr wt-60 bg-white brdr-colr-blue ht-18 t-10 pd-2" id="selectsilver" onclick="silver_redir()">
+                                                     Silver
+                                                 </button>
+                                          </div>
+         
+                                          <div class=" col-sm-12 col-md-12 hide-on-large align-centr">
+           
+                                             <div class="col-md-12 col-sm-12">
+         
+                                                     <span class="t-12 heavy col-sm-12 col-md-12"> Choose a metal</span>
+         
+                                             </div>
+         
+         
+                                             <div class="col-md-12 col-sm-12">
+                                                     
+                                                             
+                                                     <button class="btn btn-primary bd-0 input-styl wt-153-ht-40 brdr-colr-blue wt-130" onclick="gold_redir()" >
+                                                             Gold<button class="btn bd-0 input-styl colr wt-153-ht-40 wt-130 bg-white brdr-colr-blue" onclick="silver_redir()">
+                                                                     Silver
+                                                             </button>
+                                                   
+                                             </div>
+                                           </div>
+                                          </div>
+         
+                                          <div id="gold_div">
+                                          <div class="row align-centr marT-20 container marL--3" >
+                                      
+                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-right-none">
+                                             <div class=" marT-10">
+                                                     <img src="../../img/Rectangle.png"  />
+                                                 </div>
+                                                 <div class="marT-10">
+                                                     <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                           Minting new design (In TEP <br>Packaging) 
+                                                     </p>
+                                                 </div>
+                                                 <div class="">
+                                                     <span class="t-14 colr-liteblue">$13,000.00<span>
+         
+                                                     </div>
+                                                     <div class="">
+                                                         <span class="ft-8 txt-colr-form">per unit</span>
+                                                         </div>
+                                                         <div class="">
+                                                         <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                         </div>
+                                                         <div class="marT-10 brdr-liteblue pd-10" id="Addme" onclick="red()">
+                                                             <span class="colr t-12 heavy " id="addcart"> Add to Cart</span>
+                                                             </div>
+                                         </div>
+                                         
+                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-none brdr-right-none">
+                                                 <div class=" marT-10">
+                                                         <img src="../../img/circle.png"  />
+                                                     </div>
+                                                     <div class="marT-10">
+                                                         <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                               Minting new design (In TEP <br>Packaging) 
+                                                         </p>
+                                                     </div>
+                                                     <div class="">
+                                                         <span class="t-14 colr-liteblue">$13,000.00<span>
+             
+                                                         </div>
+                                                         <div class="">
+                                                             <span class="ft-8 txt-colr-form">per unit</span>
+                                                             </div>
+                                                             <div class="">
+                                                             <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                             </div>
+                                                             <div class="marT-10 brdr-liteblue pd-10">
+                                                                 <span class="colr t-12 heavy "> Add to Cart</span>
+                                                                 </div>
+                                             </div>
+                                         
+                                             <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-chnge3 brdr-right-none">
+                                                     <div class=" marT-10">
+                                                             <img src="../../img/Rectangle.png"  />
+                                                         </div>
+                                                         <div class="marT-10">
+                                                             <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                   Minting new design (In TEP <br>Packaging) 
+                                                             </p>
+                                                         </div>
+                                                         <div class="">
+                                                             <span class="t-14 colr-liteblue">$13,000.00<span>
+                 
+                                                             </div>
+                                                             <div class="">
+                                                                 <span class="ft-8 txt-colr-form">per unit</span>
+                                                                 </div>
+                                                                 <div class="">
+                                                                 <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                 </div>
+                                                                 <div class="marT-10 brdr-liteblue pd-10">
+                                                                     <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                     </div>
+                                                 </div>
+         
+                                                 <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge2 brdr-chnge3 brdr-right-none">
+                                                         <div class=" marT-10">
+                                                                 <img src="../../img/circle.png"  />
+                                                             </div>
+                                                             <div class="marT-10">
+                                                                 <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                       Minting new design (In TEP <br>Packaging) 
+                                                                 </p>
+                                                             </div>
+                                                             <div class="">
+                                                                 <span class="t-14 colr-liteblue">$13,000.00<span>
+                     
+                                                                 </div>
+                                                                 <div class="">
+                                                                     <span class="ft-8 txt-colr-form">per unit</span>
+                                                                     </div>
+                                                                     <div class="">
+                                                                     <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                     </div>
+                                                                     <div class="marT-10 brdr-liteblue pd-10">
+                                                                         <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                         </div>
+                                                     </div>
+         
+         
+                                                     <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-top-4 brdr-right-none">
+                                                             <div class=" marT-10">
+                                                                     <img src="../../img/Rectangle.png"  />
+                                                                 </div>
+                                                                 <div class="marT-10">
+                                                                     <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                           Minting new design (In TEP <br>Packaging) 
+                                                                     </p>
+                                                                 </div>
+                                                                 <div class="">
+                                                                     <span class="t-14 colr-liteblue">$13,000.00<span>
+                         
+                                                                     </div>
+                                                                     <div class="">
+                                                                         <span class="ft-8 txt-colr-form">per unit</span>
+                                                                         </div>
+                                                                         <div class="">
+                                                                         <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                         </div>
+                                                                         <div class="marT-10 brdr-liteblue pd-10" id="Addme" onclick="red()">
+                                                                             <span class="colr t-12 heavy " id="addcart"> Add to Cart</span>
+                                                                             </div>
+                                                         </div>
+                                                         
+                                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-none brdr-top-4 brdr-right-none">
+                                                                 <div class=" marT-10">
+                                                                         <img src="../../img/circle.png"  />
+                                                                     </div>
+                                                                     <div class="marT-10">
+                                                                         <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                               Minting new design (In TEP <br>Packaging) 
+                                                                         </p>
+                                                                     </div>
+                                                                     <div class="">
+                                                                         <span class="t-14 colr-liteblue">$13,000.00<span>
+                             
+                                                                         </div>
+                                                                         <div class="">
+                                                                             <span class="ft-8 txt-colr-form">per unit</span>
+                                                                             </div>
+                                                                             <div class="">
+                                                                             <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                             </div>
+                                                                             <div class="marT-10 brdr-liteblue pd-10">
+                                                                                 <span class="colr t-12 heavy "> Add to Cart</span>
+                                                                                 </div>
+                                                             </div>
+                                                         
+                                                             <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-chnge3 brdr-top-4 brdr-right-none">
+                                                                     <div class=" marT-10">
+                                                                             <img src="../../img/Rectangle.png"  />
+                                                                         </div>
+                                                                         <div class="marT-10">
+                                                                             <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                                   Minting new design (In TEP <br>Packaging) 
+                                                                             </p>
+                                                                         </div>
+                                                                         <div class="">
+                                                                             <span class="t-14 colr-liteblue">$13,000.00<span>
+                                 
+                                                                             </div>
+                                                                             <div class="">
+                                                                                 <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                 </div>
+                                                                                 <div class="">
+                                                                                 <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                 </div>
+                                                                                 <div class="marT-10 brdr-liteblue pd-10">
+                                                                                     <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                     </div>
+                                                                 </div>
+                         
+                                                                 <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge2 brdr-chnge3 brdr-top-4 brdr-right-none">
+                                                                         <div class=" marT-10">
+                                                                                 <img src="../../img/circle.png"  />
+                                                                             </div>
+                                                                             <div class="marT-10">
+                                                                                 <p class="t-10 txt-colr-form">10 Gram Gold - Sunshine<br>
+                                                                                       Minting new design (In TEP <br>Packaging) 
+                                                                                 </p>
+                                                                             </div>
+                                                                             <div class="">
+                                                                                 <span class="t-14 colr-liteblue">$13,000.00<span>
+                                     
+                                                                                 </div>
+                                                                                 <div class="">
+                                                                                     <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                     </div>
+                                                                                     <div class="">
+                                                                                     <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                     </div>
+                                                                                     <div class="marT-10 brdr-liteblue pd-10">
+                                                                                         <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                         </div>
+                                                                     </div>
+                                             
+                                                    
+                                         </div>
+                                         </div>
+         
+         
+                                           <div id="silver_div" class="dis-none">
+                                                 <div class="row align-centr marT-20 container marL--3" >
+                                      
+                                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-right-none">
+                                                             <div class=" marT-10">
+                                                                     <img src="../../img/Rectangle.png"  />
+                                                                 </div>
+                                                                 <div class="marT-10">
+                                                                     <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                           Minting new design (In TEP <br>Packaging) 
+                                                                     </p>
+                                                                 </div>
+                                                                 <div class="">
+                                                                     <span class="t-14 colr-liteblue">$13,000.00<span>
+                         
+                                                                     </div>
+                                                                     <div class="">
+                                                                         <span class="ft-8 txt-colr-form">per unit</span>
+                                                                         </div>
+                                                                         <div class="">
+                                                                         <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                         </div>
+                                                                         <div class="marT-10 brdr-liteblue pd-10" id="Addme" onclick="red()">
+                                                                             <span class="colr t-12 heavy " id="addcart"> Add to Cart</span>
+                                                                             </div>
+                                                         </div>
+                                                         
+                                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-none brdr-right-none">
+                                                                 <div class=" marT-10">
+                                                                         <img src="../../img/circle.png"  />
+                                                                     </div>
+                                                                     <div class="marT-10">
+                                                                         <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                               Minting new design (In TEP <br>Packaging) 
+                                                                         </p>
+                                                                     </div>
+                                                                     <div class="">
+                                                                         <span class="t-14 colr-liteblue">$13,000.00<span>
+                             
+                                                                         </div>
+                                                                         <div class="">
+                                                                             <span class="ft-8 txt-colr-form">per unit</span>
+                                                                             </div>
+                                                                             <div class="">
+                                                                             <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                             </div>
+                                                                             <div class="marT-10 brdr-liteblue pd-10">
+                                                                                 <span class="colr t-12 heavy "> Add to Cart</span>
+                                                                                 </div>
+                                                             </div>
+                                                         
+                                                             <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-chnge3 brdr-right-none">
+                                                                     <div class=" marT-10">
+                                                                             <img src="../../img/Rectangle.png"  />
+                                                                         </div>
+                                                                         <div class="marT-10">
+                                                                             <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                   Minting new design (In TEP <br>Packaging) 
+                                                                             </p>
+                                                                         </div>
+                                                                         <div class="">
+                                                                             <span class="t-14 colr-liteblue">$13,000.00<span>
+                                 
+                                                                             </div>
+                                                                             <div class="">
+                                                                                 <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                 </div>
+                                                                                 <div class="">
+                                                                                 <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                 </div>
+                                                                                 <div class="marT-10 brdr-liteblue pd-10">
+                                                                                     <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                     </div>
+                                                                 </div>
+                         
+                                                                 <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge2 brdr-chnge3 brdr-right-none">
+                                                                         <div class=" marT-10">
+                                                                                 <img src="../../img/circle.png"  />
+                                                                             </div>
+                                                                             <div class="marT-10">
+                                                                                 <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                       Minting new design (In TEP <br>Packaging) 
+                                                                                 </p>
+                                                                             </div>
+                                                                             <div class="">
+                                                                                 <span class="t-14 colr-liteblue">$13,000.00<span>
+                                     
+                                                                                 </div>
+                                                                                 <div class="">
+                                                                                     <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                     </div>
+                                                                                     <div class="">
+                                                                                     <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                     </div>
+                                                                                     <div class="marT-10 brdr-liteblue pd-10">
+                                                                                         <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                         </div>
+                                                                     </div>
+                         
+                         
+                                                                     <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-top-4 brdr-right-none">
+                                                                             <div class=" marT-10">
+                                                                                     <img src="../../img/Rectangle.png"  />
+                                                                                 </div>
+                                                                                 <div class="marT-10">
+                                                                                     <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                           Minting new design (In TEP <br>Packaging) 
+                                                                                     </p>
+                                                                                 </div>
+                                                                                 <div class="">
+                                                                                     <span class="t-14 colr-liteblue">$13,000.00<span>
+                                         
+                                                                                     </div>
+                                                                                     <div class="">
+                                                                                         <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                         </div>
+                                                                                         <div class="">
+                                                                                         <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                         </div>
+                                                                                         <div class="marT-10 brdr-liteblue pd-10" id="Addme" onclick="red()">
+                                                                                             <span class="colr t-12 heavy " id="addcart"> Add to Cart</span>
+                                                                                             </div>
+                                                                         </div>
+                                                                         
+                                                                         <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-none brdr-top-4 brdr-right-none">
+                                                                                 <div class=" marT-10">
+                                                                                         <img src="../../img/circle.png"  />
+                                                                                     </div>
+                                                                                     <div class="marT-10">
+                                                                                         <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                               Minting new design (In TEP <br>Packaging) 
+                                                                                         </p>
+                                                                                     </div>
+                                                                                     <div class="">
+                                                                                         <span class="t-14 colr-liteblue">$13,000.00<span>
+                                             
+                                                                                         </div>
+                                                                                         <div class="">
+                                                                                             <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                             </div>
+                                                                                             <div class="">
+                                                                                             <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                             </div>
+                                                                                             <div class="marT-10 brdr-liteblue pd-10">
+                                                                                                 <span class="colr t-12 heavy "> Add to Cart</span>
+                                                                                                 </div>
+                                                                             </div>
+                                                                         
+                                                                             <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge brdr-chnge2 brdr-chnge3 brdr-top-4 brdr-right-none">
+                                                                                     <div class=" marT-10">
+                                                                                             <img src="../../img/Rectangle.png"  />
+                                                                                         </div>
+                                                                                         <div class="marT-10">
+                                                                                             <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                                   Minting new design (In TEP <br>Packaging) 
+                                                                                             </p>
+                                                                                         </div>
+                                                                                         <div class="">
+                                                                                             <span class="t-14 colr-liteblue">$13,000.00<span>
+                                                 
+                                                                                             </div>
+                                                                                             <div class="">
+                                                                                                 <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                                 </div>
+                                                                                                 <div class="">
+                                                                                                 <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                                 </div>
+                                                                                                 <div class="marT-10 brdr-liteblue pd-10">
+                                                                                                     <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                                     </div>
+                                                                                 </div>
+                                         
+                                                                                 <div class="col-lg-3 col-sm-12 col-md-6 bg-white brdr-chnge2 brdr-chnge3 brdr-top-4 brdr-right-none">
+                                                                                         <div class=" marT-10">
+                                                                                                 <img src="../../img/circle.png"  />
+                                                                                             </div>
+                                                                                             <div class="marT-10">
+                                                                                                 <p class="t-10 txt-colr-form">10 Gram silver - Sunshine<br>
+                                                                                                       Minting new design (In TEP <br>Packaging) 
+                                                                                                 </p>
+                                                                                             </div>
+                                                                                             <div class="">
+                                                                                                 <span class="t-14 colr-liteblue">$13,000.00<span>
+                                                     
+                                                                                                 </div>
+                                                                                                 <div class="">
+                                                                                                     <span class="ft-8 txt-colr-form">per unit</span>
+                                                                                                     </div>
+                                                                                                     <div class="">
+                                                                                                     <input type="text" placeholder="200" class="inputStyle wt-70" disabled>    
+                                                                                                     </div>
+                                                                                                     <div class="marT-10 brdr-liteblue pd-10">
+                                                                                                         <span class="colr t-12 heavy"> Add to Cart</span>
+                                                                                                         </div>
+                                                                                     </div>
+                                                             
+                                                                    
+                                                         </div>
+                                              </div>
+                         </div>
+
+
+                <div class="col-md-1 col-lg-1 marB-25 ">
+                </div>
+                <div class="col-md-4 col-lg-4 marB-25 marT-25 ht-auto hide-on-med hide-on-small containerBlueBorder ht-700">
+                    <div class="container align-centr marT-25">
+                       
+                        <h4 class="colr t-24 heavy "> Summary </h4>
+                        <span class="t-14 align-centr  txt-colr-form">
+                          3 Items in Cart
+                        </span>
+                        <div class="row marT-20">
+                                <div class="ht-250 ovrflw-y-scroll">
+                                        <div class="col-md-1 col-lg-12  row">
+                                           <div class="col-lg-2">
+                                            <img src="../../img/Rectangle2.png"  />
+                                           </div>
+                                           <div class="col-lg-8 align-left">
+                                               <p class="t-12 black-lite marB-0"> 10 gram Gold Bar-Sunshine Minting New Design (In TEP Packaging)</p>
+                                               <p class="t-10 colr">$18,000.00</p>
+            
+                                            </div>
+                                           <div class="col-lg-2 ">
+                                               <input type="text" class="inputStyle wt-51 ht-20 in" placeholder="1" disabled>
+                                               <div class="align-rgt">
+                                               <p class="t-10 formLabelClr ps-r-lft16-top25">remove</p>
+                                               </div>
+                                           </div>
+                                           </div>
+            
+                                           <div class="col-md-1 col-lg-12  row">
+                                            <div class="col-lg-2">
+                                             <img src="../../img/circle2.png"  />
+                                            </div>
+                                            <div class="col-lg-8 align-left">
+                                                <p class="t-12 black-lite marB-0"> 10 gram Gold Bar-Sunshine Minting New Design (In TEP Packaging)</p>
+                                                <p class="t-10 colr">$18,000.00</p>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input type="text" class="inputStyle wt-51 ht-20 in" placeholder="1" disabled>
+                                                <p class="t-10 formLabelClr ps-r-lft16-top25">remove</p>
+                                            </div>
+                                            
+                                            
+                                         </div>
+                                         <div class="col-md-1 col-lg-12  row">
+                                            <div class="col-lg-2">
+                                             <img src="../../img/Rectangle2.png"  />
+                                            </div>
+                                            <div class="col-lg-8 align-left">
+                                                <p class="t-12 black-lite marB-0"> 10 gram Gold Bar-Sunshine Minting New Design (In TEP Packaging)</p>
+                                                <p class="t-10 colr">$18,000.00</p>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input type="text" class="inputStyle wt-51 ht-20 in" placeholder="1" disabled>
+                                                <p class="t-10 formLabelClr ps-r-lft16-top25">remove</p>
+                                            </div>
+                                            
+                                            
+                                         </div>
+                                         <div class="col-md-1 col-lg-12  row">
+                                                <div class="col-lg-2">
+                                                 <img src="../../img/circle2.png"  />
+                                                </div>
+                                                <div class="col-lg-8 align-left">
+                                                    <p class="t-12 black-lite marB-0"> 10 gram Gold Bar-Sunshine Minting New Design (In TEP Packaging)</p>
+                                                    <p class="t-10 colr">$18,000.00</p>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <input type="text" class="inputStyle wt-51 ht-20 in" placeholder="1" disabled>
+                                                    <p class="t-10 formLabelClr ps-r-lft16-top25">remove</p>
+                                                </div>
+                                                
+                                                
+                                             </div>
+                                             <div class="col-md-1 col-lg-12  row">
+                                                <div class="col-lg-2">
+                                                 <img src="../../img/Rectangle2.png"  />
+                                                </div>
+                                                <div class="col-lg-8 align-left">
+                                                    <p class="t-12 black-lite marB-0"> 10 gram Gold Bar-Sunshine Minting New Design (In TEP Packaging)</p>
+                                                    <p class="t-10 colr">$18,000.00</p>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <input type="text" class="inputStyle wt-51 ht-20 in" placeholder="1" disabled>
+                                                    <p class="t-10 formLabelClr ps-r-lft16-top25">remove</p>
+                                                </div>
+                                                
+                                                
+                                             </div>
+                                        </div>
+        
+                        </div>
+                        <div class="pad-0">
+                            <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
+                               
+                                
+                              
+                                <div class="col-md-12 col-lg-12 marT-10  pad-0">
+                                    
+                                        
+                                            <div class="col-md-12 col-lg-12  pad-0">
+                                                <span class=" float_left marT-10 ft-18 colrlightBlack">  Subtotal<span id="dotResp_6">. . . . . . . . . . . . . . . . . . . . .</span>$54,000.00</span>
+                                            </div>
+                                        
+                                            <div class="col-md-12 col-lg-12  pad-0">
+                                                <span class="t-12 float_left  txt-color"> Processing Fee<span id="dotResp_7">. . . . . . . . . . . . . . . . . . . . . . </span>$350.00  </span>
+                                            </div>
+
+                                            <div class="col-md-12 col-lg-12  pad-0 ">
+                                                <span class="t-18 float_left  txt-color colr marT-30"> Cart total<span id="dotResp_8">. . . . . . . . . . . . . . . . . . . . . . </span>$54,350.00  </span>
+                                            </div>
+                                              
+                                            <div class="col-md-12 col-lg-12  pad-0">
+                                                <span class="t-12 float_left  txt-color">Cash Balance<span id="dotResp_9">. . . . . . . . . . . . . . . . . . . . . . </span>$54,385.00  </span>
+                                            </div>
+
+                                            <div class="col-md-12 col-lg-12  pad-0">
+                                                <span class="t-12 float_left  txt-color">Remaining Balance<span id="dotResp_10">. . . . . . . . . . . . . . . . . . . . . . </span>$35.00  </span>
+                                            </div>
+                                    
+                                    <div class="col-md-12 col-lg-12 marT-30 float_left pad-0">
+                                        <button class="btn bd-0 pad-15 wid-100p bg-red login-color" data-toggle="modal" data-target="#Insufficient">
+                                        Insufficient Funds
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <span> <a href="#" class="txt-decor-black t-12 txt-color float_right marB-40 marT-10"><u> Learn about our fees here </u></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Footer Starts-->
+    <footer>
+        <div class="container-fluid foot-style">
+            <span class="l-Float hide-on-small">Digital Gold &copy; 2018 </span>
+            <span class="r-Float hide-on-small">
+                <a href="#!" class="footerLinks">Sitemap</a>
+                <a href="#!" class="footerLinks">FAQS</a>
+                <a href="#!" class="footerLinks">Privacy Policy</a>
+                <a href="#!" class="footerLinks">User Agreement</a>
+            </span>
+        </div>
+    </footer>
+    <!-- Footer Ends-->
+
+ <!-- Modal-->
+ <div class="modal fade " id="Insufficient" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered " role="document">
+        <div class="modal-content brd-colr ">
+            <div class="container align-centr">
+                    <button type="button" class="close marT-10 " data-dismiss="modal" aria-label="Close" >
+                            <span aria-hidden="true" class="bg-blk-colr-wite ">&times;</span>
+                          </button>
+                <h1 class="t-36 colr-blck marT-51 heavy">Insufficient Funds</h1>
+                
+                <img src="../../img/stop-blue.png" class="marT-25" />
+                <p class="ft-18 txt-colr-form marT-25">There are insufficient funds in your wallet for your current product
+                   selection and aplicable fees. Please continue browsing to update
+                   the quantity or select a different product, or you may deposit
+                   additional funds into your wallet.
+                </p>
+            </div>
+            <div class="modal-footer d-flex justify-content-center bd0  ht-150">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 marT-20 align-left">
+                        <button class="btn bd-0 brdr-colr-blue colr wt-180 bg-white" data-dismiss="modal" aria-label="Close"> Back to browse </button>
+                    </div>
+                    <div class="col-md-6 col-lg-6 marT-20">
+                        <button class="btn bd-0 brdr-colr-blue login-color wt-180 bg"> Fund</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="../../js/script.js"></script>
+   
+    <script src="../../js/RedeemDDResp.js"></script>
+</body>
+</html>

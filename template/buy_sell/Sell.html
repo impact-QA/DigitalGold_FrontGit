@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Sell </title>
+    <title> Buy </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
                 </div>
                 <div id="mysidenav_resp_dd" class="sidenav_resp_dd">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="#" class="activeNavSel">Buy/Sell</a>
+                    <a href="#" class="activeNavSel">Sell/Sell</a>
                     <a href="#">Withdraw</a>
                     <a href="#">Reedem</a>
                     <a href="#">Funding</a>
@@ -78,7 +78,6 @@
             </div>
         </div>
         <!--navBar Ends-->
-
         <div class="container hide-on-med hide-on-small">
             <div class="row">
                 <div class="col-lg-12 marT-60 border-btm">
@@ -142,7 +141,7 @@
                                             <span> Spread</span><br>
                                             <span><a href="#">Storage Fee</a>  </span><br>
                                         </div>
-                                        <div class="col-md-3 align-left col-lg-3 t-12 pad-l-35 tableBuySell">
+                                        <div class="col-md-3 align-left col-lg-3 t-12 pad-l-35 tableBuyBuy">
                                             <span> AUR </span><br>
                                             <span> RCM </span><br>
                                             <span> 0.75% </span><br>
@@ -188,7 +187,7 @@
                                             <span> Spread</span><br>
                                             <span><a href="#">Storage Fee</a>  </span></br>
                                         </div>
-                                        <div class="col-md-3  col-lg-3 t-12 align-left pad-l-35 tableBuySell">
+                                        <div class="col-md-3  col-lg-3 t-12 align-left pad-l-35 tableBuyBuy">
                                             <span> AUR </span></br>
                                             <span> RCM </span></br>
                                             <span> 0.75% </span></br>
@@ -246,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 marB-25 marT-25 ht-auto hide-on-med containerBlueBorder">
+                <div class="col-md-4 col-lg-4 marB-25 marT-25 ht-auto hide-on-med containerBlueBorder SummaryResp">
                     <div class="container align-centr marT-25">
                         <span class="t-18 ">
                             You are Selling
@@ -278,7 +277,6 @@
                             <div class="col-md-12 col-lg-12 marT-15 float_left pad-0">
                                 <span class="t-18 float_left txt-color"> Payment Method </span>
                                 <div class="col-md-12 col-lg-12  pad-0">
-
                                     <!--change required-->
                                     <!--<div class="btn-group dropdown col-12 marT-10 pad-0 col-lg-12 col-md-12">
                                         <button type="button" class="btn t-14 custom-select wid-100p bd-0 align-left height54" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="myWalletID">Please Select </button>
@@ -304,7 +302,6 @@
                                             <a class="dropdown-item marB--8" href="#" id="changeDD_4" onclick="changeDD_buy(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-btc DDPosLeft colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosLeft ft-14 "> Credit Card  </span></a>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div class="col-md-12 col-lg-12  pad-0">
                                     <!--change required-->
@@ -314,7 +311,6 @@
                                             <a class="dropdown-item marL--11" href="#" id="walletID5" onclick="changeWalletDD(this.id)"><img src="../../img/chase_img.png"><span class="txt-color"> Chase Account ending 8905   </span> </a>
                                         </div>
                                     </div>-->
-
                                     <div class="dropdown marT-15">
                                         <button class="btn custom-select bd-0 wid-100p align-left bg-white brdr-colr-lightgrey height54 ddOptionSetConfig" type="button" id="changeDDCredit_Desk" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <span class="align-left DDPosL10" id="creditCardDropDown"><img src="../../img/chase_img.png" class="img-responsive">  Card Ending with 8905 </span>
@@ -324,7 +320,6 @@
                                             <hr> <a class="dropdown-item marB--8" href="#" id="credit_dd2" onclick="changeDDCredit_Desk(this.id)" data-toggle="modal" data-target="#modalLoginForm"><i class="fa fa-address-card DDPosL10 colr" aria-hidden="true"></i> &nbsp;<span class="txt-color DDPosL10 ft-14 "> Add Card  </span></a>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div class="col-md-12 col-lg-12 marT-5 pad-0">
                                     <div class="row">
@@ -343,22 +338,47 @@
                                                 <span class="t-18 colr pad-0"> Sub Total</span>
                                             </div>
                                             <div class="col-md-6 col-lg-6 pad-0">
-                                                <span class="txt-color t-18" id="dotResp_1">. . . . . . . . . . . . . . . </span>
+                                                <span class="txt-color t-18" id="dotResp _1"></span>
                                             </div>
                                             <div class="col-md-2 col-lg-2">
-                                                <span class="t-18 colr align-rgt marL--20"> $8.00</span>
+                                                <span class="t-18 colr align-rgt marL--20 subTotalAlign"> $800.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md=12 col-lg-12  pad-0">
                                         <span class="t-14 float_left marT-10 txt-color"> Breakdown of Fees </span>
                                     </div>
-                                    <div class="col-md-12 col-lg-12  pad-0">
-                                        <span class="t-14 float_left marT-10 txt-color"> Transaction Fee<span id="dotResp_2">. . . . . . . . . . . . . . . . . . . . . .</span>$4.00  </span>
+                                    <br>
+
+                                    <div class="row marT-10">
+                                        <div class="col-md-4 col-lg-4 pad-0 subTotal align-left">
+                                            <span class="t-14  pad-0 txt-color">Transaction Fee</span>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 pad-0 borderBottomBuy">
+                                            <span class="txt-color t-14 "></span>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 align-rgt">
+                                            <span class="t-14  marL--20 txt-color"> $800.00</span>
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-md-4 col-lg-4 pad-0 subTotal align-left">
+                                            <span class="t-14  pad-0 txt-color">Processing Fee</span>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 pad-0 borderBottomBuy">
+                                            <span class="txt-color t-14"></span>
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 align-rgt">
+                                            <span class="t-14  align-rgt marL--20 txt-color"> $800.00</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col-md-12 col-lg-12  pad-0">
+                                        <span class="t-14 float_left marT-10 txt-color"> Transaction Fee<span id="dotResp _2"></span>$4.00</span>
                                     </div>
                                     <div class="col-md-12 col-lg-12  pad-0">
-                                        <span class="t-14 float_left marT-10 txt-color"> Processing Fee<span id="dotResp_3">. . . . . . . . . . . . . . . . . . . . . . </span>$4.00  </span>
-                                    </div>
+                                        <span class="t-14 float_left marT-10 txt-color"> Processing Fee<span id="dotResp _3"></span>$4.00</span>
+                                    </div> -->
                                     <div class="col-md-12 col-lg-12 marT-10 float_left pad-0">
                                         <button class="btn btn-primary bd-0 pad-15 wid-100p">
                                             Sell Vault Chain Gold For $1,377.62
@@ -452,7 +472,6 @@
                         </div>
                     </div>
 
-
                     <div class="card">
                         <div class="card-style" id="headingNine">
                             <h5 class="mb-0">
@@ -462,7 +481,6 @@
                                             <i class="fa fa-angle-up float-left" aria-hidden="true">&nbsp;</i>
                                             <span class="pad-l-r-100 t-18 align-centr">Vault Chain Silver </span>
                                         </div>
-
                                         <div class="col-12 col-sm-12 pad-l-r-100">
                                             <span class="mar-L-R-50 t-18"> $1,300.00 USD </span>
                                         </div>
@@ -528,7 +546,6 @@
                                             <i class="fa fa-angle-up float-left" aria-hidden="true">&nbsp;</i>
                                             <span class="pad-l-r-100 t-18 align-centr">Vault Chain Silver </span>
                                         </div>
-
                                         <div class="col-12 t-18 col-sm-12 pad-l-r-100">
                                             $1,300.00 USD
                                         </div>
