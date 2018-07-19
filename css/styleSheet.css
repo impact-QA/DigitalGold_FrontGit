@@ -631,7 +631,7 @@
     }
 
 
-    ul li.navBarElement a.navBarElementColor:hover {
+    ul li.navBarElement:hover {
         border-bottom: 4px solid #296EFB;
         -moz-transition-duration: 0.1s;
         -o-transition-duration: 0.1s;
@@ -2810,6 +2810,8 @@
         height: 600px;
     }
 
+
+    
     .card-style {
         padding: .75rem 1.25rem;
         margin-bottom: 0;
@@ -3629,6 +3631,16 @@ hr {
         .marL-58 {
             margin-left: 58px;
         }
+
+        .marLl-13{
+            margin-left: 13px;
+        }
+
+        .ps-r-lft-16{
+            position: relative;
+            left: 16px;
+        }
+        
     }
 
     .marbB-20 {
@@ -3825,8 +3837,10 @@ hr {
         margin-top: 17px;
         margin-left: 16px;
     }
-
    
+   .wt-340p{
+       width:340px
+   }
   
 }
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -3841,10 +3855,10 @@ hr {
     width:51px
 }
 
-    .ps-r-lft16-top25 {
+    .ps-r-lft16-top20 {
         position: relative;
         left: 16px;
-        top: 25px;
+        top: 20px;
     }
 
     .bg-red {
@@ -3908,23 +3922,15 @@ hr {
         position: relative;
         right: 6px;
     }
-    .marLl-13{
-        margin-left: 13px;
-    }
-    .ft-10_5{
-        font-size: 10.5px;
-    }
+  
     .ps-r-lft-13{
         position: relative;
     left: 13px;
     }
-    .ps-r-lft-16{
-        position: relative;
-        left: 16px;
-    }
+   
     .ps-r-rgt-20{
         position: relative;
-        right: 20px;
+        right: -8px;
     }
 }
 
@@ -3944,9 +3950,30 @@ hr {
 overflow-y: scroll
 }
 
-.brdr-top-4{
+.borderBottomBuy_blue {
+    border-bottom: 1px dashed #296EFB;
+    position: relative;
+    top: -6px;
+    left: 14px;
+}
+
+.brdr-top-4 {
     border-top: 4px solid #eee;
 }
+
+
+@media (max-width: 1440px){
+    div.col-lg-12.marLl-13.align-centerr {
+        padding-left: 30px;
+    }
+
+    div.row.marT-45.marTT-20.marrrll--3 {
+        /*padding-left: 20px;*/
+    }
+
+
+}
+
 
 
 @media (min-width: 1440px){
@@ -3987,6 +4014,10 @@ overflow-y: scroll
         position: relative;
         left: 60px;
     }
+
+    .wt-441{
+        width:441px
+    }
 }
 
 .ht-600{
@@ -4018,9 +4049,9 @@ input.inputStyle.wt-51.ht-20.in{
     .marLL-15{
         margin-left: 15px;
     }
-    .ps-r-lft32px{
+    .ps-r-lft45px{
         position: relative;
-    left: 32px;
+    left: 45px;
     }
 }
 
@@ -4057,3 +4088,17 @@ input.inputStyle.wt-51.ht-20.in{
     left:-10px;
 }
 
+
+
+
+.bg-fff{
+    background: white;
+}
+
+
+.maRT-45{
+    margin-top: 45px
+}
+
+
+  

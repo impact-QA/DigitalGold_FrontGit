@@ -1,0 +1,201 @@
+@media only screen and (min-width: 1440px){
+.max-wt-702{
+    max-width: 702px
+}
+.max-wt-405{
+    max-width: 405px
+}
+.container{
+    max-width: 1193px;
+}
+
+
+.flx-405 {
+   flex: 405px;
+   max-width:405px
+  
+}
+.flx-702{
+        flex: 702px;
+        max-width:702px
+       
+     
+}
+.flx-86{
+flex: 86px;
+max-width:86px;
+}
+.flx-160{
+    flex:160px;
+   max-width:160px;
+}
+.flx-640{
+    flex:640px;
+   max-width: 640px
+}
+.marTt--8{
+    margin-top:-8px
+}
+.marTT-20{
+    margin-top:20px;
+}
+.ht-598{
+    height: 598px
+}
+
+.wt-468-mrl-138{
+    max-width: 468px;
+    margin-left: 138px;
+}
+.mrL-72{
+    margin-left: 72px;
+}
+.flx-788{
+    flex:788px;
+    width: 788px
+}
+.marLl-18{
+    margin-left: 18px;
+}
+.wt-454-mrL138{
+    width: 454px;
+    margin-left: 138px;
+}
+.mrL-43{
+    margin-left: 43px;
+}
+}
+
+.ht-668{
+    height:668px;
+}
+
+
+.ht-200{
+    height:200px;
+}
+
+.width100p{
+    width:100%;
+    padding:30px;
+}
+
+.ht-665{
+height:665px
+}
+
+.ht-568{
+    height: 568px;
+}
+
+.floatActionButton {
+    position:fixed;
+    bottom:100px;
+    right:00px;
+    z-index:1000
+}
+
+.redeemCtr {
+    position:relative;
+    top:1px;
+    left:-4px;
+    z-index:10000
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .wt-68-ht-84{
+        width:68px;
+        height:84.05px
+    }
+    .tp-20{
+        top: 20px;
+    }
+    .lft-25{
+        left: 25px
+    }
+
+    .margin20-Small{
+        margin:20px
+    }
+
+}
+@media only screen and (min-width: 992px){
+    .modal-dialog{
+        max-width: 703px
+    }
+}
+.wt-150{
+    width:150px
+}
+.wt-539{
+    width: 539px
+}
+.pdbtm-36{
+    padding-bottom: 36px;
+}
+
+@media only screen and (width: 1024px){
+.ht-682{
+    height: 682px;
+}
+.ht-775{
+    height: 775px;
+}
+}
+.marT-55{
+    margin-top: 55px
+}
+.htt-45{
+    height:45px
+}
+
+
+.pad-R15-L15{
+    padding:0px 15px;
+}
+
+.inputTxtCenter{
+    text-align:center;
+    font-size:12px;
+}
+
+
+
+div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:active {
+    color: white;
+    background-color: #007BFF;
+}
+
+
+@media only screen and (max-width: 992px){
+   .ps-r-t-20-r-20 {
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+    .wdth-100pr{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 578px) and (max-width: 992px){
+    .tp-20-lft-50{
+        top: 20px;
+        left: 50px;
+    }
+}
+
+@media only screen and (min-width: 994px) and (max-width: 1022px){
+
+    .pss-r-lft-72{
+        position: relative;
+    left: 72px;
+    }
+    .pss-r-lft-118{
+        left: 118px;
+        position: relative;
+    }
+}

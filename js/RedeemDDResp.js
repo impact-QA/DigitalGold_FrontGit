@@ -52,36 +52,71 @@ $(document).ready(function () {
 });
 
 
-
-
+function cart_summary(){
+    $("#sum3").css("display", "block");
+    $("#redeemHead2").css("display","none");
+    $("#redeemHead1").css("display","block");
+      $("#click").css("display","none"); 
+      $("#sum1").css("display","none");
+}
 
 
 
 function red(){
-    window.location.href = "#Addme";
+    //window.location.href = "#Addme";
     if ($(window).width() < 960){
-        $("#sum3").css("display", "block");
-        $("#click").css("display","none"); 
-        $("#sum1").css("display","none");
-        
+        $("#cartchange").attr('src', '../../img/cart2.png');
+        $("#cartFloatingIcon").css("display", "block");
+       // $("#sum3").css("display", "block");
+      //  $("#click").css("display","none"); 
+       // $("#sum1").css("display","none");
+        $("#bell").css("display","block");
         
     }
     else{
-        $("#Addme").addClass("bg");
-        $("#Addme").removeClass("colr");
-        $("#addcart").addClass("whiteColor");
-        $("#addcart").removeClass("colr");
-        $("#Addme").css("color","white");
+      // $("#Addme").addClass("bg");
+      // $("#Addme").removeClass("colr");
+      // $("#addcart").addClass("whiteColor");
+      // $("#addcart").removeClass("colr");
+      // $("#Addme").css("color","white");
+        $("#addcart").html("Added to Cart");
         $("#sum1").css("display","none");
         $("#sum2").css("display", "block");
+        $("#summarydiv").css("height", "665px");
     }
 }
+
+
+$("#addcart").click(function () {
+   // alert("aasd");
+    //$("#sum1").css("display", "none");
+    //$("#sum2").css("display", "block");
+    $("#addcart").html("Added to Cart");
+    
+})
+
+$('#Addme').mouseup(function (event) {
+    switch (event.which) {
+        case 1: 
+            $("#inputIDCart_1").attr("placeholder", "1");
+            break;
+    }
+});
+
+
+function confirm3_redir(){
+    $("#confirm3").css("display","none");
+    $("#confirm2").css("display","block");
+    $("#confirm1").css("display","none");
+}
+
 
 function confirm2_redir(){
     if ($(window).width() < 960) {
         $("#click").css("display","none");
         $("#confirm1").css("display","none");
         $("#confirm2").css("display","block");
+        $("#confirm3").css("display","none");
             $("#redem_success").removeClass("offset-3");
            $("#redem_successpara").removeClass("offset-1");
          
@@ -97,12 +132,27 @@ function gold_redir(){
     $("#gold_div").css("display","block");
     $("#silver_div").css("display","none");
     $("#gold_product_heading").html("Gold Products");
+    $("#selectgold").css("background","#296EFB");
+    $("#selectgold").css("color","white");
+    $("#selectsilver").css("background","white");
+    $("#selectsilver").css("color","#296EFB");
+    $("#selectgold2").css("background","#296EFB");
+    $("#selectgold2").css("color","white");
+    $("#selectsilver2").css("background","white");
+    $("#selectsilver2").css("color","#296EFB");
 }
 
 function silver_redir(){
     $("#gold_div").css("display","none");
     $("#silver_div").css("display","block");
     $("#gold_product_heading").html("Silver Products");
+     $("#selectsilver").css("color","white");
+    $("#selectsilver").css("background","#296EFB");
+    $("#selectgold").css("background","white");
+    $("#selectgold").css("color","#296EFB");
+    $("#selectsilver2").css("color","white");
+    $("#selectsilver2").css("background","#296EFB");
+    $("#selectgold2").css("background","white");
+    $("#selectgold2").css("color","#296EFB");
 }
 
- 
