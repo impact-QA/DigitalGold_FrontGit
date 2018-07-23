@@ -64,6 +64,13 @@ max-width:86px;
 .mrL-43{
     margin-left: 43px;
 }
+.marLLL-10{
+    margin-left: 10px
+}
+.ps-r-lft-13p{
+    position: relative;
+    left: 13px;
+}
 }
 
 .ht-668{
@@ -125,6 +132,9 @@ height:665px
     .modal-dialog{
         max-width: 703px
     }
+    .mrttT-21{
+        margin-top: 21px
+    }
 }
 .wt-150{
     width:150px
@@ -137,11 +147,17 @@ height:665px
 }
 
 @media only screen and (width: 1024px){
+
+
+
 .ht-682{
     height: 682px;
 }
 .ht-775{
     height: 775px;
+}
+.marLLl--15{
+    margin-left: -15px;
 }
 }
 .marT-55{
@@ -163,7 +179,7 @@ height:665px
 
 
 
-div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:active {
+div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
     color: white;
     background-color: #007BFF;
 }
@@ -178,7 +194,7 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:active {
     .wdth-100pr{
         width: 100%;
     }
-
+  
 }
 
 @media only screen and (min-width: 578px) and (max-width: 992px){
@@ -199,3 +215,104 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:active {
         position: relative;
     }
 }
+
+
+@media only screen and (max-width: 1440px){
+    .wt-468-mrl_80 {
+        flex: 468px;
+        max-width: 468px;
+        margin-left: 80px;
+    }
+
+}
+
+@media only screen and (width: 1440px){
+  .marLLL-155{
+    margin-left: 155px;
+  }
+  .ps-chnge{
+      position: relative;
+    right: 17px;
+}
+
+ .margin-T-5{
+     margin-top: 5px;
+ }
+}
+
+
+@media only screen and (max-width: 768px){
+    .marLLL--3{
+        margin-left: -3px
+    }
+
+  }
+
+  @media only screen and (min-width: 770px) and (max-width: 992px){
+      .marLL--15{
+        margin-left: -15px;
+      }
+      .marLL-0{
+        margin-left:0px
+    }
+  }
+  .htt-21{
+   height: 21px
+  }
+  .hgt-45{
+      height: 45px
+  }
+
+  .marLL-0{
+      margin-left:0px
+  }
+
+  @media only screen and (min-width: 578px) and (max-width: 992px){
+      .pdd-0
+      {
+          padding:0px
+      }
+  }
+  .pdB-40{
+      padding-bottom: 40px
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1438px){
+      .ps-r-l-30{
+        position: relative;
+        left: 30px;
+      }
+  }
+  @media only screen and (min-width: 1440px){
+      .ps-r-45{
+        position: relative;
+        left: 45px;
+      }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1196px){
+      .ps-r-r-14{
+        position: relative;
+        right: 14px;
+      }
+      .ps-r-R-20{
+        position: relative;
+        right: 20px;
+      }
+  }
+  @media only screen and (max-width: 992px){
+      .algn-cntr{
+          text-align: center
+      }
+    .ps-r-lfft-20 {
+        position: relative;
+        left: 20px;
+    }
+
+
+   
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1022px){
+      .ps-r-lf-15{    position: relative;
+        left: 15px;}
+  }

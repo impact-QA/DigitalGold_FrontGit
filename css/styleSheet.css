@@ -3106,7 +3106,7 @@
         position: fixed;
         z-index: 1;
         top: 0;
-        left: 0px;
+        right: 0px;
         background-color: #111;
         overflow-x: hidden;
         transition: 0.5s;
@@ -3135,7 +3135,7 @@
         }
 
     #bodyMainID {
-        transition: left .5s;
+        transition: right 0.5s;
     }
 
     @media screen and (max-height: 450px) {
@@ -3756,7 +3756,7 @@ hr {
     }
 
     .wt-153-ht-40 {
-        width: 49%;
+        width: 50%;
         height: 40px;
     }
 
@@ -3819,14 +3819,24 @@ hr {
         overflow: scroll
     }
 
+    @media only screen and (min-width: 602px) and (max-width: 765px){
+        .brder-bottom{
+            border-bottom: 4px solid #eee;
+        }
+    }
+
+    @media only screen and (max-width: 765px){
+        .brdr-right-none {
+            border-right: none;
+        }
+    }
+
 
 @media only screen and (max-width: 600px){
-    .brdr-chnge2{
-        border-top: 4px solid #eee;
+    .brdr-chnge2 {
+        border-top: 21px solid #F3F3F5;
     }
-    .brdr-right-none{
-        border-right: none;
-    }
+    
     .ps-r-l-50-bt-55{
         position: relative;
     left: 50px;
@@ -3845,7 +3855,7 @@ hr {
 }
 @media only screen and (min-width: 600px) and (max-width: 992px) {
    .brdr-chnge3{
-       border-top: 4px solid #eee;
+       border-top: 21px solid #f3f3f3;
    }
    .brdr-none{
        border:none;
@@ -3858,7 +3868,7 @@ hr {
     .ps-r-lft16-top20 {
         position: relative;
         left: 16px;
-        top: 20px;
+        top: 0px;
     }
 
     .bg-red {
@@ -3905,6 +3915,11 @@ hr {
 
 
 @media only screen and (min-width: 1024px){
+
+    .marL-0 {
+        margin-left: 0px
+    }
+
     .font-14{
         font-size:14px
     }
@@ -3958,7 +3973,7 @@ overflow-y: scroll
 }
 
 .brdr-top-4 {
-    border-top: 4px solid #eee;
+    border-top: 21px solid #f3f3f3;
 }
 
 

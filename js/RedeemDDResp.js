@@ -14,6 +14,7 @@ $(document).ready(function () {
             $("#dotResp_4").html(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ");
             $("#dotResp_5").html(". . . . . . . . . . . . . . . . . . . . . . . . . . .  ");
         }
+
     }, 10);
 
 });
@@ -38,7 +39,6 @@ $(document).ready(function () {
             $("#dotResp_10").html(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .");
         }
 
-    
 
         else {
             $("#dotResp_6").html(". . . . . . . . . . . . . . . .");
@@ -66,7 +66,9 @@ function red(){
     //window.location.href = "#Addme";
     if ($(window).width() < 960){
         $("#cartchange").attr('src', '../../img/cart2.png');
-        $("#cartFloatingIcon").css("display", "block");
+        $("#cartFloatingIcon").addClass("show-on-small");
+        $("#cartFloatingIcon").addClass("show-on-med");
+        $("#cartFloatingIcon").addClass("hide-on-large");
        // $("#sum3").css("display", "block");
       //  $("#click").css("display","none"); 
        // $("#sum1").css("display","none");
@@ -82,7 +84,7 @@ function red(){
         $("#addcart").html("Added to Cart");
         $("#sum1").css("display","none");
         $("#sum2").css("display", "block");
-        $("#summarydiv").css("height", "665px");
+        $("#summarydiv").css("height", "710px");
     }
 }
 
