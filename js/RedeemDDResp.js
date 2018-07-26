@@ -58,6 +58,8 @@ function cart_summary(){
     $("#redeemHead1").css("display","block");
       $("#click").css("display","none"); 
       $("#sum1").css("display","none");
+    
+        
 }
 
 
@@ -69,11 +71,11 @@ function red(){
         $("#cartFloatingIcon").addClass("show-on-small");
         $("#cartFloatingIcon").addClass("show-on-med");
         $("#cartFloatingIcon").addClass("hide-on-large");
+        $("#bell").css("display","block");
        // $("#sum3").css("display", "block");
       //  $("#click").css("display","none"); 
        // $("#sum1").css("display","none");
-        $("#bell").css("display","block");
-        
+       
     }
     else{
       // $("#Addme").addClass("bg");
@@ -81,7 +83,7 @@ function red(){
       // $("#addcart").addClass("whiteColor");
       // $("#addcart").removeClass("colr");
       // $("#Addme").css("color","white");
-        $("#addcart").html("Added to Cart");
+       
         $("#sum1").css("display","none");
         $("#sum2").css("display", "block");
         $("#summarydiv").css("height", "710px");
@@ -89,13 +91,55 @@ function red(){
 }
 
 
-$("#addcart").click(function () {
+$(".addme0").click(function () {
    // alert("aasd");
     //$("#sum1").css("display", "none");
     //$("#sum2").css("display", "block");
-    $("#addcart").html("Added to Cart");
+    $(".addcart").html("Added to Cart");
     
 })
+
+
+$(".addme1").click(function () {
+    // alert("aasd");
+     //$("#sum1").css("display", "none");
+     //$("#sum2").css("display", "block");
+     $(".addcart1").html("Added to Cart");
+     
+ })
+
+
+ $(".addme2").click(function () {
+    // alert("aasd");
+     //$("#sum1").css("display", "none");
+     //$("#sum2").css("display", "block");
+     $(".addcart2").html("Added to Cart");
+     
+ })
+
+ $(".addme3").click(function () {
+    // alert("aasd");
+     //$("#sum1").css("display", "none");
+     //$("#sum2").css("display", "block");
+     $(".addcart3").html("Added to Cart");
+     
+ })
+
+ $(".addme4").click(function () {
+    // alert("aasd");
+     //$("#sum1").css("display", "none");
+     //$("#sum2").css("display", "block");
+     $(".addcart4").html("Added to Cart");
+     
+ })
+
+ $(".addme5").click(function () {
+    // alert("aasd");
+     //$("#sum1").css("display", "none");
+     //$("#sum2").css("display", "block");
+     $(".addcart5").html("Added to Cart");
+     
+ })
 
 $('#Addme').mouseup(function (event) {
     switch (event.which) {
@@ -125,7 +169,8 @@ function confirm2_redir(){
      }
      else {
         $("#confirm1").css("display","none");
-    $("#confirm2").css("display","block");
+        $("#confirm2").css("display", "block");
+        $("#confirm3").css("display", "none");
      }
 
 }

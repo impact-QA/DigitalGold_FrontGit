@@ -4053,6 +4053,7 @@ input.inputStyle.wt-51.ht-20.in{
 
 .plchldrcentr::placeholder{
     text-align:center;
+    color:rgba(43, 48, 61, 0.5);
     font-size:12px
 }
 

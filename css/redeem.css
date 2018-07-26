@@ -26,8 +26,8 @@ flex: 86px;
 max-width:86px;
 }
 .flx-160{
-    flex:160px;
-   max-width:160px;
+    flex: 210px;
+   max-width: 210px;
 }
 .flx-640{
     flex:640px;
@@ -58,7 +58,7 @@ max-width:86px;
     margin-left: 18px;
 }
 .wt-454-mrL138{
-    width: 454px;
+    width: 454.33px;
     margin-left: 138px;
 }
 .mrL-43{
@@ -67,9 +67,9 @@ max-width:86px;
 .marLLL-10{
     margin-left: 10px
 }
-.ps-r-lft-13p{
+.ps-r-lft-13p {
     position: relative;
-    left: 13px;
+    left: 30px;
 }
 }
 
@@ -135,6 +135,17 @@ height:665px
     .mrttT-21{
         margin-top: 21px
     }
+    .brd-5-f3{
+        border: 5px solid #f3f3f3;
+    }
+      #Goldbdnone div:nth-child(3n) {
+        border-right: 0px;
+}
+
+  #Silverbdnone div:nth-child(3n) {
+    border-right: 0px;
+}
+    
 }
 .wt-150{
     width:150px
@@ -175,6 +186,7 @@ height:665px
 .inputTxtCenter{
     text-align:center;
     font-size:12px;
+    color: rgba(43, 48, 61, 0.5);
 }
 
 
@@ -245,7 +257,24 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
     .marLLL--3{
         margin-left: -3px
     }
+    
 
+  }
+  @media only screen and (max-width: 766px){
+
+    .fnt-18{
+        font-size: 18px
+    }
+    .fntt-10{
+        font-size: 10px
+    }
+    .wt-146-ht-45{
+        width: 146px;
+        height: 45px
+    }
+    .plchldrcentr::placeholder{
+        font-size: 18px;
+    }
   }
 
   @media only screen and (min-width: 770px) and (max-width: 992px){
@@ -288,16 +317,26 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
         position: relative;
         left: 45px;
       }
+
+     .ps-r-lf-5 {
+        position: relative;
+        left: 50px;
+      }
+
+     .ps-r-R-35{    position: relative;
+    
+    right: 35px;
+  }
+
+  .flx-137{flex: 137px;
+    max-width: 137px;}
   }
   @media only screen and (min-width: 992px) and (max-width: 1196px){
       .ps-r-r-14{
         position: relative;
         right: 14px;
       }
-      .ps-r-R-20{
-        position: relative;
-        right: 20px;
-      }
+     
   }
   @media only screen and (max-width: 992px){
       .algn-cntr{
@@ -316,3 +355,58 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
       .ps-r-lf-15{    position: relative;
         left: 15px;}
   }
+  .marT-2{
+      margin-top:2px
+  }
+
+
+  .pd-r-0{
+    padding-right: 0px;
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1438px){
+.pd-rr-0{
+    padding-right: 0px
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .brdr-5r-f3{
+        border-right: 5px solid #f3f3f3;
+        border-bottom: 5px solid #f3f3f3;
+    }
+    #Goldbdnone div:nth-child(2n){
+        border-right: 0px solid #f3f3f3;
+    }
+
+    #Silverbdnone div:nth-child(2n){
+        border-right: 0px solid #f3f3f3;
+    }
+}
+
+@media only screen and (max-width: 766px){
+.brd-btm-21r-f3{
+border-bottom: 21px solid #f3f3f3;
+}
+}
+
+
+.txt-decor-2b303d{
+    text-decoration: none;
+    color: #2b303d;
+}
+
+.marB-95{
+    margin-bottom: 93px
+}
+.marL--5{
+    margin-left: -5px;
+}
+.pd-0{
+    padding: 0px
+}
+.pd-rrr-0{
+    padding-right: 0px
+}
