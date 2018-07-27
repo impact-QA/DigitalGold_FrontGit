@@ -71,6 +71,12 @@ max-width:86px;
     position: relative;
     left: 30px;
 }
+
+
+.ps-r-lft-3px{
+    position: relative;
+    left: 3px;
+}
 }
 
 .ht-668{
@@ -258,6 +264,15 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
         margin-left: -3px
     }
     
+    .mrL--1-p-r-l-15{
+        margin-left: -1px;
+        position: relative;
+        left: 15px;
+    }
+    .pd-r-0-pd-l-0{
+        padding-right: 0px;
+    padding-left: 0px;
+    }
 
   }
   @media only screen and (max-width: 766px){
@@ -344,7 +359,7 @@ div#Addme.btn.col-lg-12.marT-10.brdr-liteblue.bd-0:hover {
       }
     .ps-r-lfft-20 {
         position: relative;
-        left: 20px;
+        left: 15px;
     }
 
 
