@@ -1,0 +1,1667 @@
+
+
+.hoverBox {
+    -moz-transition: all 0.3 ease 0s;
+    -o-transition: all 0.3 ease 0s;
+    -webkit-transition: all 0.3 ease 0s;
+    transition: all 0.3 ease 0s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+#apmexBox {
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition: all 0.3 ease 0s;
+    -o-transition: all 0.3 ease 0s;
+    -webkit-transition: all 0.3 ease 0s;
+    transition: all 0.3 ease 0s;
+}
+
+    #apmexBox:hover {
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -moz-transition: all 0.3 ease 0s;
+        -o-transition: all 0.3 ease 0s;
+        -webkit-transition: all 0.3 ease 0s;
+        transition: all 0.3 ease 0s;
+        -moz-transform: translate(0px,-5px);
+        -ms-transform: translate(0px,-5px);
+        -o-transform: translate(0px,-5px);
+        -webkit-transform: translate(0px,-5px);
+        transform: translate(0px,-5px);
+    }
+
+
+#sprottBox {
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition: all 0.3 ease 0s;
+    -o-transition: all 0.3 ease 0s;
+    -webkit-transition: all 0.3 ease 0s;
+    transition: all 0.3 ease 0s;
+}
+
+
+    #sprottBox:hover {
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -moz-transition: all 0.3 ease 0s;
+        -o-transition: all 0.3 ease 0s;
+        -webkit-transition: all 0.3 ease 0s;
+        transition: all 0.3 ease 0s;
+        -moz-transform: translate(0px,-5px);
+        -ms-transform: translate(0px,-5px);
+        -o-transform: translate(0px,-5px);
+        -webkit-transform: translate(0px,-5px);
+        transform: translate(0px,-5px);
+    }
+
+
+
+#newsBox_1, #newsBox_2, #newsBox_3 {
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition: all 0.3 ease 0s;
+    -o-transition: all 0.3 ease 0s;
+    -webkit-transition: all 0.3 ease 0s;
+    transition: all 0.3 ease 0s;
+}
+
+    #newsBox_1:hover, #newsBox_2:hover, #newsBox_3:hover {
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -moz-transition: all 0.3 ease 0s;
+        -o-transition: all 0.3 ease 0s;
+        -webkit-transition: all 0.3 ease 0s;
+        transition: all 0.3 ease 0s;
+        -moz-transform: translate(0px,-5px);
+        -ms-transform: translate(0px,-5px);
+        -o-transform: translate(0px,-5px);
+        -webkit-transform: translate(0px,-5px);
+        transform: translate(0px,-5px);
+    }
+
+
+.padB60 {
+    padding-bottom: 60px;
+}
+
+
+@media only screen and (min-width: 1200px) /*xLarge*/ {
+    .oneGoldTExt{
+        font-size:48px;
+    }
+    .oneGoldBar{
+        width:392px;
+    }
+    .oneGoldText{
+        font-size:24px;
+    }
+    .oneGoldWidth {
+        width: 620px;
+        text-align: justify
+    }
+    .ht-164 {
+        height: 164px;
+    }
+    .oneGoldIconText{
+        font-size:36px;
+    }
+    .hoverBox {
+        height: 276px;
+        width: 276px;
+        padding-top: 20px;
+        color: #296EFB
+    }
+
+    .marT-70pxResp{
+        margin-top:70px;
+    }
+    .accountBar{
+        width:700px;
+    }
+    .accountImage {
+        width: 331px;
+        margin-top: 150px;
+    }
+    .easeHeading{
+        font-size:36px;
+    }
+    .GetStarted {
+        background-image: url("../img/ONEGOLD-Gif-20.png");
+        background-repeat: repeat-x;
+        height: 600px;
+        margin: 0px;
+    }
+    .easeWidth{
+        width:470px;
+    }
+    .ft-40 {
+        font-size: 40px;
+    }
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 140px;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) /* Large */
+{
+    .oneGoldTExt {
+        font-size: 48px;
+    }
+    .oneGoldBar {
+        width: 392px;
+    }
+    .oneGoldText {
+        font-size: 24px;
+    }
+    .oneGoldWidth {
+        width: 620px;
+        text-align: justify
+    }
+    .ht-164 {
+        height: 164px;
+    }
+
+    .oneGoldIconText {
+        font-size: 36px;
+    }
+    .hoverBox {
+        height: 276px;
+        width: 276px;
+        padding-top: 20px;
+        color: #296EFB
+    }
+    .marT-70pxResp {
+        margin-top: 70px;
+    }
+
+    .accountBar {
+        width: 700px;
+    }
+
+    .accountImage {
+        width: 250px;
+        margin-top:100px;
+    }
+    .GetStarted {
+        background-image: url("../img/ONEGOLD-Gif-20.png");
+        background-repeat: repeat-x;
+        height: 700px;
+        margin: 0px;
+    }
+    .easeHeading {
+        font-size: 36px;
+    }
+    .easeWidth {
+        width: 470px;
+    }
+    .ft-40 {
+        font-size: 40px;
+    }
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 993px) /* Med */
+{
+    .oneGoldTExt {
+        font-size: 48px;
+    }
+    .oneGoldBar {
+        width: 392px;
+    }
+    .oneGoldText {
+        font-size: 24px;
+    }
+    .oneGoldWidth {
+        width: auto;
+        text-align: justify
+    }
+    .ht-164 {
+        height: 164px;
+    }
+
+    .oneGoldIconText {
+        font-size: 36px;
+    }
+    .hoverBox {
+        height: 276px;
+        width: 276px;
+        padding-top: 20px;
+        color: #296EFB
+    }
+    .marT-70pxResp {
+        margin-top: 70px;
+    }
+
+    .accountBar {
+        width: 500px;
+    }
+    .GetStarted {
+        background:#eeeeee;
+    }
+    .easeHeading {
+        font-size: 36px;
+    }
+    .easeWidth {
+        width: 470px;
+    }
+    .ft-40 {
+        font-size: 40px;
+    }
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px) /* Small */
+{
+    .oneGoldTExt {
+        font-size: 24px;
+    }
+    .oneGoldBar {
+        width: 268px;
+    }
+    .oneGoldText {
+        font-size: 18px;
+    }
+    .oneGoldWidth {
+        width: 268px;
+        text-align:justify
+    }
+    .ht-164 {
+        height: 106px;
+    }
+
+    .oneGoldIconText {
+        font-size: 24px;
+    }
+
+    .hoverBox {
+        height: 196px;
+        width: 276px;
+        padding-top: 20px;
+        color: #296EFB
+    }
+    .marT-70pxResp {
+        margin-top: 50px;
+    }
+
+    .accountBar {
+        width: 275px;
+    }
+    .GetStarted {
+        background: #eeeeee;
+    }
+    .easeHeading {
+        font-size: 24px;
+    }
+    .easeWidth {
+        width: 250px;
+    }
+    .ft-40 {
+        font-size: 24px;
+    }
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) /*xLarge*/
+{
+    .seoImage {
+        width: 315px;
+    }
+
+    .seoBar {
+        width: 520px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .newsBar {
+        width: 278px;
+        text-align: justify;
+    }
+
+
+    .newsBarWidth {
+        width: 660px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .seoheading {
+        font-size: 36px;
+    }
+
+    .newsImage {
+        width: 370px;
+    }
+
+    .whoHeading {
+        font-size: 48px;
+    }
+
+    .whoBar {
+        width: 322px;
+    }
+
+    .whoContent {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+
+    .whoApmexLogo {
+        width: 282px;
+    }
+
+    .whoSprottLogo {
+        width: 250px;
+    }
+
+    .padRight {
+        padding-right: 100px;
+    }
+
+    .padLeft {
+        padding-left: 100px;
+    }
+
+    .marT-70Resp {
+        margin-top: 70px;
+    }
+
+    .marTT85px {
+        margin-top: 85px;
+    }
+
+    .Diff20P {
+        font-size: 150px;
+    }
+
+    .diffBar {
+        width: 314px;
+    }
+
+    .offFee {
+        font-size: 60px;
+    }
+
+    .DiffWithUS {
+        font-size: 48px;
+    }
+
+    .diffBarwithUS {
+        width: 544px;
+    }
+
+    .differnceContent {
+        font-size: 24px;
+    }
+
+    .greyHeading {
+        font-size: 50px;
+        color: #2B303D;
+    }
+
+    .greyHeadingBar {
+        width: 184px;
+        background-color: #2B303D
+    }
+
+    .greyContent {
+        font-size: 24px;
+        color: #2B303D;
+        text-align: left
+    }
+
+    .greyContentMid {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) /* Large */
+{
+    .seoImage {
+        width: 315px;
+    }
+
+    .seoBar {
+        width: 520px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+
+    .newsBar {
+        width: 278px;
+        text-align: justify;
+    }
+
+
+    .newsBarWidth {
+        width: 660px;
+        text-align: justify;
+        font-size: 18px;
+    } 
+    .seoheading {
+        font-size: 36px;
+    }
+
+    .newsImage {
+        width: 370px;
+    }
+    .whoHeading {
+        font-size: 48px;
+    }
+    .whoBar {
+        width: 322px;
+    }
+    .whoContent {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+    .whoApmexLogo {
+        width: 282px;
+    }
+
+    .whoSprottLogo {
+        width: 250px;
+    }
+
+    .padRight {
+        padding-right: 100px;
+    }
+
+    .padLeft {
+        padding-left: 100px;
+    }
+
+    .marT-70Resp{
+        margin-top: 70px;
+    }
+
+    .marTT85px{
+        margin-top:85px;
+    }
+
+    .Diff20P {
+        font-size: 150px;
+    }
+
+    .diffBar {
+        width: 314px;
+    }
+
+    .offFee {
+        font-size: 60px;
+    }
+
+    .DiffWithUS {
+        font-size: 48px;
+    }
+
+    .diffBarwithUS {
+        width: 544px;
+    }
+
+    .differnceContent {
+        font-size: 24px;
+    }
+
+    .greyHeading {
+        font-size: 50px;
+        color: #2B303D;
+    }
+
+    .greyHeadingBar {
+        width: 184px;
+        background-color: #2B303D
+    }
+
+    .greyContent {
+        font-size: 24px;
+        color: #2B303D;
+        text-align: left
+    }
+
+    .greyContentMid {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 993px) /* Med */
+{
+
+    .seoBar {
+        width: auto;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+
+    .newsBar {
+        width: auto;
+        text-align: justify;
+    }
+
+
+    .newsBarWidth {
+        width: auto;
+        text-align: justify;
+        font-size: 18px;
+    } 
+    .seoheading {
+        font-size: 36px;
+    }
+
+    .newsImage {
+        width: 260px;
+    }
+
+    .whoHeading {
+        font-size: 48px;
+    }
+
+    .whoBar {
+        width: 322px;
+    }
+    .whoContent {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+    .whoApmexLogo {
+        width: 282px;
+    }
+
+    .whoSprottLogo {
+        width: 250px;
+    }
+    .padRight {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .padLeft {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .marT-70Resp{
+        margin-top: 70px;
+    }
+
+    .marTT85px{
+        margin-top:85px;
+    }
+
+    .DiffWithUS {
+        font-size: 48px;
+    }
+
+    .diffBarwithUS {
+        width: 544px;
+    }
+
+    .differnceContent {
+        font-size: 24px;
+    }
+
+    .resp20pDiff{
+        font-size:64px;
+    }
+    .resp20pbar{
+        width:162px;
+    }
+    .resp20Off{
+        font-size:30px;
+    }
+    .greyHeading {
+        font-size: 50px;
+        color: #2B303D;
+    }
+
+    .greyHeadingBar {
+        width: 184px;
+        background-color: #2B303D
+    }
+
+    .greyContent {
+        font-size: 24px;
+        color: #2B303D;
+        text-align: left
+    }
+
+    .greyContentMid {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px) /* Small */
+{
+
+    .seoBar {
+        width: 280px;
+        text-align:justify;
+        font-size:14px;
+    }
+
+
+    .newsBar {
+        width: 268px;
+        text-align: justify;
+    }
+
+
+    .newsBarWidth {
+        width: 280px;
+        text-align: justify;
+        font-size: 14px;
+    } 
+    .seoheading {
+        font-size: 24px;
+    }
+
+    .newsImage {
+        width: 260px;
+    }
+
+    .whoHeading {
+        font-size: 24px;
+    }
+
+    .whoBar{
+        width:250px;
+    }
+    .whoContent {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .whoApmexLogo {
+        width: 226px;
+    }
+
+    .whoSprottLogo {
+        width: 163px;
+    }
+
+    .padRight {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .padLeft {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .marT-70Resp{
+        margin-top: 24px;
+    }
+
+    .marTT85px{
+        margin-top:40px;
+    }
+
+    .DiffWithUS {
+        font-size: 24px;
+    }
+
+    .diffBarwithUS {
+        width: 276px;
+    }
+
+    .differnceContent {
+        font-size: 14px;
+    }
+
+    .greyHeading {
+        font-size: 24px;
+        color: #2B303D;
+    }
+
+    .greyHeadingBar {
+        width: 112px;
+        background-color: #2B303D
+    }
+
+    .greyContent {
+        font-size: 18px;
+        color: #2B303D;
+        text-align: left
+    }
+
+    .greyContentMid {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+}
+
+
+
+
+
+
+.on-header-1 {
+    background-color: #2B303D; height: 90px; color: white; padding-left: 125px;
+}
+
+
+
+.greyBG{
+    background-color:#eeeeee;
+}
+
+.fnt-40{
+    font-size: 40px
+}
+
+.ht-90{
+    height:90px
+}
+.marT-top-22{
+    margin-top: 22px;
+}
+
+.ht-inhrt{
+    height: inherit;
+}
+.pdd-T-22{
+    padding-top:22px
+}
+
+
+
+.marT-142{
+    margin-top: 142px
+}
+.ft-36{
+    font-size: 36px
+}
+
+.higt-30{
+    height: 30px
+}
+.marL-55{
+    margin-left: 55px
+}
+@media only screen and (width: 1440px) {
+    .marL-15{
+        margin-left: 15px
+    }
+    .marL-76{
+        margin-left: 76px
+    }
+    .pdL-57{
+        padding-left:57px
+    }
+.flx-470{
+    flex:470px;
+    max-width: 470px;
+}
+
+.flx-450{
+    flex:450px;
+    max-width: 450px;
+}
+
+.flx-392{
+    flex:392px;
+    max-width:392px
+}
+.lft-40{
+    left: 40px
+}
+.pSettng{
+    margin-left: 60px;
+  
+    right: 30px;
+    position: relative;
+}
+.flx-700{
+    flex: 700px;
+    max-width: 700px
+}
+.mx-wt-667{
+    max-width: 667px
+}
+.marLL-29{
+    margin-left: 29px;
+}
+.pdLl-20{
+   padding-left: 20px
+}
+
+}
+
+
+.marT-18{
+    margin-top: 18px
+}
+    
+.ht-80{
+    height: 80px;
+}
+.wt-200{
+    width:200px
+}
+.padl-97{
+    padding-left: 97px;
+}
+
+.padT-120{
+    padding-top: 120px
+}
+
+
+.padT-160{
+    padding-top: 160px
+}
+
+.blk-sqre-stting{
+    background-color: #2B303D;
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.fnt-48{
+    font-size:48px;
+}
+
+.marT-90{
+    margin-top: 90px
+}
+
+@media only screen and (min-width: 992px){
+
+    .HT-1052{
+        height: 1052px;
+     }
+    .marL-136{
+        margin-left: 136px
+    }
+    .marL-95{
+        margin-left: 95px;
+    }
+  
+    
+    .ht-276-wt-276{
+        width: 276px;
+        height: 276px
+    }
+    .hoverBoxsting{
+        position: relative;
+        left: 54px;
+        top: 32px;
+    }
+    .marlLL-55{
+        margin-left: 55px
+    }
+
+    .marLL--10{
+        margin-left: -10px;
+    }
+
+    .marLL--40{
+        margin-left: -25px;
+    }
+    .marL-190{
+        margin-left: 190px
+    }
+}
+
+.wt-314{
+    width: 314px
+}
+
+.marrL--16{
+    margin-left: -16px
+}
+.ht-636{
+    height: 636px
+}
+.wt-285{
+    width: 285px
+}
+.marT-166{
+    margin-top: 166px
+}
+
+.bg-e5{
+    background:#e5e5e5;
+}
+
+.fntt-150{
+    font-size:150px;
+    line-height: 176px;
+}
+.t-60{
+    font-size: 60px;
+
+}
+.marL-200{
+    margin-left: 200px;
+}
+.wt-543{
+   width: 543px  
+}
+.Learn{
+    text-decoration: underline
+}
+.marT-41{
+    margin-top: 41px
+}
+.marL-30{
+    margin-left: 30px
+}
+.t-50{
+    font-size: 50px;
+    line-height: 41px;
+}
+.ht-18{
+    height: 18px
+}
+
+.wt-184{
+    width: 184px
+}
+.colr-lite-blk{
+    color: rgba(43, 48, 61, 0.6)
+}
+.bg-lite-blk{
+    background: rgba(43, 48, 61, 0.6)
+}
+.t-40{
+    font-size: 40px
+}
+.marB-80{
+    margin-bottom: 80px;
+}
+
+marTT-40{
+    margin-top: 40px
+}
+.t-lh-24-28{
+    font-size: 24px;
+    line-height:28px;
+}
+
+.marT--25{
+    margin-top: -25px
+}
+.ht-854{
+    height: 854px
+}
+
+.wt-322{
+    max-width: 322px
+}
+
+.mr-auto{
+    margin: auto;
+}
+
+.wt-583p{
+    width: 583px
+}
+.martT-51{
+    margin-top: 51px
+}
+.ht-358{
+    height: 358px
+}
+.marL-153{
+    margin-left: 153px
+}
+.martT-46{
+    margin-top: 46px
+}
+
+.marL-118{
+    margin-left: 118px
+}
+
+.ovrlfw-x{
+    overflow-x: hidden;
+}
+
+.marL-37{
+    margin-left: 38px;
+}
+.marT-87{
+    margin-top: 87px
+}
+.ht-436{
+    height: 436px;
+}
+.ht-315{
+    height: 315px;
+}
+.marL-202{
+    margin-left: 202px
+}
+.wt-519{
+    width: 519px
+}
+.fnnt-18{
+    font-size: 18px;
+    line-height: 21px
+}
+.wt-539{
+    width: 539px
+}
+.martT-85{
+    margin-top: 85px
+}
+.marT-21{
+    margin-top: 21px
+}
+.wt-278{
+    width: 278px
+}
+.wt-660{
+    width: 660px
+}
+.marL-390{
+    margin-left: 390px
+}
+.wt-370-ht-240{
+    width: 370px;
+    height: 240px
+}
+.marL-122{
+    margin-left: 122px
+}
+.fntt-18{
+    font-size: 18px;
+    line-height: 21px
+}
+.marLl-45{
+    margin-left: 45px
+}
+.marR-122{
+    margin-right: 122px
+}
+.wt-370{
+    width: 370px
+}
+.wt-285{
+    width: 285px
+}
+.marTTT-45{
+    margin-top: 45px
+}
+.pdB-100{
+    padding-bottom: 100px
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1400px){
+
+    .ht-240 {
+        height: 240px;
+    }
+
+    .marTT-60{
+        margin-top: 60px;
+    }
+    .tt-24{
+        font-size: 24px;
+    }
+    .htt-20{
+        height: 20px;
+    }
+    .fnt-18{
+        font-size: 18px;
+    }
+    .htR-50{
+
+        height: 50px
+    }
+    .higt-320{
+        height: 320px
+    }
+    .ht-15-wt-15{
+        height: 15px;
+        width: 15px
+    }
+    .padT-0{
+       padding-top: 0px
+    }
+    .fnt-35{
+        font-size: 35px
+    }
+    .fntt-100 {
+        font-size: 100px;
+        line-height: 140px;
+    }
+    .wt-215 {
+        width: 215px;
+    }
+    .fntt-38 {
+        font-size: 38px;
+    }
+    .wt-400 {
+        width: 400px;
+    }
+    .fft-40 {
+        font-size: 40px;
+        line-height: 32px;
+    }
+    .wt-370p {
+        width: 370px;
+    }
+    .mrrLL-37{
+        margin-left: 37px;
+  }
+
+  .wt-250-ht-200 {
+    width: 250px;
+    height: 200px;
+}
+    .wt-270 {
+        width: 270px;
+    }
+
+    
+    .mrLl-30 {
+    margin-left: 30px;
+}
+
+.marlft-40 {
+    margin-left: 40px;
+}
+.marLft-20 {
+    margin-left: 20px;
+}
+.marLLft-0{
+    margin-left: 0px
+}
+  .marlll-25{
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1274px){
+   .ps-r-r-134 {
+        position: relative;
+        right: 134px;
+    
+    }
+    .marllL-50 {
+        margin-left: 50px;
+    }
+
+}
+
+
+
+
+.circle-stting {
+   
+    border: 1px solid white;
+    border-radius: 52px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    height: 52px;
+    width: 52px;
+    font-weight:bold;
+    margin-top: -8px;
+}
+
+@media only screen and (max-width: 992px){
+    .mmaarT-55{
+        margin-top:55px;
+    }
+    .mmaarT-50{
+        margin-top: 50px
+    }
+    .maarrl-75{
+        margin-left: 75px;
+    }
+    .marrtt-24{
+        margin-top: 24px;
+    }
+    .wtt-276{
+        width: 276px;
+    }
+    .wt-259-ht-168 {
+        width: 259px;
+        height: 168px;
+    }
+    .marrll-55{
+        margin-left: 55px
+    }
+    .wt-263 {
+        width: 263px;
+    }
+    .wtt-268{
+        width: 268px
+    }
+    .marrLl-47{
+        margin-left: 47px
+    }
+    .wt-253{
+        width: 253px;
+    }
+     .fntR-18{
+         font-size: 18px
+     }
+    .fnt-24{
+        Font-Size: 24px
+       
+    }
+    .marT-66{
+        margin-top: 66px
+    }
+    .bg-#eeeee{
+        background: #eeeeee;
+    }
+    .pdn-0{
+        padding:0px;
+    }
+    .mrgn-0{
+        margin: 0px;
+    }
+    .ht-400{
+        height: 400px;
+    }
+    .wt-242-h140{
+        width: 242.60px;
+        /*height: 140px*/
+    }
+    .mrTt-60{
+        margin-top: 60px
+    }
+    .padding-tp-0{
+        padding-top: 0px;
+    }
+    .pdt-23{
+        padding-top: 23px;
+    }
+    .mrlL-70{
+        margin-left: 70px;
+    }
+    .ppdB-60{
+        padding-bottom: 60px;
+    }
+    .ppddB-50{
+        padding-bottom: 50px
+    }
+    .pdLl-63{
+        padding-left: 63px;
+    }
+    .mrll-54{
+        margin-left: 54px;
+    }
+    .hgt-106{
+        height: 106px;
+    }
+    .marTt-13{
+        margin-top: 13px;
+    }
+    .mart-44{
+        margin-top: 44px;
+    }
+    .marrtt-50 {
+        margin-top: 50px;
+    }
+    .pdbb-50{
+        padding-bottom: 50px;
+    }
+    .fntt-14{
+        font-size: 14px;
+    }
+    .crcle-stting-2{
+        height: 43px;
+    width: 43px;
+    font-weight:bold;
+    font-size: 24px;
+    }
+    .ht-395{
+        height: 395px
+    }
+    .marTT-33{
+        margin-top: 33px
+    }
+    .maarT-50{
+        margin-top: 50px;
+    }
+    .fnnt-64{
+        font-size: 64px
+    }
+
+    .fnnt-30{
+        font-size: 30px
+    }
+    .wt-340{
+        width: 340px;
+    }
+    .wdt-226 {
+        width: 226px;
+    }
+    .wdt-163{
+        width: 163px
+    }
+    .marrT-50{
+        margin-top: 50px
+    }
+    .marTt-20{
+        margin-top: 20px
+    }
+    .hgt-274{
+        height: 274px
+    }
+    .marTTT-40{
+        margin-top: 40px;
+    }
+    .marrrLL-32{
+        margin-left: 32px;
+    }
+    .marrrL-65 {
+        margin-left: 65px;
+    }
+    .marTTT-25{
+        margin-top: 25px
+    }
+    .htt-947{
+        height: 947px;
+    }
+    
+    .higt-354{
+        height: 354px
+    }
+    .marrTT-44{
+        margin-top: 44px
+    }
+}
+
+@media only screen and (max-width: 399px){
+    .mx-width-250{
+        max-width: 250px;
+    }
+    .mx-width-275{
+        max-width: 275px;
+    }
+    .mx-width-241{
+        max-width: 241px;
+    }
+    .mx-wdth-240p{
+        max-width: 240px;
+    }
+    .mx-width-268{
+        max-width: 268px;
+    }
+    .mx-wt-270{
+        max-width: 270px;
+    }
+    .marrll-25 {
+        margin-left: 25px;
+    }
+    .mrll-119{
+        margin-left: 119px;
+    }
+    .mrll-10{
+        margin-left: 10px;
+    }
+
+   .marlft-37 {
+        margin-left: 37px;
+    }
+    .marrL-35{
+        margin-left: 35px;
+    }
+    .marrl-20{
+        margin-left: 20px;
+    }
+    .marLft-23{
+        margin-left: 23px;
+    }
+    .wdt-253{
+        width: 253px
+    }
+   .wt-280{
+     width: 280px
+   }
+}
+
+
+.marT-85 {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.marT-66{
+    margin-top:66px;
+}
+
+.mart45{
+    margin-top:45px;
+}
+
+.marLR-45px{
+    /*margin-left:45px;
+    margin-right:45px;*/
+}
+
+
+.zBorder{
+    border-radius:0;
+}
+
+.marT44 {
+    margin-top:44px;
+}
+
+.padding10px{
+    padding:10px;
+}
+
+.marB100px{
+    margin-bottom:100px;
+}
+
+ .whoBar {
+    background-color:white
+}
+
+.PadT50{
+    padding-top:50px;
+}
+
+
+
+.padB44{
+    padding-bottom:44px;
+}
+
+.relT-26PX {
+    position: relative;
+    top: -26px;
+}
+
+.relT-30px{
+    position:relative;
+    top:-30px;
+}
+
+.padB20px{
+    padding-bottom:16px;
+}
+
+
+.pad20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.marT-150 {
+    margin-top: 150px;
+}
+
+.whitBar {
+    background: white;
+}
+
+.hoverBox:hover {
+    background: #296EFB;
+    color: white;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition: all 0.3 ease 0s;
+    -o-transition: all 0.3 ease 0s;
+    -webkit-transition: all 0.3 ease 0s;
+    transition: all 0.3 ease 0s;
+    -moz-transform: translate(-5px, 0px);
+    -ms-transform: translate(-5px, 0px);
+    -o-transform: translate(-5px, 0px);
+    -webkit-transform: translate(-5px, 0px);
+    transform: translate(-5px, 0px);
+}
+
+.makeCircle {
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.marT-50 {
+    margin-top: 50px;
+}
+
+.padB100 {
+    padding-bottom: 100px;
+}
+
+.padB50 {
+    padding-bottom: 50px;
+}
+
+.disInlineBlock {
+    display: inline-block
+}
+
+.on-header-style {
+    height: 90px;
+    color: white;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 200px;
+}
+
+
+
+.menuBurgerBtnIcon_responsive {
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+    left: -6px;
+}
+
+.navbar-hide-style {
+    list-style: none;
+    padding-top: 40px;
+}
+
+.pad14{
+    padding-top:14px;
+}
+
+.posRelTop-28px{
+    position:relative;
+    top:-26px;
+}
+

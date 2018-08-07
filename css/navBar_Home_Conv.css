@@ -1,0 +1,141 @@
+
+
+
+@media only screen and (min-width: 1200px) /*xLarge*/{
+    .ft-40 {
+        font-size: 40px;
+    }
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 140px;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+    .oneGoldText {
+        font-size: 24px;
+    }
+}
+
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) /* Large */{
+    .ft-40 {
+        font-size: 40px;
+    }
+
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 20px;
+    }
+    .oneGoldText {
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 993px) /* Med */{
+    .ft-40 {
+        font-size: 40px;
+    }
+
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+    .oneGoldText {
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px) /* Small */{
+    .ft-40 {
+        font-size: 24px;
+    }
+
+    .on-brand-style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #296EFB;
+        color: #E7F1EF;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+    }
+
+    .posRelL200px {
+        position: relative;
+        left: 200px;
+    }
+    .oneGoldText {
+        font-size: 18px;
+    }
+}
+
+
+.on-header-style {
+    height: 90px;
+    color: white;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 200px;
+}
+
+
+
+.menuBurgerBtnIcon_responsive {
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+    left: -6px;
+}
+
+.navbar-hide-style {
+    list-style: none;
+    padding-top: 40px;
+}
+
+.pad14 {
+    padding-top: 14px;
+}
+
+.posRelTop-28px {
+    position: relative;
+    top: -26px;
+}
