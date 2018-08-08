@@ -1,16 +1,42 @@
-
-
-.hoverBox {
-    -moz-transition: all 0.3 ease 0s;
-    -o-transition: all 0.3 ease 0s;
-    -webkit-transition: all 0.3 ease 0s;
-    transition: all 0.3 ease 0s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+.marT-60 {
+margin-top:60px;
 }
 
+
+.ht45 {
+    height: 45px;
+}
+
+
+.padB-70{
+    padding-bottom:70px;
+}
+
+
+.marT-32 {
+margin-top:32px;
+}
+
+.marT-24 {
+    margin-top:24px;
+}
+    
+    
+    .hoverBox {
+        -moz-transition: all 0.3 ease 0s;
+        -o-transition: all 0.3 ease 0s;
+        -webkit-transition: all 0.3 ease 0s;
+        transition: all 0.3 ease 0s;
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+
+    #apmexBox, #sprottBox{
+        max-width:584px;
+    }
 
 #apmexBox {
     -moz-transition-duration: 0.3s;
@@ -111,7 +137,7 @@
         width:392px;
     }
     .oneGoldText{
-        font-size:24px;
+        font-size:18px;
     }
     .oneGoldWidth {
         width: 620px;
@@ -121,7 +147,7 @@
         height: 164px;
     }
     .oneGoldIconText{
-        font-size:36px;
+        font-size:24px;
     }
     .hoverBox {
         height: 276px;
@@ -183,7 +209,7 @@
         width: 392px;
     }
     .oneGoldText {
-        font-size: 24px;
+        font-size: 18px;
     }
     .oneGoldWidth {
         width: 620px;
@@ -194,7 +220,7 @@
     }
 
     .oneGoldIconText {
-        font-size: 36px;
+        font-size: 24px;
     }
     .hoverBox {
         height: 276px;
@@ -217,7 +243,7 @@
     .GetStarted {
         background-image: url("../img/ONEGOLD-Gif-20.png");
         background-repeat: repeat-x;
-        height: 700px;
+        height: 600px;
         margin: 0px;
     }
     .easeHeading {
@@ -257,7 +283,7 @@
         width: 392px;
     }
     .oneGoldText {
-        font-size: 24px;
+        font-size: 18px;
     }
     .oneGoldWidth {
         width: auto;
@@ -268,7 +294,7 @@
     }
 
     .oneGoldIconText {
-        font-size: 36px;
+        font-size: 24px;
     }
     .hoverBox {
         height: 276px;
@@ -530,7 +556,7 @@
     }
 
     .newsImage {
-        width: 370px;
+        width: 260px;
     }
     .whoHeading {
         font-size: 48px;
