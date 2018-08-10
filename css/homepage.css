@@ -1,8 +1,36 @@
+.font18px{
+    font-size: 18px
+}
+
+.fnt1{
+    width: 280px
+}
+
+.inputParentWidth1 {
+    width: 72%;
+}
+
+.blackBg1{
+    background-color: #296EFB
+}
+.blackBg2{
+    background-color: #FFFFFF
+}
+
+.paperWidth1 {
+    width: 70px;
+}
+
+.heavy{
+    font-weight: bold;
+}
 .marT-60 {
 margin-top:60px;
 }
 
-
+.oneGoldText1{
+    font-size: 24px;
+}
 .ht45 {
     height: 45px;
 }
@@ -128,19 +156,27 @@ margin-top:32px;
     padding-bottom: 60px;
 }
 
+.line{
+    text-align: left;
+    max-width: 645px;
+}
+
 
 @media only screen and (min-width: 1200px) /*xLarge*/ {
     .oneGoldTExt{
         font-size:48px;
     }
     .oneGoldBar{
-        width:392px;
+        width:584px;
     }
     .oneGoldText{
         font-size:18px;
     }
+    .oneGoldText1{
+        font-size:24px;
+    }
     .oneGoldWidth {
-        width: 620px;
+        width: 584px;
         text-align: justify
     }
     .ht-164 {
@@ -159,12 +195,16 @@ margin-top:32px;
     .marT-70pxResp{
         margin-top:70px;
     }
+    
+    .marL30{
+        margin-left:-40px;
+    }
     .accountBar{
-        width:700px;
+        width:600px;
     }
     .accountImage {
         width: 331px;
-        margin-top: 150px;
+        margin-top: 64px;
     }
     .easeHeading{
         font-size:36px;
@@ -172,11 +212,15 @@ margin-top:32px;
     .GetStarted {
         background-image: url("../img/ONEGOLD-Gif-20.png");
         background-repeat: repeat-x;
-        height: 600px;
+        height: 425px;
         margin: 0px;
     }
     .easeWidth{
-        width:470px;
+        width:auto;
+    }
+    
+    .easeWidth1{
+        width:420px;
     }
     .ft-40 {
         font-size: 40px;
@@ -200,13 +244,13 @@ margin-top:32px;
 }
 
 
-@media only screen and (min-width: 993px) and (max-width: 1200px) /* Large */
+@media only screen and (min-width: 600px) and (max-width: 1220px) /* Large */
 {
     .oneGoldTExt {
         font-size: 48px;
     }
     .oneGoldBar {
-        width: 392px;
+        width: 610px;
     }
     .oneGoldText {
         font-size: 18px;
@@ -233,7 +277,7 @@ margin-top:32px;
     }
 
     .accountBar {
-        width: 700px;
+        width: auto;
     }
 
     .accountImage {
@@ -243,14 +287,17 @@ margin-top:32px;
     .GetStarted {
         background-image: url("../img/ONEGOLD-Gif-20.png");
         background-repeat: repeat-x;
-        height: 600px;
+        
         margin: 0px;
     }
     .easeHeading {
         font-size: 36px;
     }
     .easeWidth {
-        width: 470px;
+        width: auto;
+    }
+    .easeWidth1 {
+        width: 320px;
     }
     .ft-40 {
         font-size: 40px;
@@ -280,7 +327,7 @@ margin-top:32px;
         font-size: 48px;
     }
     .oneGoldBar {
-        width: 392px;
+        width: auto;
     }
     .oneGoldText {
         font-size: 18px;
@@ -307,7 +354,7 @@ margin-top:32px;
     }
 
     .accountBar {
-        width: 500px;
+        width: auto;
     }
     .GetStarted {
         background:#eeeeee;
@@ -316,7 +363,10 @@ margin-top:32px;
         font-size: 36px;
     }
     .easeWidth {
-        width: 470px;
+        width: auto;
+    }
+    .easeWidth1 {
+        width: 450px;
     }
     .ft-40 {
         font-size: 40px;
@@ -347,13 +397,13 @@ margin-top:32px;
         font-size: 24px;
     }
     .oneGoldBar {
-        width: 268px;
+        width: auto;
     }
     .oneGoldText {
-        font-size: 18px;
+        font-size: 14px;
     }
     .oneGoldWidth {
-        width: 268px;
+        width: auto;
         text-align:justify
     }
     .ht-164 {
@@ -365,7 +415,7 @@ margin-top:32px;
     }
 
     .hoverBox {
-        height: 196px;
+        height: 220px;
         width: 276px;
         padding-top: 20px;
         color: #296EFB
@@ -375,7 +425,7 @@ margin-top:32px;
     }
 
     .accountBar {
-        width: 275px;
+        width: auto;
     }
     .GetStarted {
         background: #eeeeee;
@@ -384,8 +434,12 @@ margin-top:32px;
         font-size: 24px;
     }
     .easeWidth {
-        width: 250px;
+        width: auto;
     }
+    .easeWidth1 {
+        width: 260px;
+    }
+    
     .ft-40 {
         font-size: 24px;
     }
@@ -413,6 +467,11 @@ margin-top:32px;
 
 @media only screen and (min-width: 1200px) /*xLarge*/
 {
+
+    #apmexBox, #sprottBox {
+        max-width: 583px;
+    }
+
     .seoImage {
         width: 315px;
     }
@@ -424,7 +483,7 @@ margin-top:32px;
     }
 
     .newsBar {
-        width: 278px;
+        width: 651px;
         text-align: justify;
     }
 
@@ -441,6 +500,11 @@ margin-top:32px;
 
     .newsImage {
         width: 370px;
+    
+    }
+    
+    .pad43{
+        margin-left: 43px;
     }
 
     .whoHeading {
@@ -448,7 +512,7 @@ margin-top:32px;
     }
 
     .whoBar {
-        width: 322px;
+        width: 645px;
     }
 
     .whoContent {
@@ -487,6 +551,10 @@ margin-top:32px;
     .diffBar {
         width: 314px;
     }
+    
+    .marT10 {
+        margin-top: -30px;
+    }
 
     .offFee {
         font-size: 60px;
@@ -497,7 +565,7 @@ margin-top:32px;
     }
 
     .diffBarwithUS {
-        width: 544px;
+        width: auto;
     }
 
     .differnceContent {
@@ -529,6 +597,11 @@ margin-top:32px;
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) /* Large */
 {
+
+    #apmexBox, #sprottBox {
+        max-width: 583px;
+    }
+
     .seoImage {
         width: 315px;
     }
@@ -541,7 +614,7 @@ margin-top:32px;
 
 
     .newsBar {
-        width: 278px;
+        width: 660px;
         text-align: justify;
     }
 
@@ -562,7 +635,7 @@ margin-top:32px;
         font-size: 48px;
     }
     .whoBar {
-        width: 322px;
+        width: 645px;
     }
     .whoContent {
         font-size: 24px;
@@ -642,7 +715,9 @@ margin-top:32px;
 
 @media only screen and (min-width: 600px) and (max-width: 993px) /* Med */
 {
-
+    #apmexBox, #sprottBox {
+        max-width: initial;
+    }
     .seoBar {
         width: auto;
         text-align: justify;
@@ -661,6 +736,9 @@ margin-top:32px;
         text-align: justify;
         font-size: 18px;
     } 
+    .fnt1{
+    width: auto;
+}
     .seoheading {
         font-size: 36px;
     }
@@ -674,7 +752,7 @@ margin-top:32px;
     }
 
     .whoBar {
-        width: 322px;
+        width: auto;
     }
     .whoContent {
         font-size: 24px;
@@ -710,7 +788,7 @@ margin-top:32px;
     }
 
     .diffBarwithUS {
-        width: 544px;
+        width: auto;
     }
 
     .differnceContent {
@@ -753,6 +831,10 @@ margin-top:32px;
 @media only screen and (min-width: 320px) and (max-width: 600px) /* Small */
 {
 
+    #apmexBox, #sprottBox {
+         max-width: initial; 
+    }
+
     .seoBar {
         width: 280px;
         text-align:justify;
@@ -771,6 +853,9 @@ margin-top:32px;
         text-align: justify;
         font-size: 14px;
     } 
+    .fnt1{
+    width: 280px
+}
     .seoheading {
         font-size: 24px;
     }
@@ -784,7 +869,7 @@ margin-top:32px;
     }
 
     .whoBar{
-        width:250px;
+        width:auto;
     }
     .whoContent {
         font-size: 14px;
@@ -799,13 +884,13 @@ margin-top:32px;
     }
 
     .padRight {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
     }
 
     .padLeft {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .marT-70Resp{
         margin-top: 24px;
@@ -820,7 +905,7 @@ margin-top:32px;
     }
 
     .diffBarwithUS {
-        width: 276px;
+        width: auto;
     }
 
     .differnceContent {
@@ -882,8 +967,15 @@ margin-top:32px;
 .pdd-T-22{
     padding-top:22px
 }
+.colr1{
+    font-size: 64px;
+    color: #296EFB;
+}
 
-
+.colr2{
+    font-size: 30px;
+    color: #296EFB;
+}
 
 .marT-142{
     margin-top: 142px
@@ -895,6 +987,19 @@ margin-top:32px;
 .higt-30{
     height: 30px
 }
+
+.higt-24{
+    height: 24px
+}
+
+.resp20pbar{
+    width: 170px;
+}
+
+.bgc{
+    background-color:#2B303D;
+}
+
 .marL-55{
     margin-left: 55px
 }
@@ -915,7 +1020,7 @@ margin-top:32px;
 
 .flx-450{
     flex:450px;
-    max-width: 450px;
+    max-width: 376px;
 }
 
 .flx-392{
@@ -1056,6 +1161,7 @@ margin-top:32px;
 .marL-200{
     margin-left: 200px;
 }
+
 .wt-543{
    width: 543px  
 }
@@ -1189,6 +1295,10 @@ marTT-40{
 .fntt-18{
     font-size: 18px;
     line-height: 21px
+}
+
+.fnt{
+    margin-bottom: 24px;
 }
 .marLl-45{
     margin-left: 45px
@@ -1433,6 +1543,7 @@ marTT-40{
     width: 43px;
     font-weight:bold;
     font-size: 24px;
+    padding-top:4px;
     }
     .ht-395{
         height: 395px
@@ -1569,12 +1680,28 @@ marTT-40{
     margin-top:44px;
 }
 
+.marT20 {
+    margin-top:20px;
+}
+
+.marL-10 {
+    margin-left:10px;
+}
+
 .padding10px{
     padding:10px;
 }
 
 .marB100px{
     margin-bottom:100px;
+}
+
+.marB40px{
+    margin-bottom:40px;
+}
+
+.marB50px{
+    margin-bottom:50px;
 }
 
  .whoBar {
@@ -1679,7 +1806,7 @@ marTT-40{
 
 .navbar-hide-style {
     list-style: none;
-    padding-top: 40px;
+    padding-top: 34px;
 }
 
 .pad14{
@@ -1689,5 +1816,15 @@ marTT-40{
 .posRelTop-28px{
     position:relative;
     top:-26px;
+}
+
+.footerImages1{
+    margin-left:50px;
+    
+}
+
+.footerImages2{
+    margin-left:30px;
+    
 }
 
