@@ -161,70 +161,163 @@ margin-top:32px;
     max-width: 645px;
 }
 
+/*@media only screen and (min-width: 2300px)*/
+@media only screen and (min-width: 2200px)  {
+
+    .padRSprott {
+        margin-right: 350px;
+    } 
+
+    .padR-150 {
+        padding-right: 150px !important;
+    }
+
+    .padR-500 {
+        padding-right: 150px !important;
+    }
+
+    .wid-85 {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (min-width: 2500px) and (max-width: 3500px) {
+    .padRSprott{
+        margin-right:500px;
+    } 
+    
+    .padL-500 {
+        padding-left: 700px !important;
+    }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2500px) {
+
+    .padRSprott {
+        margin-right: 350px;
+    } 
+    .padL-500 {
+        padding-left: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2200px) {
+    .padRSprott {
+        margin-right: 300px;
+    } 
+
+    .padL-500 {
+        padding-left: 400px !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+    .padRSprott {
+        margin-right: 200px;
+    } 
+    .padL-500 {
+        padding-left: 220px ;
+    }
+    #apmexBox{
+        margin-left:200px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .padL-500 {
+        padding-left: 300px;
+    }
+}
+
 
 @media only screen and (min-width: 1200px) /*xLarge*/ {
-    .oneGoldTExt{
-        font-size:48px;
+
+
+
+    .computerImage {
+        width: 734px;
     }
-    .oneGoldBar{
-        width:584px;
+
+    .oneGoldTExt {
+        font-size: 48px;
     }
-    .oneGoldText{
-        font-size:18px;
+
+    .oneGoldBar {
+        width: 584px;
     }
-    .oneGoldText1{
-        font-size:24px;
+
+    .oneGoldText {
+        font-size: 18px;
     }
+
+    .oneGoldText1 {
+        font-size: 24px;
+    }
+
     .oneGoldWidth {
         width: 584px;
         text-align: justify
     }
+
     .ht-164 {
         height: 164px;
     }
-    .oneGoldIconText{
-        font-size:24px;
+
+    .oneGoldIconText {
+        font-size: 24px;
     }
+
     .hoverBox {
         height: 276px;
         width: 276px;
-        padding-top: 20px;
+        padding-top: 10px;
         color: #296EFB
     }
 
-    .marT-70pxResp{
-        margin-top:70px;
+    .marT-70pxResp {
+        margin-top: 70px;
     }
-    
-    .marL30{
-        margin-left:-40px;
+
+    .marL30 {
+        margin-left: -40px;
     }
-    .accountBar{
-        width:600px;
+
+    .accountBar {
+        width: 600px;
     }
+
     .accountImage {
         width: 331px;
         margin-top: 64px;
     }
-    .easeHeading{
-        font-size:36px;
+
+    .easeHeading {
+        font-size: 36px;
     }
+
     .GetStarted {
         background-image: url("../img/ONEGOLD-Gif-20.png");
         background-repeat: repeat-x;
         height: 425px;
         margin: 0px;
     }
-    .easeWidth{
-        width:auto;
+
+    .easeWidth {
+        width: auto;
     }
-    
-    .easeWidth1{
-        width:420px;
+
+    .easeWidth1 {
+        width: 420px;
     }
+
     .ft-40 {
         font-size: 40px;
     }
+
     .on-brand-style {
         position: absolute;
         top: 0;
@@ -244,8 +337,16 @@ margin-top:32px;
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1220px) /* Large */
+@media only screen and (min-width: 993px) and (max-width: 1220px) /* Large */
 {
+
+    .padL-500{
+        padding-left:200px;
+    }
+    .computerImage {
+        width: 534px;
+    }
+
     .oneGoldTExt {
         font-size: 48px;
     }
@@ -323,6 +424,10 @@ margin-top:32px;
 
 @media only screen and (min-width: 600px) and (max-width: 993px) /* Med */
 {
+    .computerImage {
+        width: 534px;
+    }
+
     .oneGoldTExt {
         font-size: 48px;
     }
@@ -393,6 +498,10 @@ margin-top:32px;
 
 @media only screen and (min-width: 320px) and (max-width: 600px) /* Small */
 {
+    .computerImage {
+        width: 242px;
+    }
+
     .oneGoldTExt {
         font-size: 24px;
     }
@@ -1013,6 +1122,10 @@ margin-top:32px;
     .pdL-57{
         padding-left:57px
     }
+	.padl-97{
+    padding-left: 97px;
+}
+
 .flx-470{
     flex:470px;
     max-width: 470px;
@@ -1062,9 +1175,6 @@ margin-top:32px;
 }
 .wt-200{
     width:200px
-}
-.padl-97{
-    padding-left: 97px;
 }
 
 .padT-120{
